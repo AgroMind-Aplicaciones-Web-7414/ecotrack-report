@@ -2,7 +2,7 @@
 
 <h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-<img alt="upc-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="200"/><br>
+<img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
 
 <strong>Ingeniería de Software - 2025-2</strong><br>
 <strong>1ASI0730 - Aplicaciones Web</strong><br>
