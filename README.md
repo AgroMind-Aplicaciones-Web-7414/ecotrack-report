@@ -31,6 +31,14 @@
 
 # Registro de Versiones del Informe
 
+| Versión | Fecha      | Autor        | Descripción de modificación                   |
+|---------|------------|--------------|-----------------------------------------------|
+| 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
+|         |            |              |                                               |
 
 # Project Report Collaboration Insights
 
@@ -119,10 +127,35 @@
 
 ## Student Outcome
 
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 5**
+**Criterio:** *La capacidad de funcionar efectivamente en un equipo cuyos miembros
+juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo,
+establecen objetivos, planifican tareas y cumplen objetivos.*
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 5.
+
+| Criterio específico                                                                              | Acciones realizadas | Conclusiones |
+|--------------------------------------------------------------------------------------------------|---------------------|--------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta                                  |                     |              |
+| Crear un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                     |              |
+
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
 #### 1.1.1. Descripción de la Startup
 #### 1.1.2. Perfiles de integrantes del equipo
+
+|                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
+|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="assets/images/members/anjali-amaro.jpg" width="300"/> | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+
 ### 1.2. Solution Profile
 #### 1.2.1. Antecedentes y problemática
 #### 1.2.2. Lean UX Process
