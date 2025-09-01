@@ -143,10 +143,19 @@ del ABET – EAC - Student Outcome 5.
 | Trabaja en equipo para proporcionar liderazgo en forma conjunta                                  |                     |              |
 | Crear un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. |                     |              |
 
-## Capítulo I: Introducción
-### 1.1. Startup Profile
-#### 1.1.1. Descripción de la Startup
-#### 1.1.2. Perfiles de integrantes del equipo
+# Capítulo I: Introducción
+## 1.1. Startup Profile
+### 1.1.1. Descripción de la Startup
+
+**Agromind** es una startup tecnológica creada por estudiantes de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas, enfocada en el desarrollo de soluciones digitales para el sector agrícola. Nuestro producto principal, **EcoTrack**, es una aplicación diseñada para mejorar la productividad y la trazabilidad en el campo, conectando a agricultores y agrónomos a través de un ecosistema digital colaborativo que facilita el registro, monitoreo y análisis de cultivos en tiempo real.
+
+**Misión:** Desarrollar soluciones tecnológicas innovadoras que impulsen la eficiencia y sostenibilidad del sector agrícola, ofreciendo herramientas que fortalezcan la relación entre agricultores y agrónomos, y que contribuyan al crecimiento económico y la seguridad alimentaria.
+
+**Visión:** Convertirnos en la startup agrotech líder en Latinoamérica, reconocida por transformar la manera en que se gestiona la producción agrícola mediante tecnología intuitiva, generando un impacto positivo en la productividad, la trazabilidad y la competitividad del sector.
+
+
+
+### 1.1.2. Perfiles de integrantes del equipo
 
 |                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
 |:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -156,82 +165,146 @@ del ABET – EAC - Student Outcome 5.
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 |                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
 
-### 1.2. Solution Profile
-#### 1.2.1. Antecedentes y problemática
-#### 1.2.2. Lean UX Process
-##### 1.2.2.1. Lean UX Problem Statements
-##### 1.2.2.2. Lean UX Assumptions
-##### 1.2.2.3. Lean UX Hypothesis Statements
-##### 1.2.2.4. Lean UX Canvas
-### 1.3. Segmentos objetivo
+## 1.2. Solution Profile
+### 1.2.1. Antecedentes y problemática
 
-## Capítulo II: Requirements Elicitation & Analysis
-### 2.1. Competidores
-#### 2.1.1. Análisis competitivo
-#### 2.1.2. Estrategias y tácticas frente a competidores
-### 2.2. Entrevistas
-#### 2.2.1. Diseño de entrevistas
-#### 2.2.2. Registro de entrevistas
-#### 2.2.3. Análisis de entrevistas
-### 2.3. Needfinding
-#### 2.3.1. User Personas
-#### 2.3.2. User Task Matrix
-#### 2.3.3. User Journey Mapping
-#### 2.3.4. Empathy Mapping
-#### 2.3.5. As-is Scenario Mapping
-### 2.4. Ubiquitous Language
+#### What? (¿Qué?)
 
-## Capítulo III: Requirements Specification
-### 3.1. To-Be Scenario Mapping
-### 3.2. User Stories
-### 3.3. Impact Mapping
-### 3.4. Product Backlog
+#### ¿Cuál es el problema?
 
-## Capítulo IV: Product Design
-### 4.1. Style Guidelines
-#### 4.1.1. General Style Guidelines
-#### 4.1.2. Web Style Guidelines
-### 4.2. Information Architecture
-#### 4.2.1. Organization Systems
-#### 4.2.2. Labeling Systems
-#### 4.2.3. SEO Tags and Meta Tags
-#### 4.2.4. Searching Systems
-#### 4.2.5. Navigation Systems
-### 4.3. Landing Page UI Design
-#### 4.3.1. Landing Page Wireframe
-#### 4.3.2. Landing Page Mock-up
-### 4.4. Web Applications UX/UI Design
-#### 4.4.1. Web Applications Wireframes
-#### 4.4.2. Web Applications Wireflow Diagrams
-#### 4.4.2. Web Applications Mock-ups
-#### 4.4.3. Web Applications User Flow Diagrams
-### 4.5. Web Applications Prototyping
-### 4.6. Domain-Driven Software Architecture
-#### 4.6.1. Software Architecture Context Diagram
-#### 4.6.2. Software Architecture Container Diagrams
-#### 4.6.3. Software Architecture Components Diagrams
-### 4.7. Software Object-Oriented Design
-#### 4.7.1. Class Diagrams
-#### 4.7.2. Class Dictionary
-### 4.8. Database Design
-#### 4.8.1. Database Diagram
+El problema es que los agricultores en el Perú todavia registran sus cultivos de manera manual o desordenada, lo que provoca falta de control sobre costos, baja productividad, lo que provoca falta de control sobre costos, baja productividad, y dificulta la trazabilidad de los productos agrícolas causando mayores perdidas económicas. Además, la comunicación entre agricultores y agrónomos es limitada, lo que impide el acceso a asesoramiento técnico oportuno y personalizado.
 
-## Capítulo V: Product Implementation, Validation & Deployment
-### 5.1. Software Configuration Management
-#### 5.1.1. Software Development Environment Configuration
-#### 5.1.2. Source Code Management
-#### 5.1.3. Source Code Style Guide & Conventions
-#### 5.1.4. Software Deployment Configuration
-### 5.2. Landing Page, Services & Applications Implementation
-#### 5.2.1. Sprint 1
-##### 5.2.1.1. Sprint Planning 1
-##### 5.2.1.2. Aspect Leaders and Collaborators
-##### 5.2.1.3. Sprint Backlog 1
-##### 5.2.1.4. Development Evidence for Sprint Review
-##### 5.2.1.5. Execution Evidence for Sprint Review
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-##### 5.2.1.8. Team Collaboration Insights during Sprint  
+#### When? (¿Cuándo?)
+
+#### ¿Cuándo ocurre el problema?
+
+El problema ocurre de manera continua durante todo el ciclo agrícola, desde la siembra hasta la cosecha. En las etapas iniciales surge por la falta de planificación y registro de insumos, durante el desarrollo del cultivo por la ausencia de un seguimiento ordenado de labores como riego y fertilización, y al momento de la cosecha por la carencia de datos claros sobre rendimientos y trazabilidad que permitan acceder a mercados más exigentes. En consecuencia, se trata de una dificultad recurrente en cada campaña agrícola.
+
+#### Where? (¿Dónde?)
+
+#### ¿Dónde surge el problema?
+
+El problema ocurre principalmente en zonas rurales y agrícolas del Perú, donde la agricultores aún dependen de registros manuales que generan desorden, baja productividad y falta de trazabilidad. Los agrónomos que los asesoran tampoco cuentan con herramientas digitales simples para centralizar información y gestionar mejor a sus clientes.
+
+#### ¿A dónde se dirige?
+
+La solución se dirige a agricultores y agrónomos en el Perú que buscan mejorar la gestión de sus cultivos mediante herramientas digitales.
+
+#### Who? (¿Quién?)
+
+#### ¿Quiénes están involucrados?
+
+Los principales usuarios serán los agricultores y los agrónomos.
+
+#### ¿Quién lo utilizará?
+
+Los agricultores utilizarán la aplicación para registrar labores agrícolas, insumos y rendimientos de sus cultivos, mientras que los agrónomos la emplearán para supervisar fincas, dar seguimiento a las actividades registradas y generar reportes técnicos que respalden sus recomendaciones
+
+#### Why? (¿Por qué?)
+
+#### ¿Cuál es la causa del problema?
+
+La causa principal del problema es la baja digitalización en el sector agrícola en el Perú. Muchos agricultores aún continuan usando registros manuales porque no cuentan con herramientas tecnológicas accesibles, simples y adaptadas a su realidad. A esto se suma la resistencia al cambio hacia métodos digitales y la escasez de soluciones locales, lo que mantiene la brecha entre agricultores y agrónomos.
+
+#### How? (¿Cómo?)
+
+#### ¿En qué condiciones los usuarios usarán nuestro producto?
+
+Los agricultores y agrónomos usarán EcoTrack principalmente durante sus actividades de campo y en la planificación de campañas agrícolas. El agricultor lo empleará para registrar labores y rendimientos al finalizar o durante sus jornadas de trabajo, mientras que el agrónomo lo usará para supervisar los datos de sus clientes y generar reportes técnicos que respalden su asesoría.
+
+#### ¿Cómo nos conocieron nuestros compradores?
+
+Nuestros usuarios podrán conocernos a través de campañas digitales dirigidas al sector agro, ferias especializadas en innovación agrícola, y el contacto directo entre agrónomos y agricultores que ya utilicen la app y la recomienden dentro de su red de trabajo.
+
+#### ¿Cómo prefieren nuestros consumidores acceder a nuestro producto?
+
+Los agricultores prefieren acceder a EcoTrack desde sus teléfonos móviles mediante la plataforma web responsive, ya que les permite registrar sus actividades de manera rápida y práctica mientras gestionan sus labores. Por su parte, los agrónomos prefieren usar la misma plataforma tanto en el celular como en la computadora, para analizar la información de varias fincas, comparar resultados y generar reportes técnicos de manera más detallada.
+
+#### How much? (¿Cuánto?)
+
+#### Estadísticas que sustentan la problemática.
+
+Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023), la agricultura familiar representó el 97,6% de todas las unidades agropecuarias en el Perú, lo que refleja que la gran mayoría de productores depende de métodos tradicionales de gestión. Dentro de esta, el 88% corresponde a subsistencia, el 10,6% a intermedia y el 1,4% a consolidada, evidenciando que solo una pequeña parte de agricultores cuenta con mejores condiciones para integrarse a mercados exigentes.
+
+Sin embargo, existe un potencial de mejora: un 36,6% de los agricultores de subsistencia ya destina más de la mitad de su producción a la venta, lo que demuestra que incluso dentro de este grupo existe interés por generar ingresos. Asimismo, un 29,7% de los agricultores familiares intermedios y consolidados transforma su producción para la venta, lo que evidencia un sector con disposición a mejorar sus procesos y dar valor agregado.
+
+Estas cifras muestran que gran parte de la agricultura en el país carece de herramientas digitales que faciliten la organización y la trazabilidad. En este contexto, EcoTrack puede ser una solución útil al permitir que agricultores y agrónomos registren información, organicen sus actividades y generen reportes que respalden la calidad de la producción, mejorando la productividad y el acceso a mercados más competitivos.
+
+
+### 1.2.2. Lean UX Process
+#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.2. Lean UX Assumptions
+#### 1.2.2.3. Lean UX Hypothesis Statements
+#### 1.2.2.4. Lean UX Canvas
+## 1.3. Segmentos objetivo
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. As-is Scenario Mapping
+## 2.4. Ubiquitous Language
+
+# Capítulo III: Requirements Specification
+## 3.1. To-Be Scenario Mapping
+## 3.2. User Stories
+## 3.3. Impact Mapping
+## 3.4. Product Backlog
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+### 4.1.2. Web Style Guidelines
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Mock-up
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2. Web Applications Mock-ups
+### 4.4.3. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+### 4.7.2. Class Dictionary
+## 4.8. Database Design
+### 4.8.1. Database Diagram
+
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Environment Configuration
+### 5.1.2. Source Code Management
+### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.4. Software Deployment Configuration
+## 5.2. Landing Page, Services & Applications Implementation
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.8. Team Collaboration Insights during Sprint  
 
 
 
