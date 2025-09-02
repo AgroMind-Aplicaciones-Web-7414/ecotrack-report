@@ -232,11 +232,156 @@ Estas cifras muestran que gran parte de la agricultura en el país carece de her
 
 
 ### 1.2.2. Lean UX Process
-#### 1.2.2.1. Lean UX Problem Statements
-#### 1.2.2.2. Lean UX Assumptions
-#### 1.2.2.3. Lean UX Hypothesis Statements
-#### 1.2.2.4. Lean UX Canvas
+El **Lean UX Process** es una metodología ágil que se centra en la colaboración, la experimentación rápida y el aprendizaje validado. En este proyecto se utiliza este enfoque para comprender las experiencias y problemáticas de agricultores y agrónomos, validando hipótesis mediante prototipos y retroalimentación constante.
+
+##### 1.2.2.1. Lean UX Problem Statements
+
+Nuestro sistema busca facilitar a los agricultores el registro de sus actividades agrícolas para mejorar la organización de su producción.
+
+Hemos observado que muchos agricultores llevan sus registros de forma manual o dispersa, lo que dificulta el seguimiento de sus cultivos y la planificación futura.
+
+**¿Cómo podemos lograr que los agricultores registren y gestionen sus actividades de manera más ordenada y confiable?**
+
+El producto tiene como objetivo apoyar a los agrónomos con datos de campo que respalden sus recomendaciones técnicas.
+
+Actualmente, los agrónomos no reciben información actualizada ni centralizada, lo que afecta la precisión de sus decisiones.
+
+**¿Cómo podemos mejorar el acceso de los agrónomos a información confiable y en tiempo real para optimizar la asesoría técnica?**
+
+Nuestro servicio está orientado a que los agricultores con parcelas reducidas optimicen la planificación de sus cultivos.
+
+Sin embargo, observamos que muchos productores carecen de información organizada para proyectar rendimientos y tomar decisiones de siembra eficientes.
+
+**¿Cómo podemos ayudar a los agricultores a planificar sus cultivos de forma más clara y estructurada para mejorar su productividad?**
+
+##### 1.2.2.2. Lean UX Assumptions
+
+#### Business Assumptions
+
+1. **Creo que mis clientes necesitan** una forma confiable y sencilla de organizar, dar seguimiento y profesionalizar la gestión de sus cultivos.
+2. **Estas necesidades se pueden resolver con** una aplicación web que integre registro productivo, alertas y asesoría especializada.
+3. **Mis clientes iniciales serán** agricultores pequeños y medianos interesados en digitalizar su producción, y agrónomos que requieren datos de campo.
+4. **EL valor más importante que el cliente quiere de mi servicio es** mejorar la productividad y reducir riesgos al tomar decisiones basadas en datos reales.
+5. **El cliente también puede obtener estos beneficios adicionales:** acceso a alertas por clima e IoT, gestión de inventario, trazabilidad y asesoría profesional.
+6. **Voy a adquirir la mayoría de mis clientes a través de** alianzas con asociaciones de agricultores, ferias agropecuarias, y marketing digital en redes sociales.
+7. **Haré dinero a través de** un modelo de suscripción mensual con planes escalonados: AgroStart (5 USD), AgroSmart (25 USD) y AgroExpert (50 USD).
+8. **Mi competencia principal en el mercado será** otras apps agrícolas de gestión y plataformas de IoT que ofrecen monitoreo de cultivos.
+9. **Los venceremos debido a** un enfoque local adaptado al contexto peruano, facilidad de uso y el valor agregado de la asesoría profesional.
+10. **Mi mayor riesgo de producto es que** los agricultores pequeños no adopten la aplicación por falta de familiaridad con la tecnología o baja disposición a pagar.
+11. **Resolveremos esto a través de** capacitaciones simples, tutoriales dentro de la app, y un plan de entrada accesible (AgroStart) que facilite la adopción gradual.
+
+#### User Assumptions
+
+**¿Quién es el usuario?**
+
+Los usuarios de Ecotrack son agricultores de diferentes escalas (pequeños y medianos) que buscan organizar y mejorar la gestión de sus cultivos, así como agrónomos que necesitan información de campo confiable y en tiempo real para optimizar sus recomendaciones técnicas.
+
+**¿Qué problemas tiene nuestro producto que resolver?**
+
+Ecotrack busca resolver la desorganización en el registro de actividades agrícolas, la falta de trazabilidad en la producción, la ausencia de alertas preventivas relacionadas con el clima o riesgos del cultivo y la baja adopción tecnológica que limita la eficiencia de los productores.
+
+**¿Que caraterísticas son importantes?**
+
+Las características clave son la posibilidad de registrar y dar seguimiento a los cultivos de manera sencilla, recibir alertas climáticas e integrar datos de IoT, gestionar inventarios agrícolas, mantener trazabilidad de la producción y, en planes avanzados, acceder a asesoría especializada de agrónomos.
+
+**¿Dónde encaja nuestro producto en su trabajo o vida?**
+
+El producto encaja en la rutina diaria de los agricultores como una herramienta que reemplaza los registros manuales y centraliza la información productiva, convirtiéndose en apoyo esencial para la planificación de cultivos, la toma de decisiones y la mejora continua de la productividad.
+
+**¿Cuándo y cómo nuestro producto es usado?**
+
+Ecotrack se utiliza en distintos momentos del ciclo agrícola: al planificar cultivos, registrar actividades de campo, gestionar inventario y recibir notificaciones relacionadas con el clima o posibles riesgos. Su uso principal es a través de una aplicación web accesible desde navegadores en computadoras o dispositivos móviles, lo que permite a los usuarios consultarla y actualizar información de manera práctica en cualquier lugar con conexión a internet.
+
+**¿Cómo debe verse nuetro producto y cómo comportarse?**
+
+El producto debe tener un diseño visual simple y claro, con iconos intuitivos y un lenguaje accesible que permita a los usuarios aprender a usarlo rápidamente; además, debe comportarse de forma ágil, confiable y proactiva, enviando notificaciones oportunas y garantizando una experiencia sin fricciones.
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+- **Hypothesis 01:**
+
+  **Creemos que** los agricultores pequeños registrarán con mayor frecuencia sus actividades agrícolas si cuentan con una herramienta digital sencilla.
+
+  **Sabremos que** hemos tenido éxito.
+
+  **Cuando** los usuarios ingresen al menos dos registros semanales en la aplicación.
+
+
+- **Hypothesis 02:**
+
+  **Creemos que** los agricultores medianos reducirán pérdidas productivas si reciben alertas en tiempo real sobre el clima y condiciones críticas.
+
+  **Sabremos que** hemos tenido éxito.
+
+  **Cuando** los usuarios reporten menos incidentes climáticos en entrevistas y un 20% de reducción en pérdidas en sus cultivos.
+
+
+- **Hypothesis 03:**
+
+  **Creemos que** los agricultores aumentarán su eficiencia si pueden controlar su inventario agrícola desde la plataforma.
+
+  **Sabremos que** hemos tenido éxito.
+
+  **Cuando** los usuarios utilicen la función de inventario al menos una vez por semana y reporten mejoras en la gestión de insumos.
+
+
+- **Hypothesis 04:**
+
+  **Creemos que** los agricultores estarán más satisfechos y fidelizados si reciben asesoría directa de agrónomos desde la plataforma.
+
+  **Sabremos que** hemos tenido éxito.
+
+  **Cuando** la tasa de retención del plan AgroExpert supere el 80% después de seis meses de uso.
+
+
+- **Hypothesis 05:**
+
+  **Creemos que** los agrónomos podrán brindar recomendaciones más precisas y rápidas si tienen acceso a datos actualizados de los cultivos en Ecotrack.
+
+  **Sabremos que** hemos tenido éxito.
+
+  **Cuando** los agrónomos reporten en entrevistas que la aplicación mejora su trabajo diario y al menos el 60% use la plataforma para consultar datos antes de dar asesorías.
+
+
+##### 1.2.2.4. Lean UX Canvas
+
+El Lean UX Canvas es una herramienta visual que permite alinear al equipo en torno a problemas, usuarios e hipótesis de manera ágil. En este proyecto se utilizó para comprender mejor a los agricultores y agrónomos, identificar sus necesidades y definir cómo Ecotrack puede generar valor real en su trabajo diario.
+
+Aquí se presenta el Lean UX Canvas desarrollado para Ecotrack:
+
+**Figura 1. Lean UX Canvas de Ecotrack**
+
+![Lean UX Canvas](./assets/images/screenshots/lean-ux-canvas.png)
+
+**Enlace al Lean UX Canvas:** [*Ver en Miro*](https://miro.com/welcomeonboard/cFdpMVVSM1czSlJINm93ZFcyN3R0VWNrKyt1ZVA3K3NNa1BBNHhRdDJsQzFTcjRQbTVSRm1YMzBqaUswUnFieHQ3dHJsbk93eWVVVkovak9aeStNY2EvcDg3VGJkSDlsU1BUbVpLT3U1N3AxekZweHhDb1E0c1h6VjQxa0FxN3h3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=945675870248)
+
 ## 1.3. Segmentos objetivo
+
+En el análisis del segmento objetivo para                                                              , hemos previsto que nuestros principales usuarios serán **agricultores y agrónomos.**
+
+### Agricultores
+
+Según el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023) **el 78,5% de las unidades agropecuarias en Perú tienen menos de 5 hectáreas**, lo que refleja la prevalencia de productores de pequeña escala con limitaciones de organización y acceso a mercados. Este grupo requiere soluciones digitales simples que les permitan mejorar la gestión de sus cultivos y profesionalizar sus procesos productivos.
+
+- **Edad:** 25 a 60 años.
+
+- **Necesidad clave:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
+
+- **Nivel educativo:** Organizar cultivos, prevenir riesgos climáticos y mejorar trazabilidad.
+
+- **Uso de tecnología:** Uso básico de teléfonos móviles o computadoras, con necesidad de soluciones adaptadas a su contexto.
+
+### Agrónomos
+
+De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en Sudamérica aún presenta limitaciones, lo que genera dificultades para acceder a datos confiables y actualizados en el campo. En este contexto, los agrónomos requieren plataformas que centralicen la información y les permitan brindar recomendaciones técnicas más precisas y oportunas.
+
+- **Edad:** 28 a 5 años.
+
+- **Necesidad clave:** Acceso a datos de campo confiables para optimizar asesorías.
+
+- **Nivel educativo:** Profesionales con formación en agronomía o ciencias agrícolas.
+
+- **Uso de tecnología:** Familiarizados con herramientas digitales, pero necesitan soluciones específicas para el sector agro.
 
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
@@ -311,5 +456,9 @@ Estas cifras muestran que gran parte de la agricultura en el país carece de her
 # Conclusiones
 
 # Bibliografía
+
+Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
+
+Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
 
 # Anexos
