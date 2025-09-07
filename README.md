@@ -393,6 +393,14 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+Segmento Objetivo #1: Agricultores
+
+![Agricultores](./assets/images/screenshots/Juan%20Carlos.png)
+
+Segmento Objetivo #2: Agrónomos
+
+![Agrónomos](./assets/images/screenshots/Ana%20Morales.png)
+
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
