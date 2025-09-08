@@ -435,6 +435,11 @@ Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
 | Buscar nuevos agricultores para asesorar y ampliar su red de clientes | Baja | Media |
 
 ### 2.3.3. User Journey Mapping
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+![AgricultorMap](./assets/images/screenshots/UserJourneyMappingJuan.png)
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
