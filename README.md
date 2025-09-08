@@ -440,6 +440,10 @@ Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
 
 ![AgricultorMap](./assets/images/screenshots/UserJourneyMappingJuan.png)
 
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+![AgronomoMap](./assets/images/screenshots/UserJourneyMapping2.png)
+
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
