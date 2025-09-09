@@ -459,9 +459,82 @@ Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
 ### 4.1.1. General Style Guidelines
 
 El propósito de esta sección es establecer las pautas generales de estilo que guiarán el desarrollo visual y comunicacional de EcoTrack, una plataforma digital diseñada para apoyar a agricultores y agrónomos en la gestión eficiente de sus cultivos, facilitando la trazabilidad, organización de labores agrícolas y toma de decisiones basadas en datos.
-Estas directrices buscan asegurar la coherencia estética, funcional y de experiencia de usuario en todos los puntos de contacto de la plataforma (web y móvil), empleando herramientas de diseño como Figma. Funcionan como una guía centralizada para el equipo de diseño, desarrollo y marketing, garantizando que la identidad de EcoTrack se mantenga consistente, accesible y alineada con sus valores de sostenibilidad, innovación y confianza.
+Estas directrices buscan asegurar la coherencia estética, funcional y de experiencia de usuario en todos los puntos de contacto de la plataforma web, empleando herramientas de diseño como Figma. Funcionan como una guía centralizada para el equipo de diseño, desarrollo y marketing, garantizando que la identidad de EcoTrack se mantenga consistente, accesible y alineada con sus valores de sostenibilidad, innovación y confianza.
 
-- Branding
+### Branding:
+
+El logotipo de EcoTrack es el principal símbolo de identidad de la marca y comunica el enfoque tecnológico y sostenible de la startup. El diseño del logo combina elementos naturales con un estilo moderno, utilizando tonos verdes y azules que evocan agricultura, confianza y tecnología.
+
+
+A continuación, se detallan las decisiones relacionadas con su uso y aplicación:
+
+- Logo principal: Se debe usar en su versión completa siempre que sea posible, preferentemente sobre fondos claros o naturales que refuercen la conexión con la sostenibilidad.
+
+- Adaptación en Figma: El logo debe almacenarse como un componente reutilizable con versiones de alta resolución y fondo transparente, lo que facilitará su implementación en distintas pantallas y materiales de comunicación.
+
+
+### Typography:
+
+La tipografía es uno de los elementos más importantes en la creación de una identidad visual coherente. Para EcoTrack , hemos seleccionado fuentes que transmiten tecnología, claridad y profesionalismo:
+
+- Fuente principal: La fuente seleccionada es Poppins, moderna y legible, que comunica tecnología cercana y simple. Se usará en Bold para encabezados y títulos principales, y en Regular para el cuerpo de texto.
+- Fuente secundaria:
+  Para descripciones, subtítulos y formularios se recomienda Inter, una tipografía limpia y altamente legible en pantallas pequeñas, ideal para la experiencia móvil de agricultores y agrónomos.
+
+### Colors:
+
+La paleta de colores busca transmitir sostenibilidad, confianza y modernidad, alineada con la misión de Agromind de impulsar la digitalización agrícola.
+
+- Color primario:
+
+#2E7D32 (Verde Sustentable) – Representa el vínculo con la tierra, la productividad y la sostenibilidad. Será utilizado en botones principales, encabezados y elementos de énfasis.
+- Color secundario:
+
+#FFFFFF (Blanco) – Aporta limpieza y equilibrio. Servirá como color de fondo en la mayoría de interfaces, permitiendo claridad y foco en la información.
+- Color terciario:
+
+#1A1A1A (Negro Suave) – Se empleará para los textos principales sobre fondos claros, asegurando una excelente legibilidad.
+
+- Color de realce:
+
+#2196F3 (Azul Tecnológico) – Evoca confianza y tecnología. Se usará en iconos interactivos, hipervínculos y llamadas a la acción que requieran captar la atención del usuario.
+
+Aplicación en Figma:
+Estos colores deben guardarse como Color Styles accesibles a todo el equipo, garantizando consistencia en cada componente y pantalla.
+
+### Spacing: 
+
+El uso correcto del espacio refuerza la claridad, simplicidad y organización que EcoTrack quiere transmitir a sus usuarios, facilitando una navegación sin fricciones.
+
+- Padding y Márgenes:
+
+Para mantener una sensación de estructura y simplicidad, se recomienda utilizar 60px de padding entre secciones .entre secciones principales en pantallas de escritorio. Entre bloques de contenido debe haber un espacio de alrededor de 40px , asegurando que cada componente tenga espacio para “respirar” y que la información pueda ser escaneada visualmente con facilidad.
+
+- Espaciado entre Elementos:
+
+El espacio entre elementos interactivos (botones, íconos y campos de entrada) debe ser de 20px . Esto mejora la legibilidad, facilita la interacción con el contenido y permite una experiencia fluida tanto en pantallas grandes como en resoluciones adaptativas.
+
+- Aplicación en Figma:
+
+En Figma, se utilizará el sistema de Auto Layout para mantener la consistencia en los espacios y asegurar que los elementos se ajusten correctamente en diferentes tamaños de pantalla. Los componentes deberán incluir valores predefinidos de padding y margen.
+
+### Tono de comunicación:
+
+El tono de EcoTrack debe reflejar cercanía, claridad y empoderamiento, alineado con el objetivo de acompañar al agricultor en su digitalización sin generar barreras.
+
+- Cercano y accesible: El lenguaje debe ser sencillo, evitando tecnicismos innecesarios, de manera que agricultores con distintos niveles de experiencia tecnológica puedan comprender fácilmente la plataforma.
+
+
+- Positivo y motivador: El tono debe transmitir confianza en que el agricultor puede mejorar su productividad y trazabilidad con pequeñas acciones dentro de la app.
+
+
+- Profesional y confiable: En la comunicación hacia agrónomos, el estilo debe ser más técnico, reforzando la idea de datos confiables y soporte para decisiones estratégicas.
+
+Aplicación en Figma:
+
+En botones y mensajes interactivos se usarán verbos de acción como Registrar, Consultar, Optimizar.
+
+Las alertas deben invitar a la acción sin ser alarmistas. Ejemplo: “Revisa el riego de tus cultivos hoy” en lugar de mensajes negativos.
 
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
