@@ -539,6 +539,46 @@ Las alertas deben invitar a la acción sin ser alarmistas. Ejemplo: “Revisa el
 
 ### 4.1.2. Web Style Guidelines
 
+- Typography
+
+Tipografía principal: Poppins
+
+Título principal (32px)
+
+Subtítulo (24px)
+
+Cuerpo de texto (16px)
+
+Tipografía secundaria: Inter
+
+Descripciones y textos pequeños (14px)
+
+Etiquetas y formularios (12px)
+
+- Colors
+
+A continuación, presentaremos los colores elegidos junto a su respectivo código identificador en Figma.
+
+Colores elegidos para la versión web
+
+
+
+- Spacing
+
+A continuación, presentaremos las decisiones de espaciado elegidas.
+
+Espaciado elegido entre elementos de la plataforma web
+
+<img src="assets/images/screenshots/spacing.png" width="25%">
+
+- Assets
+
+A continuación, mostraremos las imágenes referenciales de los assets elegidos.
+
+Plantilla usada para la versión Desktop
+
+
+
 
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
