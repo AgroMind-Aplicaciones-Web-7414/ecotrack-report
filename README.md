@@ -465,6 +465,7 @@ Estas directrices buscan asegurar la coherencia estética, funcional y de experi
 
 El logotipo de EcoTrack es el principal símbolo de identidad de la marca y comunica el enfoque tecnológico y sostenible de la startup. El diseño del logo combina elementos naturales con un estilo moderno, utilizando tonos verdes y azules que evocan agricultura, confianza y tecnología.
 
+<img src="assets/images/screenshots/logo%20(2).png" width="30%"/>
 
 A continuación, se detallan las decisiones relacionadas con su uso y aplicación:
 
@@ -537,6 +538,8 @@ En botones y mensajes interactivos se usarán verbos de acción como Registrar, 
 Las alertas deben invitar a la acción sin ser alarmistas. Ejemplo: “Revisa el riego de tus cultivos hoy” en lugar de mensajes negativos.
 
 ### 4.1.2. Web Style Guidelines
+
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
