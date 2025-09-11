@@ -71,8 +71,8 @@
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
     - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
     - [3.2. User Stories](#32-user-stories)
@@ -98,12 +98,12 @@
         - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
         - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.7.2. Class Dictionary](#472-class-dictionary)
     - [4.8. Database Design](#48-database-design)
         - [4.8.1. Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
@@ -445,8 +445,8 @@ Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
 ![AgronomoMap](./assets/images/screenshots/UserJourneyMapping2.png)
 
 ### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
+## 2.4. Big Picture EventStorming
+## 2.5. Ubiquitous Language
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
@@ -613,12 +613,12 @@ Esta sección se enfoca en el diseño de la interfaz de usuario (UI) de la Landi
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
+### 4.6.1. Design-Level EventStorming
+### 4.6.2. Software Architecture Context Diagram
+### 4.6.3. Software Architecture Container Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
 
