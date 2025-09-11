@@ -588,12 +588,22 @@ Plantilla usada para la versión Desktop
 
 
 ## 4.2. Information Architecture
+
+En esta sección, presentaremos las decisiones y las razones que guían la manera en que se estructura el contenido de la experiencia web, incluyendo la página de inicio (Landing Page) y las aplicación. Estas propuestas se enfocan mayormente en garantizar que los usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto y encuentren sin dificultad lo que busquen.
+
 ### 4.2.1. Organization Systems
+
+Cuadro de cómo se estructura la información del landing page
+
+
+Cuadro de cómo se estructura la información de la aplicación web
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
+
+Esta sección se enfoca en el diseño de la interfaz de usuario (UI) de la Landing Page, que es esencial para captar la atención de los usuarios y comunicar de manera efectiva la propuesta de valor del sistema. A continuación, se presentan los wireframes y los mock-ups, dos etapas clave en el proceso de diseño que permiten visualizar y refinar la estructura y apariencia de la página.
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
