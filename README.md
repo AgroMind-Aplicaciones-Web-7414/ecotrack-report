@@ -498,10 +498,17 @@ La paleta de colores busca transmitir sostenibilidad, confianza y modernidad, al
 
 - Color de realce:
 
-#2196F3 (Azul Tecnológico) – Evoca confianza y tecnología. Se usará en iconos interactivos, hipervínculos y llamadas a la acción que requieran captar la atención del usuario.
+#2196F3 (Azul Tecnológico) – Evoca confianza y tecnología. Se usará en botones secundarios, hipervínculos e iconos interactivos que requieran captar la atención del usuario.
+
+- Color de alerta:
+
+#FF7A00 (Naranja Cálido)
+Para llamadas a la acción inmediatas o notificaciones relevantes, captando la atención de forma amigable
+
 
 Aplicación en Figma:
 Estos colores deben guardarse como Color Styles accesibles a todo el equipo, garantizando consistencia en cada componente y pantalla.
+
 
 ### Spacing: 
 
@@ -561,7 +568,7 @@ A continuación, presentaremos los colores elegidos junto a su respectivo códig
 
 Colores elegidos para la versión web
 
-
+<img src="./assets/images/screenshots/colors.png" width="35%">
 
 - Spacing
 
@@ -577,7 +584,7 @@ A continuación, mostraremos las imágenes referenciales de los assets elegidos.
 
 Plantilla usada para la versión Desktop
 
-
+<img src="./assets/images/screenshots/Plantilla_Landing.png" width="60%">
 
 
 ## 4.2. Information Architecture
