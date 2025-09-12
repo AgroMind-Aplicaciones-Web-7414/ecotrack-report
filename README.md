@@ -22,7 +22,7 @@
 |:-------------------------------:|:---------:|
 |       Amaro Villar Anjali       | 20221G044 |
 | Baquerizo Cirilo Aaron Santiago |    ...    |
-|  Mostajo Orosco Maria Fernanda  |    ...    |
+|  Mostajo Orosco Maria Fernanda  | 202312874 |
 |  Navarro Correa César Augusto   |    ...    |
 |  Tuesta Marin Romina Alejandra  |    ...    |
 
@@ -31,14 +31,14 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor        | Descripción de modificación                   |
-|---------|------------|--------------|-----------------------------------------------|
-| 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
-|         |            |              |                                               |
-|         |            |              |                                               |
-|         |            |              |                                               |
-|         |            |              |                                               |
-|         |            |              |                                               |
+| Versión | Fecha      | Autor                  | Descripción de modificación                                                                          |
+|---------|------------|------------------------|------------------------------------------------------------------------------------------------------|
+| 1.0     | 25/08/2025 | Anjali Amaro           | Creación de la estructura inicial del reporte                                                        |
+| 1.0     | 11/09/2025 | Maria Fernanda Mostajo | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
+|         |            |                        |                                                                                                      |
+|         |            |                        |                                                                                                      |
+|         |            |                        |                                                                                                      |
+|         |            |                        |                                                                                                      |
 
 # Project Report Collaboration Insights
 
@@ -157,13 +157,13 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
-|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="assets/images/members/anjali-amaro.jpg" width="300"/> | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                             Miembro                              |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
+|:----------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="assets/images/members/anjali-amaro.jpg" width="300"/>  | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
+| <img src="assets/images/members/MariaFernanda.png" width="300"/> | **Maria Fernanda Mostajo Orosco \- u202312874** <br> Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                              | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
