@@ -586,6 +586,9 @@ Plantilla usada para la versión Desktop
 
 <img src="./assets/images/screenshots/Plantilla_Landing.png" width="60%">
 
+Pantalla de inicio
+
+<img src="./assets/images/screenshots/inicio-landing.png" width="60%">
 
 ## 4.2. Information Architecture
 
@@ -595,6 +598,7 @@ En esta sección, presentaremos las decisiones y las razones que guían la maner
 
 Cuadro de cómo se estructura la información del landing page
 
+<img src="./assets/images/screenshots/landing-org%20.png" width="70%">
 
 Cuadro de cómo se estructura la información de la aplicación web
 ### 4.2.2. Labeling Systems
