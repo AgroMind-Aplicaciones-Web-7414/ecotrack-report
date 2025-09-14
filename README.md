@@ -657,6 +657,10 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 <img src="./assets/images/screenshots/mockup-landing-4.png" width="60%">
 
 ## 4.4. Web Applications UX/UI Design
+
+En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", nos enfocamos en ofrecer una experiencia intuitiva, eficiente y visualmente atractiva. Asimismo, seguimos las guías de diseño para optimizar el rendimiento y garantizar que cada parte de la aplicación se adapte de manera fluida a los clientes y trabajadores.
+
+
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
