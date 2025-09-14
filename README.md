@@ -660,7 +660,6 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 
 En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", nos enfocamos en ofrecer una experiencia intuitiva, eficiente y visualmente atractiva. Asimismo, seguimos las guías de diseño para optimizar el rendimiento y garantizar que cada parte de la aplicación se adapte de manera fluida a los clientes y trabajadores.
 
-
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
@@ -677,8 +676,49 @@ En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", n
 ### 4.8.1. Database Diagram
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+El equipo ha definido un conjunto de herramientas para garantizar una configuración de entorno de desarrollo coherente; de esta maenra, se facilita una colaboración eficiente y el cumplimiento de los objetivos del proyecto. Estas herramientas abarcan diversas fases del ciclo de vida del producto.
+
 ## 5.1. Software Configuration Management
+
+### Project Management
+
+Trello: Utilizaremos Trello para gestionar el product backlog y planificar los sprints. Esta herramienta nos permitirá visualizar las tareas en tableros, asignar responsabilidades y hacer un seguimiento del progreso de manera clara y colaborativa.
+
+Ruta de referencia: https://trello.com/
+
+Whatsapp es la plataforma que usamos para la comunicación en tiempo real entre los miembros del equipo. A través de grupos organizados por temas y funciones, realizamos reuniones, coordinaciones diarias y soporte instantáneo durante todo el proceso de desarrollo.
+
+### Product UX/UI Design
+
+Figma se utiliza como la herramienta principal para el diseño de interfaces gráficas (UI) y la experiencia de usuario (UX). Permite la colaboración simultánea entre varios miembros del equipo en la creación de prototipos interactivos, estructuras visuales y pruebas de diseño.
+
+Ruta de referencia: https://www.figma.com
+
+UXPressia complementa el trabajo de UX al posibilitar la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a comprender mejor a los usuarios finales y a alinear las decisiones de diseño con sus necesidades.
+
+Ruta de referencia: https://uxpressia.com
+
+### Software Development
+
+Rider es el entorno de desarrollo integrado (IDE) que emplean los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters y herramientas modernas de desarrollo lo convierte en un entorno robusto.
+
+Ruta de referencia: https://www.jetbrains.com/es-es/rider/
+
+GitHub se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se emplea para la revisión del código (pull requests), registro de incidencias, documentación del proyecto y automatización de tareas de despliegue.
+
+Ruta de referencia: https://github.com
+
+### Software Testing
+
+Gherkin es un sistema de etiquetado utilizado para describir los criterios de aceptación de la estructura de una user story.
+
+Ruta de referencia: https://cucumber.io/docs/gherkin
+
 ### 5.1.1. Software Development Environment Configuration
+
+
+
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
