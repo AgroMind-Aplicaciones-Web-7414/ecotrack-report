@@ -609,6 +609,31 @@ Cuadro de cómo se estructura la información de la aplicación web
 
 Esta sección se enfoca en el diseño de la interfaz de usuario (UI) de la Landing Page, que es esencial para captar la atención de los usuarios y comunicar de manera efectiva la propuesta de valor del sistema. A continuación, se presentan los wireframes y los mock-ups, dos etapas clave en el proceso de diseño que permiten visualizar y refinar la estructura y apariencia de la página.
 ### 4.3.1. Landing Page Wireframe
+Con respecto a la arquitectura de la Landing Page, para versiones web hemos decidido adoptar un diseño estándar, como lo sería tener en la parte superior la barra de opciones como “Acerca de”, “Servicios”, “Testimonios”, "Contacto", " Iniciar sesión" y "Registrarse". Mientras que la posición de las estructuras de texto e imágenes es bastante amplia separadas lo suficiente una de la otra en su mayoría, aprovechando al máximo la cantidad de espacio que ofrece la visualización desde un monitor, lo que nos permite tener un gran espacio disponible que podemos rellenar con información pero sin llegar a exagerar y hacer ver como si estuviera sobrecargado.
+
+Para su mejor visualización se adjunta el enlace del figma:
+https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
+
+- Ventana de inicio
+
+<img src="./assets/images/screenshots/wireframe-landing-1.png" width="60%">
+
+- Ventana de Acerca de
+
+<img src="./assets/images/screenshots/wireframe-landing-2.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./assets/images/screenshots/wireframe-landing-3.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./assets/images/screenshots/wireframe-landing-4.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./assets/images/screenshots/wireframe-landing-5.png" width="60%">
+
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
