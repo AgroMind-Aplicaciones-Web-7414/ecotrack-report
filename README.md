@@ -556,8 +556,36 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
+### 2.4. Big Picture EventStorming
+## 2.5. Ubiquitous Language
+
+**Farmer(Agricultor)**  
+Persona que se dedica a trabajar la tierra y cultivar alimentos, ya sea para una empresa o para sustento propio.
+
+
+**Agronomist(Agrónomo)**  
+Profesional que trabaja a par con los Agricultores y les brinda asesoría experta sobre técnicas de cultivo, fertilización, protección contra plagas y enfermedades. Así mismo, les ayuda a gestionar sus recursos y evalúan la salud y rendimiento de sus cultivos.
+
+**Plot(Parcela)**  
+Porción de tierra que mide entre 100 y 500 metros cuadrados, donde se siembra un tipo de cultivo y representa un espacio delimitado para registrar observaciones sobre los cultivos.
+
+
+**Crop (Cultivo):**  
+Conjunto de plantas de un mismo tipo sembradas en una parcela.
+
+**Plant(Planta)**  
+Ejemplar individual o muestra representativa de un cultivo en una parcela.  
+Se utiliza para registrar observaciones específicas como altura o cantidad de hojas.
+
+**Organization(Organización)**    
+Espacio de trabajo colaborativo entre el agrónomo y varios agricultores asignados en varias parcelas
+
+**Monitoring(Monitoreo)**  
+Es la revisión del entorno donde crece el cultivo como la temperatura, humedad o pH del suelo.
+
+
+**Activity management (Gestión de actividades)**  
+Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias parcelas, donde también se registra el material empleado dado el caso.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping
@@ -585,9 +613,10 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
+### 4.6.1. Design-Level EventStorming
+### 4.6.2. Software Architecture Context Diagram
+### 4.6.3. Software Architecture Container Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 ### 4.7.2. Class Dictionary
