@@ -635,6 +635,27 @@ https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?
 <img src="./assets/images/screenshots/wireframe-landing-5.png" width="60%">
 
 ### 4.3.2. Landing Page Mock-up
+
+- Ventana de inicio
+
+<img src="./assets/images/screenshots/inicio-landing.png" width="60%">
+
+- Ventana de Acerca de
+
+<img src="./assets/images/screenshots/mockup-landing-1.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./assets/images/screenshots/mockup-landing-2.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./assets/images/screenshots/mockup-landing-3.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./assets/images/screenshots/mockup-landing-4.png" width="60%">
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
