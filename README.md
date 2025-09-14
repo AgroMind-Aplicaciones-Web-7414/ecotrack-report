@@ -598,11 +598,137 @@ Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias par
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
+
+La arquitectura de información de **EcoTrack** busca garantizar que los usuarios encuentren de manera clara y rápida las funcionalidades necesarias para gestionar sus actividades agrícolas. El diseño está orientado a ofrecer una experiencia simple, intuitiva y coherente, tanto en la aplicación web como en la landing page, evitando la sobrecarga de información y priorizando la usabilidad.
+
+Las decisiones tomadas en esta sección están alineadas con los principios de accesibilidad y con la naturaleza del público objetivo: agrónomos y agricultores que requieren una plataforma práctica, que reduzca tiempos y facilite el control de parcelas, tareas y reportes.
+
+---
+
 ### 4.2.1. Organization Systems
+
+En **EcoTrack** la organización de la información busca que los usuarios —agrónomos y agricultores— puedan localizar fácilmente lo que necesitan, ya sea para planificar, registrar o monitorear. Se aplicarán diferentes sistemas de organización dependiendo del tipo de contenido:
+
+- **Jerárquica (Visual Hierarchy):**  
+  Se utilizará en el dashboard principal, donde se debe destacar lo más relevante: número de parcelas activas, tareas pendientes y alertas climáticas.  
+  La jerarquía guiará la mirada del usuario desde los indicadores más importantes hasta los detalles secundarios, como botones de acción o enlaces de apoyo.
+
+- **Matriz (Grid):**  
+  Se aplicará en la vista de Parcelas, donde cada parcela se mostrará como una tarjeta individual con datos resumidos (nombre, cultivo asignado, responsable y estado de monitoreo).  
+  Esta organización permite que los usuarios naveguen de forma visual y ordenada entre múltiples parcelas, identificando rápidamente la que necesitan sin tener que recorrer menús extensos.
+
+- **Secuencial (Step-by-step):**  
+  Se usará en procesos guiados, como registrar una nueva parcela, asignar un agricultor o configurar umbrales de cultivo.  
+  El flujo paso a paso evita errores y ayuda a los usuarios con menor experiencia digital a completar sus tareas sin dificultad.
+
+- **Por tópicos:**  
+  El contenido se organizará en módulos temáticos como Organización, Parcelas, Tareas y Reportes.  
+  Esto facilita que los usuarios accedan directamente al tipo de información que buscan sin perderse en secciones irrelevantes.
+
+- **Según audiencia (roles):**  
+  **EcoTrack** diferencia las vistas según el rol. Un agrónomo tiene acceso a herramientas de gestión y configuración (usuarios, reportes, umbrales), mientras que un agricultor ve opciones más operativas (tareas asignadas, registros de cultivos y condiciones ambientales).
+
+---
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado en **EcoTrack** está diseñado para ser intuitivo, breve y cercano al vocabulario agrícola. Se busca que las etiquetas comuniquen con pocas palabras la función de cada sección, evitando tecnicismos innecesarios y facilitando la adopción por parte de usuarios con distintos niveles de experiencia digital.
+
+Las etiquetas se dividen según los dos perfiles principales de la plataforma: **agrónomos** (gestión y supervisión) y **agricultores** (ejecución de tareas y registro de datos).
+
+#### Agrónomo (enfoque de gestión y control)
+- **Panel de Control:** vista general con indicadores clave como parcelas activas, tareas pendientes y alertas recientes.
+- **Organización:** gestión de miembros (invitar, asignar o remover agricultores).
+- **Parcelas:** listado de todas las parcelas registradas con acceso al detalle de cada una.
+- **Cultivos:** catálogo de cultivos existentes y opción de registrar nuevos.
+- **Tareas:** planificación, asignación y seguimiento de labores agrícolas.
+- **Alertas:** configuración de umbrales climáticos y recepción de notificaciones.
+- **Reportes:** generación de reportes detallados por parcela o generales de la organización.
+
+#### Agricultor (enfoque operativo y de ejecución)
+- **Panel:** vista principal con las tareas asignadas y notificaciones inmediatas.
+- **Mis Parcelas:** parcelas en las que está involucrado, con acceso al registro de datos del cultivo.
+- **Tareas:** lista de tareas pendientes con la opción de aceptarlas, iniciarlas o marcarlas como completadas.
+- **Registros:** formulario para ingresar datos fenológicos (hojas, botones) y condiciones ambientales (temperatura, humedad).
+- **Materiales:** espacio para reportar y controlar insumos utilizados en cada labor.
+
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Con el fin de aumentar la visibilidad de **EcoTrack** en buscadores y ofrecer una navegación más clara y optimizada, se han definido un conjunto de **SEO Tags y Meta Tags** que acompañarán tanto a la landing page como a la aplicación web.
+
+Estas etiquetas cumplen un papel esencial en el **posicionamiento en motores de búsqueda**, la **adaptación a distintos dispositivos** y la correcta interpretación del contenido por parte de navegadores y servicios externos.
+
+Cada etiqueta tiene un rol específico:
+- **Title:** se muestra en la pestaña del navegador y aparece como título principal en los resultados de búsqueda.
+- **Description:** ofrece un resumen breve y atractivo de la página, pensado para captar al usuario en segundos.
+- **Author:** identifica al equipo responsable de la solución.
+- **Viewport:** asegura que el contenido se ajuste a todo tipo de pantallas, desde móviles hasta monitores de escritorio.
+- **Charset:** define el sistema de codificación de caracteres, en este caso UTF-8, garantizando compatibilidad global.
+- **Keywords:** lista de palabras clave que facilitan la clasificación de la página por los motores de búsqueda.
+
+#### Landing Page SEO Tags and Meta Tags
+- **Title:** "EcoTrack - Plataforma inteligente para la gestión agrícola"
+- **Description:** "EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar."
+- **Author:** "Equipo EcoTrack"
+- **Viewport:** configurado para ofrecer una experiencia fluida en móviles, tablets y computadoras.
+- **Charset:** UTF-8 para soportar distintos alfabetos y símbolos.
+- **Keywords:** "agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack - Plataforma inteligente para la gestión agrícola</title>
+  <meta name="description" content="EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar.">
+  <meta name="keywords" content="agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+````
+
+#### Web Application SEO Tags and Meta Tags
+Web Application SEO Tags and Meta Tags
+
+* **Title**: "EcoTrack App - Panel digital para agrónomos y agricultores"
+* **Description**: "Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo."
+* **Author**: "Equipo EcoTrack"
+* **Viewport**: preparado para que la aplicación sea completamente responsiva y usable en móviles, tablets y PC.
+* **Charset**: UTF-8 como estándar de compatibilidad.
+* **Keywords**: "ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas"
+
+````html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack App - Panel digital para agrónomos y agricultores</title>
+  <meta name="description" content="Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo.">
+  <meta name="keywords" content="ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+````
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de EcoTrack se basa en mecanismos de filtrado y selección dentro de cada módulo, en lugar de un buscador global. Este enfoque facilita el acceso rápido a información específica y mantiene la simplicidad de la aplicación.
+
+* Parcelas: filtros por nombre, cultivo y responsable asignado.
+* Tareas: filtros por estado (pendiente, en ejecución, completada), prioridad y fecha de vencimiento.
+* Registros: organización cronológica de datos fenológicos y ambientales, con posibilidad de acotar por rango de fechas.
+* Reportes: criterios de selección por parcela o periodo de tiempo.
+
+Este sistema asegura que los usuarios puedan acceder de manera ágil a los datos que requieren, evitando la saturación de la interfaz con funciones innecesarias.
+
 ### 4.2.5. Navigation Systems
+
+El sistema de navegación de EcoTrack se ha diseñado con base en los principios de claridad, consistencia y adaptabilidad, de modo que los usuarios puedan desplazarse con facilidad tanto en la landing page como en la aplicación web.
+Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo que garantiza que la navegación sea fluida en distintos tamaños de pantalla (computadora, tablet o móvil).
+
+* **Landing Page:** cuenta con un menú superior fijo que da acceso a las secciones principales: Inicio, Funcionalidades, Planes y Contacto. Este menú acompaña al usuario durante todo el recorrido, facilitando la exploración sin importar en qué parte de la página se encuentre.
+* **Aplicación Web:** utiliza una barra lateral de navegación con accesos directos a las secciones clave: Panel de Control, Organización, Parcelas, Tareas, Alertas y Reportes. En vistas más específicas se integran breadcrumbs, que permiten al usuario mantener el contexto y regresar fácilmente a niveles superiores de la aplicación.
+
+Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
