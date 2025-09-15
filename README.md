@@ -71,13 +71,12 @@
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.4. Big Picture EventStoring](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
         - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -98,9 +97,10 @@
         - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
         - [4.7.1. Class Diagrams](#471-class-diagrams)
         - [4.7.2. Class Dictionary](#472-class-dictionary)
@@ -557,6 +557,41 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.4. Big Picture EventStorming
+
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue <br>
+realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso <br>
+
+**1. Open:**<br>
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden <br>
+en el negocio) escribiendo en los post-its naranjas.
+
+![Step 1 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-1.png)
+
+**2. Explore:** <br>
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos,<br>
+identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+
+![Step 2 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-2.png)
+
+**3. Close:** <br>
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados,junto con aspectos que <br>
+debíamos investigar más a fondo o descartar según el alcance definido.
+
+![Step 3 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-3.png)
+
+Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
+
+![Final events of Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-final-events.png)
+
+Finalmente, se presenta el Big Picture Event Storming:
+
+![Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming.png)
+
+[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/welcomeonboard/Tkt0b0FqK3BGdThsbmVRKytveUdDdTBMeHZtNW52aTcvaHBHQ3dKYTlCS2FzMlhLYVZhNnAwaHpkRHNhOTlTSzFLRVhFeW5JQlZJck5hUzNBSlMrbVpqbVB1M3ErOFNsY0hQTDNXbStrSXNJbm5hNzA1eStxcDJpN25MMGJDSy9nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=550038408018)
+
+Este proceso permitió al equipo obtener una visión de alto nivel de los principales eventos del negocio, identificar puntos <br>
+críticos y definir prioridades para las siguientes etapas del proyecto
+
 ## 2.5. Ubiquitous Language
 
 **Farmer(Agricultor)**  
@@ -588,10 +623,9 @@ Es la revisión del entorno donde crece el cultivo como la temperatura, humedad 
 Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias parcelas, donde también se registra el material empleado dado el caso.
 
 # Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
+## 3.1. User Stories
+## 3.2. Impact Mapping
+## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
