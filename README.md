@@ -267,8 +267,60 @@
 #### 5.1.4. Software Deployment Configuration
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
+
 ##### 5.2.1.1. Sprint Planning 1
+
+Esta sección describe los aspectos principales tratados durante el Sprint Planning Meeting que dio inicio al Sprint n.
+En esta reunión, el equipo definió los objetivos específicos del sprint, seleccionó los elementos del Product Backlog que serían abordados y estableció un plan de trabajo que permitiera alcanzar los entregables comprometidos.
+
+A continuación, se presenta el cuadro de resumen del Sprint Planning Meeting, el cual sintetiza los puntos clave acordados:
+
+## Sprint Planning Background
+
+| Campo                          | Contenido                                                                 |
+|--------------------------------|---------------------------------------------------------------------------|
+| **Sprint 1**                   | Sprint 1                                                                  |
+| **Date**                       | 03/09/2025                                                                |
+| **Time**                       | 15:00 PM                                                               |
+| **Location**                   | Reunión realizada presencial (sede monterrico UPC)         |
+| **Prepared By**                |  Amaro Villar, Anjali                                            |
+| **Attendees (to planning meeting)** | Amaro Villar Anjali, Tuesta Marin Romina, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco Maria Fernanda y Navarro Correa César Augusto |
+| **Sprint 1 – 1 Review Summary** | No aplica (primer sprint) |
+| **Sprint 1 – 1 Retrospective Summary** | No aplica (primer sprint) |
+
+| Campo                          | Contenido                                                                 |
+|--------------------------------|---------------------------------------------------------------------------|
+| **Sprint 1 Goal**            | **Nuestro enfoque está** en establecer la estructura base y lanzar la versión inicial de la landing page del producto. **Creemos que** esto brindará claridad sobre el propósito del producto y servirá como primer punto de contacto con potenciales usuarios y partes interesadas. **Esto se confirmará** cuando la landing page esté disponible públicamente y muestre de forma clara la propuesta de valor, mientras que la documentación interna incluya los wireframes y diagramas aprobados que guiarán el desarrollo futuro.             |
+| **Sprint 1 Velocity**        | 26 points |
+
+## Cálculo de Story Points Totales del Sprint 1
+
+| ID     | Historia                                          | Points |
+|--------|--------------------------------------------------|--------|
+| LPS01  | Información de la Landing Page                    | 5      |
+| LPS02  | Visualizar información de la página               | 5      |
+| LPS03  | Visualización de beneficios y características     | 5      |
+| LPS04  | Consultar planes y precios                        | 5      |
+| LPS05  | Formulario de contacto                            | 3      |
+| LPS06  | Sección de testimonios                            | 3      |
+| **TOTAL** |                                                | **26** |
+
+
+| **Sum of Story Points**      | 26 story points |
+
+
 ##### 5.2.1.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name)   | Github Username        | Diseño, wireframes landing Leader (L), Collaborator (C)    | Desarrollo estatico HTML, CSS, JS Leader (L), Collaborator (C)   | Desplegar el servicio Leader (L), Collaborator (C)    |
+|-----------|----------------------|-----------|----------------------|-----------|
+| Amaro Villar Anjali              |     njlmrvllr   |    (C)   |     (C)     |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     |    (C)   |     (L)     |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |                 |    (L)   |     (C)     |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |                 |    (L)   |     (C)     |    (C)      |
+| Navarro Correa César Augusto     |                 |    (C)   |     (C)     |    (C)      |
+
+
+
 ##### 5.2.1.3. Sprint Backlog 1
 ##### 5.2.1.4. Development Evidence for Sprint Review
 ##### 5.2.1.5. Execution Evidence for Sprint Review
