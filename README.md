@@ -152,6 +152,15 @@
 ### 3.1. To-Be Scenario Mapping
 ### 3.2. User Stories
 ### 3.3. Impact Mapping
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+<img src="./assets/images/impactmapping_juan.png">
+
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+<img src="./assets/images/impactmapping_ana.png">
+
 ### 3.4. Product Backlog
 
 | #Orden |   ID   | Título                                     | Descripción                                                                                                    | Story Points |
