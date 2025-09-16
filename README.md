@@ -445,6 +445,14 @@ Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
 ![AgronomoMap](./assets/images/screenshots/UserJourneyMapping2.png)
 
 ### 2.3.4. Empathy Mapping
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+![AgricultorEmpathyMap](./assets/images/screenshots/Juan%20Carlos%20(3).png)
+
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+![AgronomoEmpathyMap](./assets/images/screenshots/Ana%20Morales%20(1).png)
 ## 2.4. Big Picture EventStorming
 ## 2.5. Ubiquitous Language
 
