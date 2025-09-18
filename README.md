@@ -327,7 +327,7 @@ En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que s
 
 Herramienta de control: Trello
 
-<img alt="upc-logo" src="/assets/images/trello_sprint1.PNG" width="400"/><br>
+<img alt="upc-logo" src="/assets/images/trello_sprint1.PNG" /><br>
 
 URL del Board: [(Link trello)](https://trello.com/b/eZyvjxmL/sprint-1-ecotrack)
 
