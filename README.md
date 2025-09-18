@@ -315,13 +315,38 @@ A continuación, se presenta el cuadro de resumen del Sprint Planning Meeting, e
 |-----------|----------------------|-----------|----------------------|-----------|
 | Amaro Villar Anjali              |     njlmrvllr   |    (C)   |     (C)     |    (C)      |
 |  Romina Alejanda Tuesta Marin    |     Romimi1     |    (C)   |     (L)     |    (L)      |
-|  Baquerizo Cirilo Aaron Santiago |                 |    (L)   |     (C)     |    (C)      |
-|  Mostajo Orosco Maria Fernanda   |                 |    (L)   |     (C)     |    (C)      |
-| Navarro Correa César Augusto     |                 |    (C)   |     (C)     |    (C)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  |    (L)   |     (C)     |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   |    (L)   |     (C)     |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    |    (C)   |     (C)     |    (C)      |
 
 
 
 ##### 5.2.1.3. Sprint Backlog 1
+
+En este sprint se desarrollará y desplegará la Landing Page de EcoTrack, que servirá como punto de presentación del producto. Se crearán las secciones informativas clave (propuesta de valor, explicación del producto, beneficios, planes y precios, formulario de contacto y testimonios), estableciendo así las bases visuales y funcionales del proyecto.
+
+Herramienta de control: Trello
+
+<img alt="upc-logo" src="/assets/images/trello_sprint1.PNG" width="400"/><br>
+
+URL del Board: [(Link trello)](https://trello.com/b/eZyvjxmL/sprint-1-ecotrack)
+
+
+| User Story |                                               | Work-Item / Task |                                      |                                                                                         |                        |                  |                                                    |
+| ---------- | --------------------------------------------- | ---------------- | ------------------------------------ | --------------------------------------------------------------------------------------- | ---------------------- | ---------------- | -------------------------------------------------- |
+| **Id**     | **Title**                                     | **Id**           | **Title**                            | **Description**                                                                         | **Estimation (Hours)** | **Assigned To**  | **Status** (To-do / In-Process / To-Review / Done) |
+| LPS01      | Información de la Landing Page                | T01              | Diseño de wireframe                  | Crear wireframe de la estructura inicial de la landing                                  | 4                      | Maria Mostajo | Done                                               |
+|            |                                               | T02              | Desarrollo de encabezado y subtítulo | Implementar el encabezado con la propuesta de valor y subtítulo de beneficios clave     | 4                      |  Aaron Baquerizo | Done                                               |
+| LPS02      | Visualizar información de la página           | T03              | Sección “About”                      | Implementar la sección About con descripción breve del producto y gráficos ilustrativos | 5                      |   Romina Tuesta | Done                                               |
+|            |                                               | T04              | Métricas clave                       | Incluir métricas clave que refuercen la propuesta de valor                              | 5                      |   Aaron Baquerizo | Done                                               |
+| LPS03      | Visualización de beneficios y características | T05              | Listado de beneficios                | Crear sección “Servicios” con lista de beneficios e íconos                              | 4                      |  Romina Tuesta | Done                                               |                                                                                    
+| LPS04      | Consultar planes y precios                    | T07              | Sección de planes                    | Crear la sección con los diferentes planes, precios y botones “Start”                 | 5                      |  Maria Mostajo  | In-Process                                         |
+|            |                                               | T08              | FAQ de precios                       | Añadir íconos de ayuda con menú FAQ sobre pagos y condiciones                           | 6                      |  Cesar Navarro  | To-do                                              |
+| LPS05      | Formulario de contacto                        | T09              | Implementación del formulario        | Diseñar y desarrollar formulario de contacto con validaciones                           | 4                      |  Maria Mostajo | In-Process                                         |
+|            |                                               | T10              | Confirmación por correo              | Configurar envío de correo de confirmación al visitante                                 | 5                      |  Anjali Amaro  | To-do                                              |
+| LPS06      | Sección de testimonios                        | T11              | Diseño de testimonios                | Implementar testimonios con foto, nombre y comentario                       | 4                      | Romina Tuesta  | To-Review                                          |
+                                            
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
