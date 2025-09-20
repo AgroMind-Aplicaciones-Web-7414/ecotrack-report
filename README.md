@@ -671,6 +671,67 @@ En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", n
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
+Para su mejor visualización se adjunta el enlace del figma: https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
+
+- Vista de Iniciar sesión
+
+<img src="./assets/images/screenshots/mockup1.png" width="60%">
+
+- Vista de Crear Cuenta
+  
+<img src="./assets/images/screenshots/mockup2.png" width="60%">
+
+- Vista de Planes
+
+<img src="./assets/images/screenshots/mockup3.png" width="60%">
+
+- Vista de Método de pago
+
+<img src="./assets/images/screenshots/mockup4.png" width="60%">
+
+- Vista de Inicio del Agrónomo
+
+<img src="./assets/images/screenshots/mockup5.png" width="60%">
+<img src="./assets/images/screenshots/mockup6.png" width="60%">
+<img src="./assets/images/screenshots/mockup7.png" width="60%">
+<img src="./assets/images/screenshots/mockup8.png" width="60%">
+<img src="./assets/images/screenshots/mockup9.png" width="60%">
+<img src="./assets/images/screenshots/mockup10.png" width="60%">
+<img src="./assets/images/screenshots/mockup11.png" width="60%">
+<img src="./assets/images/screenshots/mockup12.png" width="60%">
+<img src="./assets/images/screenshots/mockup13.png" width="60%">
+<img src="./assets/images/screenshots/mockup14.png" width="60%">
+<img src="./assets/images/screenshots/mockup15.png" width="60%">
+<img src="./assets/images/screenshots/mockup16.png" width="60%">
+<img src="./assets/images/screenshots/mockup17.png" width="60%">
+<img src="./assets/images/screenshots/mockup18.png" width="60%">
+
+- Vista de Perfil del Agrónomo
+
+<img src="./assets/images/screenshots/mockup19.png" width="60%">
+
+- Vista de Configuración del Agrónomo
+
+<img src="./assets/images/screenshots/mockup20.png" width="60%">
+<img src="./assets/images/screenshots/mockup21.png" width="60%">
+
+- Vista de Inicio del Agricultor
+
+<img src="./assets/images/screenshots/mockup22.png" width="60%">
+<img src="./assets/images/screenshots/mockup23.png" width="60%">
+<img src="./assets/images/screenshots/mockup24.png" width="60%">
+<img src="./assets/images/screenshots/mockup25.png" width="60%">
+<img src="./assets/images/screenshots/mockup26.png" width="60%">
+
+- Vista de Perfil del Agricultor
+
+<img src="./assets/images/screenshots/mockup27.png" width="60%">
+
+- Vista de Configuración del Agricultor
+
+<img src="./assets/images/screenshots/mockup28.png" width="60%">
+<img src="./assets/images/screenshots/mockup29.png" width="60%">
+
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
