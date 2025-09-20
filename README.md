@@ -531,6 +531,65 @@ Las Epics que identificamos son las siguientes:
 ### 4.3.2. Landing Page Mock-up
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+- Vista de Inicio de Sesion
+
+<img src="./assets/images/screenshots/wireframe1.jpg" width="60%">
+
+- Vista de Crear Cuenta
+
+<img src="./assets/images/screenshots/wireframe2.jpg" width="60%">
+
+- Vista de Planes
+
+<img src="./assets/images/screenshots/wireframe3.jpg" width="60%">
+
+- Vista de Método de Pago
+
+<img src="./assets/images/screenshots/wireframe4.jpg" width="60%">
+
+- Vista de Inicio de Agrónomo
+
+<img src="./assets/images/screenshots/wireframe5.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe6.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe7.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe8.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe9.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe10.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe11.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe12.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe13.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe14.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe15.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe16.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe17.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe18.jpg" width="60%">
+
+- Vista de Perfil del Agrónomo
+
+<img src="./assets/images/screenshots/wireframe19.jpg" width="60%">
+
+- Vista de Configuraciondes del Agrónomo
+
+<img src="./assets/images/screenshots/wireframe20.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe21.jpg" width="60%">
+
+- Vista de Inicio del Agricultor
+
+<img src="./assets/images/screenshots/wireframe22.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe23.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe24.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe25.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe26.jpg" width="60%">
+
+- Vista del Perfil del Agricultor
+
+<img src="./assets/images/screenshots/wireframe27.jpg" width="60%">
+
+- Vista de Configuraciones del Agricultor
+
+<img src="./assets/images/screenshots/wireframe28.jpg" width="60%">
+<img src="./assets/images/screenshots/wireframe29.jpg" width="60%">
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.2. Web Applications Mock-ups
 ### 4.4.3. Web Applications User Flow Diagrams
