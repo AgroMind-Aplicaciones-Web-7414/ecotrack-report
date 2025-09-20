@@ -165,54 +165,58 @@ Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
 
 | #Orden |   ID   | Título                                     | Descripción                                                                                                    | Story Points |
 |--------|--------|--------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------------|
-| 1 | US01 | Crear organización | Como Agrónomo, quiero crear una organización para centralizar miembros y parcelas | 5 | 
-| 2 | US02 | Invitar miembros a organización | Como Agrónomo, quiero enviar invitaciones a los agricultores para poder sumarlos a mi organización | 3 | 
-| 3 | US03 | Remover Agricultor de la organización | Como Agrónomo, quiero eliminar a un agricultor para mantener el equipo al día | 2 | 
-| 4 | US04 | Bitácora de parcela | | 5 | 
-| 5 | US05 | Recomendaciones técnicas | Como agrónomo, quiero registrar recomendaciones vinculadas al cultivo para poder orientar al agricultor | 3 | 
-| 6 | US06 | Historial de cultivo | Como agricultor, quiero consultar el historial de un cultivo para poder demostrar su trazabilidad | 3 | 
-| 7 | US07 | Alertas climáticas | Como agricultor, quiero recibir alertas por lluvia/helada/ola de calor para prevenir pérdidas. | 5 | 
-| 8 | US08 | Acceso multiplataforma | Como agricultor, quiero acceder a EcoTrack desde el celular y la computadora para consultar y registrar datos en cualquier lugar | 5 | 
-| 9 | US09 | Ficha técnica de cultivo | Como agrónomo, quiero exportar fichas técnicas por cultivo con métricas y recomendaciones. | 3 | 
-| 10 | US10 | Creación de parcela | Como Agrónomo, quiero crear un parcela para gestionar el cultivo y su monitoreo | 3 |
-| 11 | US11 | Modificación de parcela | Como Agrónomo, quiero modificar una parcela para mantener los datos correctos | 2 | 
-| 12 | US12 | Registrar tipo de cultivo por parcela | Como Agrónomo, quiero escoger un tipo de cultivo para personalizar el monitoreo y recomendaciones | 2 | 
-| 13 | US13 | Registro de Cultivo | Como agricultor, quiero registrar cultivos/parcelas y actividades diarias para organizar mi producción. | 5 | 
-| 14 | US14 | Editar/Eliminar registro | Como Agricultor, quiero eliminar o editar algún registro para corregir errores | 2 | 
-| 15 | US15 | Crear una checklist | Como Agrónomo, quiero crear una checklist para estandarizar labores en una parcela | 3 | 
-| 16 | US16 | Creación de tareas | Como Agrónomo, quiero crear tareas (con responsable, fecha y prioridad) para poder planificar el trabajo | 3 | 
-| 17 | US17 | Recordatorio de tareas | Como agricultor, quiero recibir un recordatorio de actividades programadas para no olvidarlas | 2 | 
-| 18 | US18 | Iniciar tarea | Como Agricultor, quiero iniciar la tarea para registrar que empecé a ejecutarla | 1 | 
-| 19 | US19 | Completar tarea | Como Agricultor quiero marcar la tara como completada para cerrar la labor | 1 | 
-| 20 | US20 | Registrar materiales utilizados en tarea | Como Agricultor, quiero registrar/editar/eliminar los materiales utilizados para el control de insumos | 3 | 
-| 21 | US21 | Reporte general | Como Agronomo, quiero solicitar un reporte general de la organización para ver indicadores globales | 5 | 
-| 22 | US22 | Registrar cuenta | Como usuario, quiero registrar mi cuenta con correo y contraseña para poder acceder a la plataforma | 2 | 
-| 23 | US23 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con mis credencial es para entrar de forma segura | 2 | 
-| 24 | US24 | Completar perfil | Como usuario recién registrado, quiero completar mi perfil con mis datos básicos (nombre, rol y contacto) para poder terminar de configurar mi cuenta | 2 | 
-| 25 | US25 | Editar perfil | Como usuario, quiero editar mi perfil en cualquier momento para mantener mis datos actualizado | 1 | 
-| 26 | US26 | Adquirir suscripción | Como usuario, quiero adquirir un plan de suscripción para habilitar las funcionalidades disponibles según mi rol y plan contratado | 3 | 
-| 27 | LPS01 | Información de la Landing Page | Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo | 5 | 
-| 28 | LPS02 | Visualizar información de la página. | Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito. | 5 | 
-| 29 | LPS03 | Visualización de beneficios y características | Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades. | 5 | 
-| 30 | LPS04 | Consultar planes y precios | Como visitante, quiero ver claramente los planes y precios de la plataforma, para decidir cuál se ajusta a mis necesidades. | 5 | 
-| 31 | LPS05 | Formulario de contacto | Como visitante, quiero un formulario de contacto para enviar dudas respecto a la página y/o su plataforma. | 3 | 
-| 32 | LPS06 | Sección de testimonios | Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución | 3 |
-| 33 | TS01 | Registrar cuenta | Como desarrollador, quier implementar el endpoint de registro de usuario para permitir que suarios nueves creen su cuenta (POST /api/auth/register) | 2 | 
-| 34 | TS02 | Iniciar sesión | Como desarrollador quiero implementar el endpoint de login, para autenticar usuarios y emitir un token seguro (POST /api/auth/login) | 2 | 
-| 35 | TS03 | Completar perfil | Como desarrollador, quiero implementar el endpoint para completar el perfil, para registrar rol y datos básicos del usuario (PUT /api/users/{userID}/profile) | 2 | 
-| 36 | TS04 | Adquirir suscripción | Como desarrollador, quiero implementar el endpoint de alta de suscripción, para activar planes y limites según el plan contratado (POST /api/subscriptions) | 3 | 
-| 37 | TS05 | Crear organización | Como desarrollador, quiero implementar un endpoint para poder crear organizaciones (POST /api/organizations) | 5 | 
-| 38 | TS06 | Invitar miembros a la organización | Como desarrollador, quiero implementar un endpoint para enviar invitaciones a agricultores (POST /api/organization/{organizationID}/invitations) | 3 | 
-| 39 | TS07 | Remover miembro | Como desarrollador, quiero implementar un endpoint para eliminar un miembro de una organización (DELETE /api/organizatiosn/{organizationID}/members/{userID}) | 2 | 
-| 40 | TS08 | Crear parcela | Como desarrollador, quier implementar un endpoint para crear una parcela, para poder gestionar cultivos y su monitoreo (POST /api/organizations}/{organizationID}/parcels) | 5 | 
-| 41 | TS09 | Registrar datos de planta | Como desarrollador, quiero implementar un endpoint para registrar hojas y botones, para llevar el estado fenológico del cultivo (POST /api/parcels/{parcelID}/plant-records) | 3 | 
-| 42 | TS10 | Crear checklist | Como desarrollador, quiero implementar un endpoint para crear checklists y estandarizar las labores en una parcela (POST /api/parcels/{parcelaID}/checklists) | 3 |
-| 43 | TS11 | Crear tarea | Como desarrollador, quiero implementar un endpoint para creación de tareas y planificar el trabajo del agricultor (POST /api/parcels/{parcelaID}/tasks) | 3 | 
-| 44 | TS12 | Cambiar estado de tarea (iniciar/completar) | Como desarrollador, quiero implementar un endpoint para guardar el estado de las taras, para poder reflejar el avance (en proceso/completada) (PATCH /api/tasks/{taskID]/status) | 2 | 
-| 45 | TS13 | Registrar materiales usados para la tarea | Como desarrollador, quiero implementar un endpoint para registrar los materiales utilizados por tarea y poder controlar los insumos (POST /api/tasks/{taskID}/materials) | 3 | 
-| 46 | T14 | Solicitar reporte general de la organización | Como desarrollador, quiero implementar el endpoint para generar un reporte general, mostrando indicadores globales de la organización (GER /api/organization/{organizationID}/report) | 5 | 
-| 47 | T15 | Bitacora de parcela | Como desarrollador quiero implementar un endpoint para poder visualiza todas las actividades registradas en una parcela (GET /api/parcels/{parcelaID}/logbook) | 5 | 
+| 1 | LPS01 | Información de la Landing Page | Como visitante, quiero interactuar con una página del startup para entender cómo ayudará para la productividad del campo | 5 | 
+| 2 | LPS02 | Visualizar información de la página. | Como visitante, quiero ver una explicación breve sobre la plataforma, para comprender el producto y su propósito. | 5 | 
+| 3 | LPS03 | Visualización de beneficios y características | Como visitante, quiero conocer los beneficios y características principales del producto, para evaluar si es útil para mis necesidades. | 5 | 
+| 4 | LPS04 | Consultar planes y precios | Como visitante, quiero ver claramente los planes y precios de la plataforma, para decidir cuál se ajusta a mis necesidades. | 5 | 
+| 5 | LPS05 | Formulario de contacto | Como visitante, quiero un formulario de contacto para enviar dudas respecto a la página y/o su plataforma. | 3 | 
+| 6 | LPS06 | Sección de testimonios | Como visitante, quiero poder ver testimonios de agricultores y agrónomos que utilizan EcoTrack para poder confiar más en la solución | 3 |
+| 7 | LPS07	| Ver el sitio en varios idiomas | Como visitante, quiero cambiar el idioma de la landing page para poder entender el contenido en mi idioma preferido	| 3 |
+| 8 | US01 | Crear organización | Como Agrónomo, quiero crear una organización para centralizar miembros y parcelas | 5 | 
+| 9 | US02 | Invitar miembros a organización | Como Agrónomo, quiero enviar invitaciones a los agricultores para poder sumarlos a mi organización | 3 | 
+| 10 | US03 | Remover Agricultor de la organización | Como Agrónomo, quiero eliminar a un agricultor para mantener el equipo al día | 2 | 
+| 11 | US04 | Bitácora de parcela | Como agricultor, quiero una bitácora por parcela para registrar riegos, fertilizaciones y labores, y asi llevar el control de lo que sucede en ese terreno | 5 | 
+| 12 | US05 | Recomendaciones técnicas | Como agrónomo, quiero registrar recomendaciones vinculadas al cultivo para poder orientar al agricultor | 3 | 
+| 13 | US06 | Historial de cultivo | Como agricultor, quiero consultar el historial de un cultivo para poder demostrar su trazabilidad | 3 | 
+| 14 | US07 | Alertas climáticas | Como agricultor, quiero recibir alertas por lluvia/helada/ola de calor para prevenir pérdidas. | 5 | 
+| 15 | US08 | Acceso multiplataforma | Como agricultor, quiero acceder a EcoTrack desde el celular y la computadora para consultar y registrar datos en cualquier lugar | 5 | 
+| 16 | US09 | Ficha técnica de cultivo | Como agrónomo, quiero exportar fichas técnicas por cultivo con métricas y recomendaciones. | 3 | 
+| 17 | US10 | Creación de parcela | Como Agrónomo, quiero crear un parcela para gestionar el cultivo y su monitoreo | 3 |
+| 18 | US11 | Modificación de parcela | Como Agrónomo, quiero modificar una parcela para mantener los datos correctos | 2 | 
+| 19 | US12 | Registrar tipo de cultivo por parcela | Como Agrónomo, quiero escoger un tipo de cultivo para personalizar el monitoreo y recomendaciones | 2 | 
+| 20 | US13 | Registro de Cultivo | Como agricultor, quiero registrar cultivos/parcelas y actividades diarias para organizar mi producción. | 5 | 
+| 21 | US14 | Editar/Eliminar registro | Como Agricultor, quiero eliminar o editar algún registro para corregir errores | 2 | 
+| 22 | US15 | Crear una checklist | Como Agrónomo, quiero crear una checklist para estandarizar labores en una parcela | 3 | 
+| 23 | US16 | Creación de tareas | Como Agrónomo, quiero crear tareas (con responsable, fecha y prioridad) para poder planificar el trabajo | 3 | 
+| 24 | US17 | Recordatorio de tareas | Como agricultor, quiero recibir un recordatorio de actividades programadas para no olvidarlas | 2 | 
+| 25 | US18 | Iniciar tarea | Como Agricultor, quiero iniciar la tarea para registrar que empecé a ejecutarla | 1 | 
+| 26 | US19 | Completar tarea | Como Agricultor quiero marcar la tara como completada para cerrar la labor | 1 | 
+| 27 | US20 | Registrar materiales utilizados en tarea | Como Agricultor, quiero registrar/editar/eliminar los materiales utilizados para el control de insumos | 3 | 
+| 28 | US21 | Reporte general | Como Agronomo, quiero solicitar un reporte general de la organización para ver indicadores globales | 5 | 
+| 29 | US22 | Registrar cuenta | Como usuario, quiero registrar mi cuenta con correo y contraseña para poder acceder a la plataforma | 2 | 
+| 30 | US23 | Iniciar sesión | Como usuario registrado, quiero iniciar sesión con mis credencial es para entrar de forma segura | 2 | 
+| 31 | US24 | Completar perfil | Como usuario recién registrado, quiero completar mi perfil con mis datos básicos (nombre, rol y contacto) para poder terminar de configurar mi cuenta | 2 | 
+| 32 | US25 | Editar perfil | Como usuario, quiero editar mi perfil en cualquier momento para mantener mis datos actualizado | 1 | 
+| 33 | US26 | Adquirir suscripción | Como usuario, quiero adquirir un plan de suscripción para habilitar las funcionalidades disponibles según mi rol y plan contratado | 3 | 
+| 34 | TS01 | Registrar cuenta | Como desarrollador, quier implementar el endpoint de registro de usuario para permitir que suarios nueves creen su cuenta (POST /api/auth/register) | 2 | 
+| 35 | TS02 | Iniciar sesión | Como desarrollador quiero implementar el endpoint de login, para autenticar usuarios y emitir un token seguro (POST /api/auth/login) | 2 | 
+| 36 | TS03 | Completar perfil | Como desarrollador, quiero implementar el endpoint para completar el perfil, para registrar rol y datos básicos del usuario (PUT /api/users/{userID}/profile) | 2 | 
+| 37 | TS04 | Adquirir suscripción | Como desarrollador, quiero implementar el endpoint de alta de suscripción, para activar planes y limites según el plan contratado (POST /api/subscriptions) | 3 | 
+| 38 | TS05 | Crear organización | Como desarrollador, quiero implementar un endpoint para poder crear organizaciones (POST /api/organizations) | 5 | 
+| 39 | TS06 | Invitar miembros a la organización | Como desarrollador, quiero implementar un endpoint para enviar invitaciones a agricultores (POST /api/organization/{organizationID}/invitations) | 3 | 
+| 40 | TS07 | Remover miembro | Como desarrollador, quiero implementar un endpoint para eliminar un miembro de una organización (DELETE /api/organizatiosn/{organizationID}/members/{userID}) | 2 | 
+| 41 | TS08 | Crear parcela | Como desarrollador, quier implementar un endpoint para crear una parcela, para poder gestionar cultivos y su monitoreo (POST /api/organizations}/{organizationID}/parcels) | 5 | 
+| 42 | TS09 | Registrar datos de planta | Como desarrollador, quiero implementar un endpoint para registrar hojas y botones, para llevar el estado fenológico del cultivo (POST /api/parcels/{parcelID}/plant-records) | 3 | 
+| 43 | TS10 | Crear checklist | Como desarrollador, quiero implementar un endpoint para crear checklists y estandarizar las labores en una parcela (POST /api/parcels/{parcelaID}/checklists) | 3 |
+| 44 | TS11 | Crear tarea | Como desarrollador, quiero implementar un endpoint para creación de tareas y planificar el trabajo del agricultor (POST /api/parcels/{parcelaID}/tasks) | 3 | 
+| 45 | TS12 | Cambiar estado de tarea (iniciar/completar) | Como desarrollador, quiero implementar un endpoint para guardar el estado de las taras, para poder reflejar el avance (en proceso/completada) (PATCH /api/tasks/{taskID]/status) | 2 | 
+| 46 | TS13 | Registrar materiales usados para la tarea | Como desarrollador, quiero implementar un endpoint para registrar los materiales utilizados por tarea y poder controlar los insumos (POST /api/tasks/{taskID}/materials) | 3 | 
+| 47 | TS14 | Solicitar reporte general de la organización | Como desarrollador, quiero implementar el endpoint para generar un reporte general, mostrando indicadores globales de la organización (GER /api/organization/{organizationID}/report) | 5 | 
+| 48 | TS15 | Bitacora de parcela | Como desarrollador quiero implementar un endpoint para poder visualiza todas las actividades registradas en una parcela (GET /api/parcels/{parcelaID}/logbook) | 5 | 
 
+<img src="./assets/images/productbacklog.png">
+
+Enlace del Product Backlog: <a href="https://www.google.com/](https://trello.com/b/CNfrjMHe/fs">Vista Previa de Product Backlog</a>
 
 ## Capítulo IV: Product Design
 ### 4.1. Style Guidelines
