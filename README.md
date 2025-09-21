@@ -18,13 +18,13 @@
 
 ### Team Members:
 
-|             Member              |   Code    |
-|:-------------------------------:|:---------:|
-|       Amaro Villar Anjali       | 20221G044 |
-| Baquerizo Cirilo Aaron Santiago |    ...    |
-|  Mostajo Orosco Maria Fernanda  |    ...    |
-|  Navarro Correa César Augusto   |    ...    |
-|  Tuesta Marin Romina Alejandra  |    ...    |
+|             Member              |    Code     |
+|:-------------------------------:|:-----------:|
+|       Amaro Villar Anjali       |  20221G044  |
+| Baquerizo Cirilo Aaron Santiago | U202520156  |
+|  Mostajo Orosco Maria Fernanda  | U202312874  |
+|  Navarro Correa César Augusto   | U202310129  |
+|  Tuesta Marin Romina Alejandra  | U202211706  |
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -34,13 +34,18 @@
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
-|         |            |              |                                               |
+| 1.1     | 31/08/2005 | Anjali Amaro | Realizacion del Capitulo I.                   |
 |         |            |              |                                               |
 |         |            |              |                                               |
 |         |            |              |                                               |
 |         |            |              |                                               |
 
 # Project Report Collaboration Insights
+
+
+
+
+
 
 ---
 
@@ -71,13 +76,12 @@
         - [2.3.2. User Task Matrix](#232-user-task-matrix)
         - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
         - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.4. Big Picture EventStoring](#24-big-picture-eventstorming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [3.2. User Stories](#32-user-stories)
-    - [3.3. Impact Mapping](#33-impact-mapping)
-    - [3.4. Product Backlog](#34-product-backlog)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
         - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -98,9 +102,10 @@
         - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-        - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-        - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-        - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+        - [4.6.1. Design-Level EventStorming](#461-design-level-eventstorming)
+        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
         - [4.7.1. Class Diagrams](#471-class-diagrams)
         - [4.7.2. Class Dictionary](#472-class-dictionary)
@@ -387,34 +392,382 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+
 ## 2.2. Entrevistas
+
+Esta sección expone la investigación basada en entrevistas realizadas a agricultores y agrónomos, segmentos clave del proyecto. A través de sus testimonios se buscó identificar las principales dificultades en la gestión agrícola y explorar cómo una solución digital podría responder de manera efectiva a sus necesidades.
+
 ### 2.2.1. Diseño de entrevistas
+
+Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las prácticas, necesidades y dificultades de agricultores y agrónomos. A través de preguntas principales y complementarias se buscó obtener información demográfica, tecnológica y de gestión, que permita construir arquetipos representativos y validar la pertinencia de una solución digital como EcoTrack.
+
+### Segmento 1: Agricultores
+
+#### Gestión agrícola actual
+
+- ¿Cómo organizas tus actividades en la parcela día a día?
+
+- ¿Qué herramientas utilizas para registrar información sobre tus cultivos (libretas, Excel, ninguna)?
+
+- ¿Sueles planificar la siembra, riego o cosecha con anticipación? ¿Cómo lo haces?
+
+#### Monitoreo y control
+
+- ¿Cómo haces seguimiento al crecimiento de tus plantas (conteo de hojas, botones, frutos,tamaño, etc.)?
+
+- ¿Qué información te sería útil recibir en reportes para mejorar tu producción?
+
+- ¿Qué tan fácil es para ti acceder a un agrónomo cuando necesitas apoyo en el campo?
+
+#### Uso de tecnología
+
+- ¿Usas el celular u otro dispositivo para apoyar tu trabajo agrícola?
+
+- ¿Has probado alguna herramienta digital relacionada con agricultura? ¿Qué te gustó o no?
+
+#### Dolores y frustraciones
+
+- ¿Qué es lo más complicado de gestionar tus cultivos?
+
+- ¿Cómo te afecta no tener datos organizados de tu parcela?
+
+#### Expectativas 
+
+- Si tuvieras una aplicación para apoyarte en la gestión agrícola, ¿qué problemas te gustaría que te ayude a resolver?
+
+- ¿Qué tipo de información o apoyo te sería más útil recibir en una aplicación agrícola?
+
+- ¿Estarías dispuesto a aprender a usar una aplicación si esta te ayuda a mejorar la gestión de tus cultivos?
+
+- ¿Qué necesitarías para sentirte cómodo usando una aplicación agrícola (capacitación, soporte, facilidad de uso)?
+
+### Segmento 2: Agrónomos
+
+#### Trabajo actual
+
+- ¿Cómo recopilas la información de las parcelas que supervisas?
+
+- ¿Qué métodos usas para dar recomendaciones a agricultores?
+
+- ¿Con qué frecuencia visitas a tus clientes o parcelas?
+
+#### Herramientas y procesos
+
+- ¿Qué herramientas digitales (si alguna) usas actualmente para tu trabajo?
+
+- ¿Cómo te comunicas con los agricultores (WhatsApp, llamadas, correo)?
+
+- ¿Qué tipo de reportes o datos sueles preparar para tus clientes?
+
+#### Problemas y limitaciones
+
+- ¿Qué es lo más difícil al dar asesoría a agricultores?
+
+- ¿Qué consecuencias tiene para ti no contar con información confiable o actualizada?
+
+- ¿Qué obstáculos encuentras al transmitir tus recomendaciones a agricultores?
+
+#### Tecnología y digitalización 
+
+- ¿Has probado apps o sistemas digitales para agricultura? ¿Cómo fue tu experiencia?
+
+- ¿Qué funcionalidades valoras más en un sistema para dar asesoría técnica?
+
+#### Expectativas
+
+- Si contaras con una herramienta digital para tu labor, ¿qué funciones te facilitarían el trabajo con los agricultores?
+
+- ¿Qué tipo de datos o reportes consideras indispensables para brindar recomendaciones más precisas?
+
+
 ### 2.2.2. Registro de entrevistas
+
+#### Segmento 2: Agrónomos
+
+#### Entrevista 1:
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|:-----------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Luis Mendoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|                Edad                 | 30 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|              Distrito               | Villa el Salvador                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|              Ocupación              | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|         Fecha de entrevista         | 06 de Setiembre del 20245                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|               Timing                | 40:46 - 48:23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=FnurJA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQ0OC4xfX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Captura de pantalla de la grabación | ![Entrevista-2](assets/images/screenshots/entrevista-agronomo-3.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|               Resumen               | Luis comenta que utiliza su celular para anotar en el bloc de notas los conteos que realiza y luego transfiere la información a Excel. Señala que, en ocasiones, resulta complicado trabajar con los agrónomos, ya que muchos no cuentan con conocimientos especializados sobre el suelo y otros aspectos técnicos. Considera que lo ideal sería realizar visitas semanales, y en su labor prepara reportes sobre análisis de suelo, consumo de agua y estudios meteorológicos. También menciona que los agricultores suelen mostrarse reacios a incorporar nuevos conocimientos. En el pasado probó una aplicación que solo permitía registrar conteos, pero no le resultó útil porque funcionaba prácticamente como un bloc de notas. Para él, sería valioso contar con una aplicación que le permita registrar información más completa y que, además, facilite la comunicación directa con los agricultores. |
+
+
+#### Entrevista 2:
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:-----------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Lucas Aliaga                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|                Edad                 | 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|              Distrito               | Jicamarca                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|              Ocupación              | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|         Fecha de entrevista         | 05 de  Setiembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | 
+|               Timing                | 48:23 - 01:05:59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=hsBPPh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjkwOS4yMn19)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Captura de pantalla de la grabación | ![Entrevista-3](assets/images/screenshots/entrevista-agronomo-2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|               Resumen               | Lucas comenta que, para recopilar información, debe necesariamente acudir al lugar. Su trabajo se enfoca en el control de plagas y en la selección de productos adecuados para resolver esos problemas. Generalmente, realiza visitas al campo una vez o cuando lo llaman. Actualmente no utiliza ninguna aplicación digital que le ayude a registrar sus datos y señala que resulta complicado conectar con los agricultores al intentar enseñarles nuevas prácticas. Sin embargo, percibe una oportunidad de mejora en los jóvenes, quienes muestran mayor disposición a adaptarse a los cambios y a mejorar los procesos. En el pasado probó una aplicación que brindaba información sobre insecticidas y sus componentes, pero no fue suficiente para sus necesidades. Para él, sería valioso contar con una aplicación que le permita conocer el tipo de suelo, las condiciones climáticas y la información básica de los cultivos en cada parcela. Además, considera útil que la app ofrezca gráficos de barras para representar los datos recopilados. |
+
+#### Entrevista 3:
+
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|:-----------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Sofia Riquez Esteban                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|                Edad                 | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|              Distrito               | San Mateo de Otao                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|              Ocupación              | Ingeniera Agrónoma                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|         Fecha de entrevista         | 05 de Setiembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|               Timing                | 01:00:08 - 01:05:44                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=L84IuG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MzYwOS4zOH19)                                                                                                                                                                                                                                                                                                      |
+| Captura de pantalla de la grabación | ![Entrevista-1](assets/images/screenshots/entrevista-agronomo-1.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|               Resumen               | Sofía comenta que realiza el recuento de datos utilizando plataformas como Excel y Python. Su trabajo se centra en identificar plagas, enfermedades de las plantas y en evaluar el estado del suelo de cada parcela. Generalmente, realiza visitas de campo cada 15 días o una vez al mes, lo que le lleva a manejar una gran cantidad de información por parcela. Sin embargo, enfrenta conflictos con los agricultores, ya que muchos suelen confiar únicamente en sus propios conocimientos. Además, las aplicaciones que ha probado hasta ahora no le han resultado útiles. Para ella, sería valioso contar con una aplicación que le permita registrar la información necesaria y recibir alertas sobre el clima. |
+
+
 ### 2.2.3. Análisis de entrevistas
+
+
+
+
+### Segmento: Agrónomos
+**Total de entrevistados:** 3  
+**Edades:** 25, 30, 24  
+**Distritos:** San Mateo de Otao, Villa El Salvador, Jicamarca
+
+#### Características objetivas
+- **Uso de herramientas digitales básicas (Excel, bloc de notas, etc.):** 100% (3/3) usan herramientas simples para registrar datos, sin plataformas especializadas.
+- **Visitas de campo frecuentes:** 100% (3/3) realizan visitas para recopilar información, aunque con distinta frecuencia (cada 15 días, semanal o cuando los llaman).
+- **Enfoque en análisis técnico (plagas, suelo, clima, agua):** 100% (3/3) centran su labor en recopilar información técnica de los cultivos.
+- **Aplicaciones digitales probadas sin éxito:** 100% (3/3) han probado apps, pero no les fueron útiles por ser limitadas o poco funcionales.
+
+#### Características subjetivas
+- **Conflicto con agricultores reacios al cambio:** 100% (3/3) mencionan que los agricultores suelen desconfiar o resistirse a nuevos conocimientos.
+- **Valoración de una app más completa y práctica:** 100% (3/3) coinciden en que necesitan una app que les permita registrar datos relevantes (clima, suelo, plagas, cultivos).
+- **Interés en funciones específicas adicionales:**
+    - 67% (2/3) valoran información climática en tiempo real.
+    - 33% (1/3) destaca la necesidad de comunicación directa con los agricultores.
+    - 33% (1/3) menciona la utilidad de gráficos visuales (barras) para mostrar datos.
+- **Reconocimiento de oportunidades en jóvenes agricultores:** 33% (1/3: Lucas) percibe que los jóvenes son más receptivos a adaptarse al cambio tecnológico.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
-### 2.3.5. As-is Scenario Mapping
-## 2.4. Ubiquitous Language
+### 2.4. Big Picture EventStorming
+
+En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue <br>
+realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso <br>
+
+**1. Open:**<br>
+En esta etapa el equipo se concentró en generar la mayor cantidad de eventos de dominio posibles (cosas que suceden <br>
+en el negocio) escribiendo en los post-its naranjas.
+
+![Step 1 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-1.png)
+
+**2. Explore:** <br>
+Después de la anterior etapa, en esta se concentró en ordenar cronológicamente los eventos, eliminar los eventos repetidos,<br>
+identificar sus actores y posibles sistemas externos, y finalmente algunos puntos de dolor en post-its morados.
+
+![Step 2 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-2.png)
+
+**3. Close:** <br>
+En esta última etapa, se documentaron en post-its rosados los problemas más relevantes detectados,junto con aspectos que <br>
+debíamos investigar más a fondo o descartar según el alcance definido.
+
+![Step 3 Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-step-3.png)
+
+Luego de conversar un poco, el equipo descartó algunos eventos y identificó mejor un sistema externo:
+
+![Final events of Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming-final-events.png)
+
+Finalmente, se presenta el Big Picture Event Storming:
+
+![Big Picture Event Storming](./assets/images/big-picture-event-storming/big-picture-event-storming.png)
+
+[Enlace del Miro donde se realizó el Big Picture Event Storming](https://miro.com/welcomeonboard/Tkt0b0FqK3BGdThsbmVRKytveUdDdTBMeHZtNW52aTcvaHBHQ3dKYTlCS2FzMlhLYVZhNnAwaHpkRHNhOTlTSzFLRVhFeW5JQlZJck5hUzNBSlMrbVpqbVB1M3ErOFNsY0hQTDNXbStrSXNJbm5hNzA1eStxcDJpN25MMGJDSy9nbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=550038408018)
+
+Este proceso permitió al equipo obtener una visión de alto nivel de los principales eventos del negocio, identificar puntos <br>
+críticos y definir prioridades para las siguientes etapas del proyecto
+
+## 2.5. Ubiquitous Language
+
+**Farmer(Agricultor)**  
+Persona que se dedica a trabajar la tierra y cultivar alimentos, ya sea para una empresa o para sustento propio.
+
+
+**Agronomist(Agrónomo)**  
+Profesional que trabaja a par con los Agricultores y les brinda asesoría experta sobre técnicas de cultivo, fertilización, protección contra plagas y enfermedades. Así mismo, les ayuda a gestionar sus recursos y evalúan la salud y rendimiento de sus cultivos.
+
+**Plot(Parcela)**  
+Porción de tierra que mide entre 100 y 500 metros cuadrados, donde se siembra un tipo de cultivo y representa un espacio delimitado para registrar observaciones sobre los cultivos.
+
+
+**Crop (Cultivo):**  
+Conjunto de plantas de un mismo tipo sembradas en una parcela.
+
+**Plant(Planta)**  
+Ejemplar individual o muestra representativa de un cultivo en una parcela.  
+Se utiliza para registrar observaciones específicas como altura o cantidad de hojas.
+
+**Organization(Organización)**    
+Espacio de trabajo colaborativo entre el agrónomo y varios agricultores asignados en varias parcelas
+
+**Monitoring(Monitoreo)**  
+Es la revisión del entorno donde crece el cultivo como la temperatura, humedad o pH del suelo.
+
+
+**Activity management (Gestión de actividades)**  
+Es la gestión de tareas dejadas por el agrónomo a realizar en una o varias parcelas, donde también se registra el material empleado dado el caso.
 
 # Capítulo III: Requirements Specification
-## 3.1. To-Be Scenario Mapping
-## 3.2. User Stories
-## 3.3. Impact Mapping
-## 3.4. Product Backlog
+## 3.1. User Stories
+## 3.2. Impact Mapping
+## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
 ### 4.1.2. Web Style Guidelines
 ## 4.2. Information Architecture
+
+La arquitectura de información de **EcoTrack** busca garantizar que los usuarios encuentren de manera clara y rápida las funcionalidades necesarias para gestionar sus actividades agrícolas. El diseño está orientado a ofrecer una experiencia simple, intuitiva y coherente, tanto en la aplicación web como en la landing page, evitando la sobrecarga de información y priorizando la usabilidad.
+
+Las decisiones tomadas en esta sección están alineadas con los principios de accesibilidad y con la naturaleza del público objetivo: agrónomos y agricultores que requieren una plataforma práctica, que reduzca tiempos y facilite el control de parcelas, tareas y reportes.
+
+---
+
 ### 4.2.1. Organization Systems
+
+En **EcoTrack** la organización de la información busca que los usuarios —agrónomos y agricultores— puedan localizar fácilmente lo que necesitan, ya sea para planificar, registrar o monitorear. Se aplicarán diferentes sistemas de organización dependiendo del tipo de contenido:
+
+- **Jerárquica (Visual Hierarchy):**  
+  Se utilizará en el dashboard principal, donde se debe destacar lo más relevante: número de parcelas activas, tareas pendientes y alertas climáticas.  
+  La jerarquía guiará la mirada del usuario desde los indicadores más importantes hasta los detalles secundarios, como botones de acción o enlaces de apoyo.
+
+- **Matriz (Grid):**  
+  Se aplicará en la vista de Parcelas, donde cada parcela se mostrará como una tarjeta individual con datos resumidos (nombre, cultivo asignado, responsable y estado de monitoreo).  
+  Esta organización permite que los usuarios naveguen de forma visual y ordenada entre múltiples parcelas, identificando rápidamente la que necesitan sin tener que recorrer menús extensos.
+
+- **Secuencial (Step-by-step):**  
+  Se usará en procesos guiados, como registrar una nueva parcela, asignar un agricultor o configurar umbrales de cultivo.  
+  El flujo paso a paso evita errores y ayuda a los usuarios con menor experiencia digital a completar sus tareas sin dificultad.
+
+- **Por tópicos:**  
+  El contenido se organizará en módulos temáticos como Organización, Parcelas, Tareas y Reportes.  
+  Esto facilita que los usuarios accedan directamente al tipo de información que buscan sin perderse en secciones irrelevantes.
+
+- **Según audiencia (roles):**  
+  **EcoTrack** diferencia las vistas según el rol. Un agrónomo tiene acceso a herramientas de gestión y configuración (usuarios, reportes, umbrales), mientras que un agricultor ve opciones más operativas (tareas asignadas, registros de cultivos y condiciones ambientales).
+
+---
+
 ### 4.2.2. Labeling Systems
+
+El sistema de etiquetado en **EcoTrack** está diseñado para ser intuitivo, breve y cercano al vocabulario agrícola. Se busca que las etiquetas comuniquen con pocas palabras la función de cada sección, evitando tecnicismos innecesarios y facilitando la adopción por parte de usuarios con distintos niveles de experiencia digital.
+
+Las etiquetas se dividen según los dos perfiles principales de la plataforma: **agrónomos** (gestión y supervisión) y **agricultores** (ejecución de tareas y registro de datos).
+
+#### Agrónomo (enfoque de gestión y control)
+- **Panel de Control:** vista general con indicadores clave como parcelas activas, tareas pendientes y alertas recientes.
+- **Organización:** gestión de miembros (invitar, asignar o remover agricultores).
+- **Parcelas:** listado de todas las parcelas registradas con acceso al detalle de cada una.
+- **Cultivos:** catálogo de cultivos existentes y opción de registrar nuevos.
+- **Tareas:** planificación, asignación y seguimiento de labores agrícolas.
+- **Alertas:** configuración de umbrales climáticos y recepción de notificaciones.
+- **Reportes:** generación de reportes detallados por parcela o generales de la organización.
+
+#### Agricultor (enfoque operativo y de ejecución)
+- **Panel:** vista principal con las tareas asignadas y notificaciones inmediatas.
+- **Mis Parcelas:** parcelas en las que está involucrado, con acceso al registro de datos del cultivo.
+- **Tareas:** lista de tareas pendientes con la opción de aceptarlas, iniciarlas o marcarlas como completadas.
+- **Registros:** formulario para ingresar datos fenológicos (hojas, botones) y condiciones ambientales (temperatura, humedad).
+- **Materiales:** espacio para reportar y controlar insumos utilizados en cada labor.
+
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Con el fin de aumentar la visibilidad de **EcoTrack** en buscadores y ofrecer una navegación más clara y optimizada, se han definido un conjunto de **SEO Tags y Meta Tags** que acompañarán tanto a la landing page como a la aplicación web.
+
+Estas etiquetas cumplen un papel esencial en el **posicionamiento en motores de búsqueda**, la **adaptación a distintos dispositivos** y la correcta interpretación del contenido por parte de navegadores y servicios externos.
+
+Cada etiqueta tiene un rol específico:
+- **Title:** se muestra en la pestaña del navegador y aparece como título principal en los resultados de búsqueda.
+- **Description:** ofrece un resumen breve y atractivo de la página, pensado para captar al usuario en segundos.
+- **Author:** identifica al equipo responsable de la solución.
+- **Viewport:** asegura que el contenido se ajuste a todo tipo de pantallas, desde móviles hasta monitores de escritorio.
+- **Charset:** define el sistema de codificación de caracteres, en este caso UTF-8, garantizando compatibilidad global.
+- **Keywords:** lista de palabras clave que facilitan la clasificación de la página por los motores de búsqueda.
+
+#### Landing Page SEO Tags and Meta Tags
+- **Title:** "EcoTrack - Plataforma inteligente para la gestión agrícola"
+- **Description:** "EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar."
+- **Author:** "Equipo EcoTrack"
+- **Viewport:** configurado para ofrecer una experiencia fluida en móviles, tablets y computadoras.
+- **Charset:** UTF-8 para soportar distintos alfabetos y símbolos.
+- **Keywords:** "agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo"
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack - Plataforma inteligente para la gestión agrícola</title>
+  <meta name="description" content="EcoTrack ayuda a modernizar la agricultura con herramientas digitales que facilitan el manejo de parcelas, tareas y reportes en un solo lugar.">
+  <meta name="keywords" content="agricultura digital, ecotrack, gestión de parcelas, tareas agrícolas, reportes de cultivo">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+````
+
+#### Web Application SEO Tags and Meta Tags
+Web Application SEO Tags and Meta Tags
+
+* **Title**: "EcoTrack App - Panel digital para agrónomos y agricultores"
+* **Description**: "Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo."
+* **Author**: "Equipo EcoTrack"
+* **Viewport**: preparado para que la aplicación sea completamente responsiva y usable en móviles, tablets y PC.
+* **Charset**: UTF-8 como estándar de compatibilidad.
+* **Keywords**: "ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas"
+
+````html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoTrack App - Panel digital para agrónomos y agricultores</title>
+  <meta name="description" content="Gestiona tu trabajo agrícola con EcoTrack: controla parcelas, asigna tareas, registra condiciones del cultivo y recibe alertas climáticas desde cualquier dispositivo.">
+  <meta name="keywords" content="ecotrack app, monitoreo agrícola, tareas del campo, reportes agrícolas, gestión digital de parcelas">
+  <meta name="author" content="Equipo EcoTrack">
+</head>
+````
+
 ### 4.2.4. Searching Systems
+
+El sistema de búsqueda de EcoTrack se basa en mecanismos de filtrado y selección dentro de cada módulo, en lugar de un buscador global. Este enfoque facilita el acceso rápido a información específica y mantiene la simplicidad de la aplicación.
+
+* Parcelas: filtros por nombre, cultivo y responsable asignado.
+* Tareas: filtros por estado (pendiente, en ejecución, completada), prioridad y fecha de vencimiento.
+* Registros: organización cronológica de datos fenológicos y ambientales, con posibilidad de acotar por rango de fechas.
+* Reportes: criterios de selección por parcela o periodo de tiempo.
+
+Este sistema asegura que los usuarios puedan acceder de manera ágil a los datos que requieren, evitando la saturación de la interfaz con funciones innecesarias.
+
 ### 4.2.5. Navigation Systems
+
+El sistema de navegación de EcoTrack se ha diseñado con base en los principios de claridad, consistencia y adaptabilidad, de modo que los usuarios puedan desplazarse con facilidad tanto en la landing page como en la aplicación web.
+Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo que garantiza que la navegación sea fluida en distintos tamaños de pantalla (computadora, tablet o móvil).
+
+* **Landing Page:** cuenta con un menú superior fijo que da acceso a las secciones principales: Inicio, Funcionalidades, Planes y Contacto. Este menú acompaña al usuario durante todo el recorrido, facilitando la exploración sin importar en qué parte de la página se encuentre.
+* **Aplicación Web:** utiliza una barra lateral de navegación con accesos directos a las secciones clave: Panel de Control, Organización, Parcelas, Tareas, Alertas y Reportes. En vistas más específicas se integran breadcrumbs, que permiten al usuario mantener el contexto y regresar fácilmente a niveles superiores de la aplicación.
+
+Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
@@ -425,21 +778,332 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 ### 4.4.3. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
-### 4.6.1. Software Architecture Context Diagram
-### 4.6.2. Software Architecture Container Diagrams
-### 4.6.3. Software Architecture Components Diagrams
+
+En esta sección se presenta la arquitectura de software basada en el enfoque de Domain-Driven Design (DDD) para la solución propuesta. Se detallan los diagramas y modelos que reflejan la estructura y organización del sistema, alineados con los principios de DDD.
+
+### 4.6.1. Design-Level EventStorming
+
+En esta sección se explica y evidencia el proceso de Design-Level EventStorming, que sirvió para plantear una aproximación revisada y mejorada al modelado de nivel general para el dominio del problema.
+
+**Step 1: Unstructured Exploration**  
+![Step 1 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-1.png)  
+En este paso el equipo comenzó con una lluvia de ideas de los eventos del dominio.
+
+**Step 2: Timelines**  
+![Step 2 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-2.png)  
+En este segundo paso, el equipo ordeno los eventos de dominio en el orden que ocurren en el dominio empresarial.  
+Se tuvo en cuenta los happy path y luego se agregaron los escenarios alternativos.
+
+**Step 3: Pain Points**  
+![Step 3 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-3.png)  
+En este tercer paso, el equipo colocó dudas sobre el dominio o documentación faltante en algunas partes del flujo que ya había sido ordenado anteriormente.
+
+**Step 4: Pivotal Points**  
+![Step 4 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-4.png)  
+En este cuarto paso, el equipo buscó eventos comerciales importantes que indiquen un cambio en el contexto y los marcó con una línea.
+
+**Step 5: Commands**  
+![Step 5 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-5.png)  
+En este quinto paso, el equipo añadió comandos que desencadenen eventos o el flujo de eventos, junto a sus actores.
+
+**Step 6: Policies**  
+![Step 6 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-6.png)  
+En este sexto paso, el equipo añadió policies, que son reglas de negocio que hace que se ejecuten comandos sin la necesidad de un actor.
+
+**Step 7: Read Models**  
+![Step 7 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-7.png)  
+En este séptimo paso, el equipo añadió read models, que son como la vista de datos que el usuario usa para tomar la decisión de ejecutar un comando.
+
+**Step 8: External Systems**  
+![Step 8 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-8.png)  
+En este octavo paso, el equipo identifico sistemas externos, en este caso solo se tiene uno que es la API que usaremos para el consumo de datos climáticos.
+
+**Step 9: Aggregates**  
+![Step 9 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-9.png)  
+En este noveno paso, el equipo antes de agregar los agregados, discutió bastantes cosas sobre pasos anteriores y se decidió hacer algunos cambios en los read models, policies, eventos y commands.
+
+
+**Step 10: Bounded Contexts**  
+![Step 10 Design Level Event Storming](./assets/images/design-level-event-storming/design-level-event-storming-step-10.png)  
+En este último paso, el equipo buscó agregados que estén relacionados entre sí mediante policies para luego identificar bounded contexts.  
+[Ver en Miro](https://miro.com/welcomeonboard/Tkt0b0FqK3BGdThsbmVRKytveUdDdTBMeHZtNW52aTcvaHBHQ3dKYTlCS2FzMlhLYVZhNnAwaHpkRHNhOTlTSzFLRVhFeW5JQlZJck5hUzNBSlMrbVpqbVB1M3ErOFNsY0hQTDNXbStrSXZ0WnFBK2I3dlk0YXl0OFJwamdhcXB0R2lncW1vRmFBVnlLcVJzTmdFdlNRPT0hdjE=?share_link_id=129166886960)
+
+### 4.6.2. Software Architecture Context Diagram
+
+EcoTrack es una plataforma digital diseñada para optimizar la gestión agrícola, se tiene dos segmentos objectivos principales: el agronomo utiliza la plataforma para gestionar parcelas, asignar tareas y generar reportes, mientras que el agricultor se enfoca en ejecutar las labores asignadas y registrar datos fenológicos y ambientales. Además la aplicacion intercambia datos con servicios externos para obtener información climática en tiempo real y notificaciones.
+
+![Context Diagram](./assets/images/software-architecture/context-diagram.png)
+
+### 4.6.3. Software Architecture Container Diagrams
+
+En el diagrama de contenedores de EcoTrack se representan los principales componentes del sistema y la forma en que interactúan entre sí. Los usuarios acceden inicialmente a través de la Landing Page, desde donde son redirigidos a la Single Page Application (SPA). En esta aplicación se gestionan funcionalidades clave como la creación de parcelas, la invitación de nuevos miembros, así como el registro y asignación de tareas.
+La SPA se comunica con la API de EcoTrack, que a su vez realiza consultas a la base de datos para recuperar y administrar la información registrada en el sistema.
+
+![Container Diagram](./assets/images/software-architecture/container-diagram.png)
+
+### 4.6.4. Software Architecture Components Diagrams
+
+En el diagrama de componentes de EcoTrack se muestran los distintos bounded contexts que conforman la arquitectura del sistema y sus interacciones. El contexto de Reports gestiona los reportes de cada parcela, Organization administra las organizaciones y la creación de parcelas, IAM maneja la autenticación y el control de accesos, Profile gestiona perfiles y suscripciones, y Monitoring & Control se encarga del monitoreo de las parcelas, integrándose con servicios externos como Open Weather Map. Todos estos contextos se comunican con la base de datos relacional, donde se almacena la información centralizada, y son consumidos por la Single Page Application, que actúa como interfaz principal para los usuarios.
+
+![Component Diagram](./assets/images/software-architecture/component-diagram.png)
+
 ## 4.7. Software Object-Oriented Design
+
 ### 4.7.1. Class Diagrams
-### 4.7.2. Class Dictionary
+El diagrama representa una visión general del sistema Ecotrack, organizado en distintos bounded contexts que delimitan responsabilidades y entidades clave. En él se observa cómo los usuarios gestionan sus cuentas y perfiles, cómo las organizaciones administran parcelas, planes de suscripción y tipos de cultivos, y cómo se articulan los procesos de monitoreo y control mediante checklists, tareas, lecturas ambientales y alertas. Además, se incluyen objetos compartidos que permiten mantener coherencia en la identificación y manejo de valores comunes. En conjunto, este modelo refleja la estructura conceptual del dominio y la interacción entre sus principales componentes.
+
+![Class Diagram](assets/images/software-architecture/class-diagram.png)
+
+
+### IAM Bounded Context
+
+Este diagrama corresponde al IAM Bounded Context, donde se gestiona la identidad y acceso de los usuarios. El agregado principal es User, que contiene atributos básicos como identificador, correo, contraseña cifrada, estado y rol asignado. Los roles pueden ser Agronomist o Farmer, mientras que el estado de la cuenta se define como Active, Inactive o Suspended. De esta manera, este contexto asegura el control de autenticación y autorización dentro del sistema.
+
+![Class Diagram - IAM](assets/images/software-architecture/iam-diagram.png)
+
+
+### Profile Bounded Context
+
+Este diagrama representa el Profile Bounded Context, donde se gestionan los perfiles de los usuarios. El agregado principal es Profile, que contiene atributos como identificador, nombre completo, teléfono y foto de perfil. Cada perfil está asociado a un usuario específico mediante el userId. Este contexto permite almacenar y actualizar la información personal de los usuarios dentro del sistema.
+
+![Class Diagram - Profile](assets/images/software-architecture/profile-diagram.png)
+
+
+### Organization Bounded Context
+
+Este diagrama corresponde al Organization Bounded Context, encargado de estructurar y administrar las organizaciones dentro del sistema. Aquí, el agregado principal Organization gestiona el nombre, estado, miembros, número máximo de parcelas y la suscripción activa. A su vez, las Plot representan las parcelas asociadas a la organización, con atributos como tamaño, ubicación y tipo de cultivo. Los cultivos se definen mediante la entidad PlantType, que puede vincularse a una lista de tipos predefinidos como papa, maíz, trigo, café, entre otros. Finalmente, el modelo incluye la entidad Subscription, que permite a la organización acceder a planes (AgroStart, AgroSmart, AgroExpert) y mantener control sobre la vigencia y estado de la suscripción. En conjunto, este contexto regula tanto la estructura organizacional como la gestión de recursos y servicios contratados.
+
+![Class Diagram - Organization](assets/images/software-architecture/organization-diagram.png)
+
+### Monitoring and Control Bounded Context
+
+Este diagrama corresponde al Monitoring and Control Bounded Context, responsable de supervisar y gestionar las actividades y condiciones en campo. Aquí se incluyen los Checklists, que permiten organizar y dar seguimiento a las tareas (Task) asignadas a los perfiles, junto con fechas, materiales utilizados y su estado de avance. Asimismo, se registran lecturas ambientales (EnvironmentalReading) que son evaluadas frente a umbrales (Threshold) para detectar desviaciones en parámetros como temperatura, humedad o pH. Cuando se superan estos límites, se generan Alertas (Alert) con distintos niveles de severidad (INFO, WARNING, CRITICAL). Por otro lado, el contexto también incorpora sesiones de muestreo de plantas (PlantSamplingSession), que almacenan observaciones detalladas de altura, número de hojas y frutos, y permiten calcular promedios para análisis posteriores. En conjunto, este contexto asegura el control operativo mediante tareas planificadas, monitoreo en tiempo real y alertas tempranas que facilitan la toma de decisiones
+
+![Class Diagram - Monitoring and Control](assets/images/software-architecture/monitoring-diagram.png)
+
+### Reports Bounded Context
+
+Este diagrama corresponde al Reports Bounded Context, encargado de la generación y gestión de reportes dentro del sistema. El agregado principal es Report, que contiene información sobre el usuario que lo solicita, la parcela asociada, el tipo de reporte, el rango de fechas, el estado del proceso y el contenido generado. Los reportes pueden ser de tipo Parcel o General, y su ciclo de vida se refleja en el ReportStatus, que abarca estados como REQUESTED, PROCESSING, GENERATED o FAILED. A través de este contexto, los usuarios pueden solicitar reportes, generar información consolidada y manejar errores en caso de fallos durante la generación.
+
+![Class Diagram - Reports](assets/images/software-architecture/report-diagram.png)
+
+
 ## 4.8. Database Design
-### 4.8.1. Database Diagram
+### 4.8.1. Database Diagrams
+
+El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
+
+![Database Diagram](assets/images/software-architecture/ecotrack-databe.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
+
+* ### Gestión de Proyectos y Tareas
+
+| **Herramienta**     | **Uso principal**                                                                                        | **Enlace / Ruta de Acceso**                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Trello**          | Organización de tareas y entregables mediante tableros ágiles, tanto a nivel individual como por módulo. | [https://trello.com](https://trello.com)                 |
+| **Pivotal Tracker** | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y predicción.        | [https://pivotaltracker.com](https://pivotaltracker.com) |
+
+
+* ### Gestión de Requisitos
+
+| **Herramienta**     | **Uso principal**                                                                                        | **Enlace / Ruta de Acceso**                              |
+| ------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **Trello**          | Organización de tareas y entregables mediante tableros ágiles, tanto a nivel individual como por módulo. | [https://trello.com](https://trello.com)                 |
+| **Pivotal Tracker** | Seguimiento de proyectos con enfoque en historias de usuario, métricas de velocidad y predicción.        | [https://pivotaltracker.com](https://pivotaltracker.com) |
+
+* ### Diseño de Experiencia y UI/UX
+
+| **Herramienta** | **Uso principal**                                                            | **Enlace / Ruta de Acceso**                      |
+| --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------ |
+| **Figma**       | Diseño colaborativo de wireframes, mockups y prototipos navegables.          | [https://figma.com](https://figma.com)           |
+| **Lucidchart**  | Elaboración de user flows, wireflows y diagramas de procesos o arquitectura. | [https://lucidchart.com](https://lucidchart.com) |
+| **UXPressia**   | Creación de User Personas, Empathy Maps, Journey Maps e Impact Maps.         | [https://uxpressia.com](https://uxpressia.com)   |
+| **Miro**        | Diseño colaborativo en tiempo real de mapas de experiencia (As-Is y To-Be).  | [https://miro.com](https://miro.com)             |
+
+* ### Pruebas de Software
+
+| **Herramienta** | **Uso principal**                                                                                                                |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Gherkin**     | Lenguaje para definir criterios de aceptación de **User Stories** en un formato entendible por todos los integrantes del equipo. |
+
+
+* ### Desarrollo de Software
+
+| **Herramienta / Tecnología** | **Uso principal**                                                                                        | **Enlace / Ruta de Descarga**                                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **WebStorm**                 | Desarrollo de la landing page con HTML5, CSS3, JavaScript y Tailwind CSS.                                | [https://www.jetbrains.com/webstorm](https://www.jetbrains.com/webstorm)                               |
+| **IntelliJ IDEA**            | Creación y edición del archivo README.md para la documentación del proyecto.                             | [https://www.jetbrains.com/idea](https://www.jetbrains.com/idea)                                       |
+| **HTML5**                    | Lenguaje de marcado para estructurar el contenido de la landing page.                                    | [https://developer.mozilla.org/docs/Web/HTML](https://developer.mozilla.org/docs/Web/HTML)             |
+| **CSS3**                     | Lenguaje de estilos para definir la apariencia visual de la landing page.                                | [https://developer.mozilla.org/docs/Web/CSS](https://developer.mozilla.org/docs/Web/CSS)               |
+| **JavaScript**               | Lenguaje de programación para manipular el DOM e implementar la internacionalización en la landing page. | [https://developer.mozilla.org/docs/Web/JavaScript](https://developer.mozilla.org/docs/Web/JavaScript) |
+
+* ### Diseño de Arquitectura de Software
+
+| **Herramienta**     | **Uso principal**                                                                             | **Enlace / Ruta de Acceso**                                |
+| ------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Structurizr DSL** | Modelado de arquitectura con el enfoque C4, mediante la técnica *Diagrams-as-Code*.           | [https://structurizr.com/dsl](https://structurizr.com/dsl) |
+| **PlantUML**        | Creación de diagramas UML a partir de texto, compatible con Markdown y documentación técnica. | [https://plantuml.com](https://plantuml.com)               |
+| **Vertabelo**       | Diseño visual y profesional de bases de datos relacionales.                                   | [https://vertabelo.com](https://vertabelo.com)             |
+
+* ### Despliegue de Software
+| **Herramienta / Plataforma** | **Uso principal**                                    | **Enlace / Ruta de Acceso**                        |
+| ---------------------------- | ---------------------------------------------------- | -------------------------------------------------- |
+| **Netlify**                  | Despliegue automático y gratuito de la landing page. | [https://www.netlify.com](https://www.netlify.com) |
+
+* ### Documentación de Software
+
+| **Herramienta / Recurso** | **Uso principal**                                                                                      | **Enlace / Ruta de Acceso**                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| **IntelliJ IDEA**         | Edición y mantenimiento del archivo README.md asociado a la documentación del proyecto.                | [https://www.jetbrains.com](https://www.jetbrains.com)                                                             |
+| **GitHub**                | Repositorio con control de versiones, utilizado además como espacio de documentación en issues y PRs.  | [https://github.com](https://github.com)                                                                           |
+| **Git**                   | Sistema distribuido de control de versiones para la gestión del código fuente.                         | [https://git-scm.com](https://git-scm.com)                                                                         |
+| **GitFlow Workflow**      | Modelo de ramificación para mantener el código y la documentación organizados.                         | [https://nvie.com/posts/a-successful-git-branching-model](https://nvie.com/posts/a-successful-git-branching-model) |
+| **Conventional Commits**  | Convención de mensajes de commit para mejorar la trazabilidad y facilitar la generación de changelogs. | [https://www.conventionalcommits.org](https://www.conventionalcommits.org)                                         |
+
 ### 5.1.2. Source Code Management
+
+El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de control de versiones para todos los entregables del proyecto Demy. Se aplicará la estrategia de ramificación GitFlow Workflow, con el uso de Semantic Versioning y mensajes estructurados bajo la convención de Conventional Commits.
+
+#### Repositorios del Proyecto
+
+| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
+|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
+| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
+| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+
+#### Modelo GitFlow
+Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
+
+* main: contiene las versiones estables listas para producción.
+* develop: integra nuevas funcionalidades antes de pasar al entorno de producción.
+
+  | **Tipo de rama** | **Uso principal**                                | **Convención de nombres**      | **Ejemplo**               |
+    | ---------------- | ------------------------------------------------ | ------------------------------ | ------------------------- |
+  | **feature**      | Desarrollo de funcionalidades nuevas.            | `feature/<nombre-descriptivo>` | `feature/sprint1-salim`   |
+  | **release**      | Preparación de una versión previa al despliegue. | `release/vX.Y.Z`               | `release/v1.0.0`          |
+  | **hotfix**       | Corrección rápida de errores en producción.      | `hotfix/<problema>`            | `hotfix/fix-crash-navbar` |
+
+#### Versionado Semántico
+
+Se implementará el esquema Semantic Versioning 2.0.0, con el formato:
+
+**MAJOR.MINOR.PATCH**
+
+* **MAJOR**: cambios incompatibles con versiones anteriores.
+
+* **MINOR**: incorporación de nuevas funciones compatibles.
+
+* **PATCH**: corrección de errores o mejoras menores.
+
+#### Conventional Commits
+
+Los mensajes de commit seguirán el estándar Conventional Commits para asegurar trazabilidad y generar changelogs automáticos.
+
+**Formato general:**
+<tipo>(opcional-scope): descripción breve
+
+* Tipos de commit definidos:
+
+* feat: nueva funcionalidad
+
+* fix: corrección de errores
+
+* docs: cambios en documentación
+
+* style: ajustes de formato (espacios, comas, etc.)
+
+* refactor: modificaciones de código sin impacto en funciones o errores
+
+* test: adición o modificación de pruebas
+
+* chore: tareas de mantenimiento o generales
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de mantener un código ordenado, consistente y fácil de mantener entre todos los miembros del equipo, se han definido las siguientes convenciones. Todas las variables, funciones, clases, archivos y elementos estarán en inglés.
+
+- Se utilizará **inglés** como idioma único para nombres de variables, funciones, clases, comentarios y documentación.
+- Se evitarán abreviaciones innecesarias y nombres genéricos como `data1`, `temp`, `info`, etc.
+
+**HTML**
+Atributos en minúsculas y nombres de clase con **kebab-case** (`section-title`, `main-container`).
+- Estructura semántica clara: uso de etiquetas como `<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`.
+- Sangría con 2 espacios.
+- Atributos ordenados de manera lógica: `id`, `class`, `type`, `name`, `placeholder`, `value`, `required`, etc.
+
+**CSS**
+
+- Para clases personalizadas: usar **kebab-case**.
+- Se agruparán clases de utilidad por orden lógico (layout -> spacing -> color -> typography).
+
+**Google TypeScript Style Guide**
+
+Basado en el [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html), se adoptan las siguientes reglas para mantener un código limpio y coherente:
+
+Nombres y sintaxis:
+- **camelCase** para variables, funciones y parámetros.
+- **PascalCase** para clases, interfaces, enums y tipos.
+- Constantes con `UPPER_CASE_WITH_UNDERSCORES` si son globales.
+
+Módulos y imports:
+- Preferir **imports explícitos y ordenados**: primero bibliotecas externas, luego internas.
+- Evitar `default exports`, usar siempre `export const` o `export class`.
+
+Tipado y declaraciones:
+- Siempre tipar explícitamente los parámetros y valores de retorno de funciones.
+- Evitar `any` excepto cuando sea estrictamente necesario.
+- Usar `readonly` para propiedades que no deben cambiarse.
+- Interfaces en lugar de `type` cuando sea posible.
+
+Buenas prácticas:
+- Preferir `const` sobre `let`, y evitar `var`.
+- Evitar usar `this` fuera de clases.
+- No mezclar funciones y lógica en componentes — delegar a servicios.
+
+**Vue.js**
+
+- Seguir la [Vue 3 Style Guide (Oficial)](https://vuejs.org/style-guide/), especialmente las reglas **“Essentials”** y **“Strongly Recommended”**.
+- Componentes deben nombrarse en **PascalCase** (`UserCard.vue`, `HeroSection.vue`).
+- Archivos `.vue` deben tener una única raíz (`<template>`, `<script>`, `<style>`).
+- Uso claro de `v-bind`, `v-model`, `v-if`.
+- Eventos deben seguir `kebab-case` en los templates (`@form-submitted`).
+- Evitar lógica compleja dentro de los templates.
+- Separar componentes base (`BaseButton`, `BaseInput`) de componentes de dominio.
+
+**Pruebas / Gherkin**
+
+En caso de usar Gherkin (para especificaciones o pruebas): <br>
+- Usaremos el formato Given When And Then
+
+
 ### 5.1.4. Software Deployment Configuration
+
+*Figura 1.* Configuración de GitHub Pages en el repositorio de la landing page.
+
+![Form](assets/images/deployment1.PNG)
+
+
+*Figura 2.* Se ingresó a setting y luego a pages.
+
+![Form](assets/images/deployment2.PNG)
+
+*Figura 3.* seleccionamos la rama en la que se encuentre alojado el proyecto.
+
+![Form](assets/images/deployment3.PNG)
+
+
+*Figura 4.* Esperamos la URL autogenerada por githubpages.
+
+![Form](assets/images/deployment5.PNG)
+
+- Enlace de la landing page desplegada: [Evidencia landing page](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
@@ -455,6 +1119,37 @@ De acuerdo con Puntel et al. (2022), la adopción de la agricultura digital en S
 
 # Conclusiones
 
+**Validación del Problema y la Solución**
+
+* Se confirmó la necesidad real en el sector agrícola peruano de herramientas digitales accesibles para la gestión de parcelas y cultivos
+* EcoTrack se posicionó exitosamente como una solución que equilibra simplicidad tecnológica con conocimiento agrícola especializado
+* Las entrevistas con 6 usuarios validaron las dificultades en la gestión manual y la apertura hacia soluciones digitales intuitivas
+
+**Comprensión Profunda del Usuario**
+
+* Los User Personas desarrollados reflejan con precisión las características demográficas, tecnológicas y de comportamiento identificadas
+* Se confirmó que tanto agricultores como agrónomos valoran especialmente funcionalidades como alertas climáticas, recordatorios de tareas y reportes simplificados
+* La investigación reveló la importancia de balancear funcionalidades avanzadas con simplicidad de uso
+
+**Arquitectura de Información Efectiva**
+* Se estableció una organización clara del contenido basada en sistemas jerárquicos, matriciales y por audiencia
+* El sistema de etiquetado emplea vocabulario cercano al sector agrícola, reduciendo barreras de entrada
+* Se implementaron estrategias SEO apropiadas para maximizar la visibilidad en buscadores especializados
+
+**Diseño Visual Coherente**
+* Se desarrolló una identidad visual que transmite confianza, naturaleza e innovación
+* Los lineamientos de estilo aseguran consistencia visual entre la landing page y futuras funcionalidades
+* Se priorizó la accesibilidad considerando las limitaciones tecnológicas del público objetivo
+
+**Fundamentos Técnicos Establecidos**
+
+* La arquitectura basada en Domain-Driven Design facilita el desarrollo escalable
+* Se establecieron procesos claros de desarrollo y documentación para futuras entregas
+
+Esta primera entrega ha sentado las bases necesarias para desarrollar una solución que responda efectivamente a las necesidades del sector agrícola peruano, con un enfoque centrado en el usuario y una arquitectura sólida para el crecimiento futuro.
+
+
+
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
@@ -462,3 +1157,6 @@ Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% 
 Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
 
 # Anexos
+
+- Entrevistas: 
+- Video de exposición: 
