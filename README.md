@@ -18,13 +18,13 @@
 
 ### Team Members:
 
-|             Member              |   Code    |
-|:-------------------------------:|:---------:|
-|       Amaro Villar Anjali       | 20221G044 |
-| Baquerizo Cirilo Aaron Santiago |    ...    |
-|  Mostajo Orosco Maria Fernanda  |    ...    |
-|  Navarro Correa César Augusto   |    ...    |
-|  Tuesta Marin Romina Alejandra  |    ...    |
+|             Member              |    Code     |
+|:-------------------------------:|:-----------:|
+|       Amaro Villar Anjali       |  20221G044  |
+| Baquerizo Cirilo Aaron Santiago | U202520156  |
+|  Mostajo Orosco Maria Fernanda  | U202312874  |
+|  Navarro Correa César Augusto   | U202310129  |
+|  Tuesta Marin Romina Alejandra  | U202211706  |
 
 <strong> Setiembre 2025</strong><br>
 </div>
@@ -34,13 +34,18 @@
 | Versión | Fecha      | Autor        | Descripción de modificación                   |
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
-|         |            |              |                                               |
+| 1.1     | 31/08/2005 | Anjali Amaro | Realizacion del Capitulo I.                   |
 |         |            |              |                                               |
 |         |            |              |                                               |
 |         |            |              |                                               |
 |         |            |              |                                               |
 
 # Project Report Collaboration Insights
+
+
+
+
+
 
 ---
 
@@ -1152,3 +1157,6 @@ Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% 
 Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How digital is agriculture in a subset of countries from South America? Adoption and limitations*. Crop and Pasture Science, 74(6), 555–572. https://doi.org/10.1071/CP21759
 
 # Anexos
+
+- Entrevistas: 
+- Video de exposición: 
