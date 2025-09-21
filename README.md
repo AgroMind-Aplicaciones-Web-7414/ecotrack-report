@@ -1078,6 +1078,27 @@ En caso de usar Gherkin (para especificaciones o pruebas): <br>
 
 
 ### 5.1.4. Software Deployment Configuration
+
+*Figura 1.* Configuración de GitHub Pages en el repositorio de la landing page.
+
+![Form](assets/images/deployment1.PNG)
+
+
+*Figura 2.* Se ingresó a setting y luego a pages.
+
+![Form](assets/images/deployment2.PNG)
+
+*Figura 3.* seleccionamos la rama en la que se encuentre alojado el proyecto.
+
+![Form](assets/images/deployment3.PNG)
+
+
+*Figura 4.* Esperamos la URL autogenerada por githubpages.
+
+![Form](assets/images/deployment5.PNG)
+
+- Enlace de la landing page desplegada: [Evidencia landing page](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
