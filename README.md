@@ -42,7 +42,10 @@
 
 # Project Report Collaboration Insights
 
+### TB1 
 
+ ![TB1](./assets/images/network.png)
+ ![TB1](./assets/images/colab.png)
 
 
 
@@ -165,9 +168,9 @@ del ABET – EAC - Student Outcome 5.
 |:----------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img src="assets/images/members/anjali-amaro.jpg" width="300"/>  | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
 | <img src="assets/images/members/MariaFernanda.png" width="300"/> | **Maria Fernanda Mostajo Orosco \- u202312874** <br> Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                              | 
-|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
+| <img src="assets/images/members/aaron-baquerizo.jpg" width="300" /> |                                                              Mi nombre es Aaron, estudio Ingeniria de Software en la UPC de Monterrico. Me considero alguien responsable que bisca aprender mas sobre cosas nuevas, decidido a apoyar a cada miembro del equipo para lograr el mejor resultado. Asimismo, espero que mis habilidades puedan ser de utilidad para completar el trabajo de la forma mas efectiva.                                                               | 
+|         <img src="assets/images/members/foto_romina.jpeg">          | Romina Tuesta Marin - u202211706 <br> Mi nombre es Romina Tuesta, tengo 20 años, estudio ingeniería de software y me encuentro en 7mo ciclo. Me considero una persona responsable y dispuesta a ayudar a quien necesite en mi grupo, tengo conocimiento en algunos lenguajes de programación como Python, C++, etc. Creo que la mejor manera de desarrollar un proyecto grupal es mantener buena comunicación y que todos se dediquen enteramente a entregar un buenproducto. | 
+|                                                                     |                                                                            Mi nombre es Cesar Navarro, tengo 19 años y soy de la carrera de Ingeniería de Software de la UPC. Me considero una persona creativa en la realización de los trabajos y resiliente en mis actividades. Tengo conocimientos de lenguajes de programación en C++ y Python, pues siempre tuve interés en la computación.                                                                             | 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -2224,5 +2227,5 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 
 # Anexos
 
-- Entrevistas: 
-- Video de exposición: 
+- Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=FnurJA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQ0OC4xfX0%3D
+- Video de exposición: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m)
