@@ -35,7 +35,7 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
 | 1.1     | 31/08/2005 | Anjali Amaro | Realizacion del Capitulo I.                   |
-|         |            |              |                                               |
+| 1.0     | 11/09/2025 | Maria Fernanda Mostajo | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
 |         |            |              |                                               |
 |         |            |              |                                               |
 |         |            |              |                                               |
@@ -108,7 +108,6 @@
         - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
         - [4.7.1. Class Diagrams](#471-class-diagrams)
-        - [4.7.2. Class Dictionary](#472-class-dictionary)
     - [4.8. Database Design](#48-database-design)
         - [4.8.1. Database Diagram](#481-database-diagram)
 - [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
@@ -162,13 +161,13 @@ del ABET – EAC - Student Outcome 5.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-|                             Miembro                             |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
-|:---------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="assets/images/members/anjali-amaro.jpg" width="300"/> | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
-|                                                                 |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                             Miembro                              |                                                                                                                                                                                   Descripción                                                                                                                                                                                   |
+|:----------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| <img src="assets/images/members/anjali-amaro.jpg" width="300"/>  | **Anjal Amaro Villar \- u20221g044** <br> Mi nombre es Anjali Amaro, tengo 20 años y estoy cursando el 5to ciclo en la carrera deIngeniería de Software en la UPC. Me considero una persona organizada y responsable con el objetivo de crear un ambiente colaborativo y productivo en mi equipo, contribuyendo con dedicación y compromiso para lograr los mejores resultados. |
+| <img src="assets/images/members/MariaFernanda.png" width="300"/> | **Maria Fernanda Mostajo Orosco \- u202312874** <br> Mi nombre es Maria Fernanda Mostajo, estoy estudiando la carrera de Ingeniería de Software en la UPC, tengo conocimientos en los lenguajes de programación C++, Python, HTML, CSS, JavaScript y SQL. Además, cuento con habilidades de trabajo en equipo, el cual me permitira realizar un buen trabajo y cumplir con los objetivos planteados en el tiempo establecido.                                                                                                                                                              | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
+|                                                                  |                                                                                                                                                                                                                                                                                                                                                                                 | 
 
 ## 1.2. Solution Profile
 ### 1.2.1. Antecedentes y problemática
@@ -671,10 +670,67 @@ Las entrevistas fueron diseñadas con el objetivo de explorar en profundidad las
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
+Segmento Objetivo #1: Agricultores
+
+![Agricultores](./assets/images/screenshots/Juan%20Carlos.png)
+
+Segmento Objetivo #2: Agrónomos
+
+![Agrónomos](./assets/images/screenshots/Ana%20Morales.png)
+
 ### 2.3.2. User Task Matrix
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+| Tarea | Frecuencia | Importancia |
+|-------|------------|-------------|
+| Registrar labores agrícolas (riego, fertilización, cosecha) | Alta | Alta |
+| Organizar costos de producción e insumos (semillas, fertilizantes, agua) | Media | Alta |
+| Planificar cultivos y campañas agrícolas futuras | Media | Alta |
+| Recibir alertas sobre clima y riesgos de plagas/enfermedades | Media | Alta |
+| Registrar rendimientos de cosecha (volumen, calidad) | Media | Alta |
+| Llevar el control de inventario de insumos | Media | Alta |
+| Acceder a información de trazabilidad para comercialización | Baja | Alta |
+| Consultar historial de actividades y compararlo con campañas anteriores | Baja | Media |
+| Compartir información con agrónomos o asociaciones | Baja | Media |
+| Revisar tutoriales o capacitaciones dentro de la app | Baja | Media |
+
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+| Tarea | Frecuencia | Importancia |
+|-------|------------|-------------|
+| Revisar datos de campo actualizados en tiempo real | Alta | Alta |
+| Dar recomendaciones técnicas (riego, fertilización, control de plagas) | Alta | Alta |
+| Generar reportes técnicos y de trazabilidad para clientes | Media | Alta |
+| Comparar información entre distintos agricultores/cultivos | Media | Alta |
+| Supervisar el cumplimiento de labores agrícolas registradas | Media | Alta |
+| Centralizar información dispersa de múltiples clientes en un solo sistema | Media | Alta |
+| Contactar agricultores para aclarar dudas o coordinar | Media | Media |
+| Analizar alertas de clima o riesgos para anticipar problemas | Media | Alta |
+| Organizar su agenda de visitas y asesorías | Alta | Media |
+| Capacitar agricultores en buenas prácticas agrícolas | Baja | Media |
+| Buscar nuevos agricultores para asesorar y ampliar su red de clientes | Baja | Media |
+
 ### 2.3.3. User Journey Mapping
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+![AgricultorMap](./assets/images/screenshots/UserJourneyMappingJuan.png)
+
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+![AgronomoMap](./assets/images/screenshots/UserJourneyMapping2.png)
+
 ### 2.3.4. Empathy Mapping
-### 2.4. Big Picture EventStorming
+
+Segmento Objetivo #1: Juan Carlos (Agricultor de pequeña escala)
+
+![AgricultorEmpathyMap](./assets/images/screenshots/Juan%20Carlos%20(3).png)
+
+Segmento Objetivo #2: Ana Morales (Ingeniera Agrónoma independiente)
+
+![AgronomoEmpathyMap](./assets/images/screenshots/Ana%20Morales%20(1).png)
+## 2.4. Big Picture EventStorming
 
 En esta sección se introduce y resume el proceso realizado por el equipo para el Big Picture Event Storming, que fue <br>
 realizado mediante una llamada en discord y plasmado con la ayuda de la herramienta Miro. A continuación, se explica el proceso <br>
@@ -887,40 +943,150 @@ Enlace del Product Backlog: <a href="https://www.google.com/](https://trello.com
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+
+El propósito de esta sección es establecer las pautas generales de estilo que guiarán el desarrollo visual y comunicacional de EcoTrack, una plataforma digital diseñada para apoyar a agricultores y agrónomos en la gestión eficiente de sus cultivos, facilitando la trazabilidad, organización de labores agrícolas y toma de decisiones basadas en datos.
+Estas directrices buscan asegurar la coherencia estética, funcional y de experiencia de usuario en todos los puntos de contacto de la plataforma web, empleando herramientas de diseño como Figma. Funcionan como una guía centralizada para el equipo de diseño, desarrollo y marketing, garantizando que la identidad de EcoTrack se mantenga consistente, accesible y alineada con sus valores de sostenibilidad, innovación y confianza.
+
+### Branding:
+
+El logotipo de EcoTrack es el principal símbolo de identidad de la marca y comunica el enfoque tecnológico y sostenible de la startup. El diseño del logo combina elementos naturales con un estilo moderno, utilizando tonos verdes y azules que evocan agricultura, confianza y tecnología.
+
+<img src="assets/images/screenshots/logo%20(2).png" width="30%"/>
+
+A continuación, se detallan las decisiones relacionadas con su uso y aplicación:
+
+- Logo principal: Se debe usar en su versión completa siempre que sea posible, preferentemente sobre fondos claros o naturales que refuercen la conexión con la sostenibilidad.
+
+- Adaptación en Figma: El logo debe almacenarse como un componente reutilizable con versiones de alta resolución y fondo transparente, lo que facilitará su implementación en distintas pantallas y materiales de comunicación.
+
+
+### Typography:
+
+La tipografía es uno de los elementos más importantes en la creación de una identidad visual coherente. Para EcoTrack , hemos seleccionado fuentes que transmiten tecnología, claridad y profesionalismo:
+
+- Fuente principal: La fuente seleccionada es Poppins, moderna y legible, que comunica tecnología cercana y simple. Se usará en Bold para encabezados y títulos principales, y en Regular para el cuerpo de texto.
+- Fuente secundaria:
+  Para descripciones, subtítulos y formularios se recomienda Inter, una tipografía limpia y altamente legible en pantallas pequeñas, ideal para la experiencia móvil de agricultores y agrónomos.
+
+### Colors:
+
+La paleta de colores busca transmitir sostenibilidad, confianza y modernidad, alineada con la misión de Agromind de impulsar la digitalización agrícola.
+
+- Color primario:
+
+#2E7D32 (Verde Sustentable) – Representa el vínculo con la tierra, la productividad y la sostenibilidad. Será utilizado en botones principales, encabezados y elementos de énfasis.
+- Color secundario:
+
+#FFFFFF (Blanco) – Aporta limpieza y equilibrio. Servirá como color de fondo en la mayoría de interfaces, permitiendo claridad y foco en la información.
+- Color terciario:
+
+#1A1A1A (Negro Suave) – Se empleará para los textos principales sobre fondos claros, asegurando una excelente legibilidad.
+
+- Color de realce:
+
+#2196F3 (Azul Tecnológico) – Evoca confianza y tecnología. Se usará en botones secundarios, hipervínculos e iconos interactivos que requieran captar la atención del usuario.
+
+- Color de alerta:
+
+#FF7A00 (Naranja Cálido)
+Para llamadas a la acción inmediatas o notificaciones relevantes, captando la atención de forma amigable
+
+
+Aplicación en Figma:
+Estos colores deben guardarse como Color Styles accesibles a todo el equipo, garantizando consistencia en cada componente y pantalla.
+
+
+### Spacing: 
+
+El uso correcto del espacio refuerza la claridad, simplicidad y organización que EcoTrack quiere transmitir a sus usuarios, facilitando una navegación sin fricciones.
+
+- Padding y Márgenes:
+
+Para mantener una sensación de estructura y simplicidad, se recomienda utilizar 60px de padding entre secciones .entre secciones principales en pantallas de escritorio. Entre bloques de contenido debe haber un espacio de alrededor de 40px , asegurando que cada componente tenga espacio para “respirar” y que la información pueda ser escaneada visualmente con facilidad.
+
+- Espaciado entre Elementos:
+
+El espacio entre elementos interactivos (botones, íconos y campos de entrada) debe ser de 20px . Esto mejora la legibilidad, facilita la interacción con el contenido y permite una experiencia fluida tanto en pantallas grandes como en resoluciones adaptativas.
+
+- Aplicación en Figma:
+
+En Figma, se utilizará el sistema de Auto Layout para mantener la consistencia en los espacios y asegurar que los elementos se ajusten correctamente en diferentes tamaños de pantalla. Los componentes deberán incluir valores predefinidos de padding y margen.
+
+### Tono de comunicación:
+
+El tono de EcoTrack debe reflejar cercanía, claridad y empoderamiento, alineado con el objetivo de acompañar al agricultor en su digitalización sin generar barreras.
+
+- Cercano y accesible: El lenguaje debe ser sencillo, evitando tecnicismos innecesarios, de manera que agricultores con distintos niveles de experiencia tecnológica puedan comprender fácilmente la plataforma.
+
+
+- Positivo y motivador: El tono debe transmitir confianza en que el agricultor puede mejorar su productividad y trazabilidad con pequeñas acciones dentro de la app.
+
+
+- Profesional y confiable: En la comunicación hacia agrónomos, el estilo debe ser más técnico, reforzando la idea de datos confiables y soporte para decisiones estratégicas.
+
+Aplicación en Figma:
+
+En botones y mensajes interactivos se usarán verbos de acción como Registrar, Consultar, Optimizar.
+
+Las alertas deben invitar a la acción sin ser alarmistas. Ejemplo: “Revisa el riego de tus cultivos hoy” en lugar de mensajes negativos.
+
 ### 4.1.2. Web Style Guidelines
+
+- Typography
+
+Tipografía principal: Poppins
+
+Título principal (32px)
+
+Subtítulo (24px)
+
+Cuerpo de texto (16px)
+
+Tipografía secundaria: Inter
+
+Descripciones y textos pequeños (14px)
+
+Etiquetas y formularios (12px)
+
+- Colors
+
+A continuación, presentaremos los colores elegidos junto a su respectivo código identificador en Figma.
+
+Colores elegidos para la versión web
+
+<img src="./assets/images/screenshots/colors.png" width="35%">
+
+- Spacing
+
+A continuación, presentaremos las decisiones de espaciado elegidas.
+
+Espaciado elegido entre elementos de la plataforma web
+
+<img src="assets/images/screenshots/spacing.png" width="25%">
+
+- Assets
+
+A continuación, mostraremos las imágenes referenciales de los assets elegidos.
+
+Plantilla usada para la versión Desktop
+
+<img src="./assets/images/screenshots/Plantilla_Landing.png" width="60%">
+
+Pantalla de inicio
+
+<img src="./assets/images/screenshots/inicio-landing.png" width="60%">
+
 ## 4.2. Information Architecture
 
-La arquitectura de información de **EcoTrack** busca garantizar que los usuarios encuentren de manera clara y rápida las funcionalidades necesarias para gestionar sus actividades agrícolas. El diseño está orientado a ofrecer una experiencia simple, intuitiva y coherente, tanto en la aplicación web como en la landing page, evitando la sobrecarga de información y priorizando la usabilidad.
-
-Las decisiones tomadas en esta sección están alineadas con los principios de accesibilidad y con la naturaleza del público objetivo: agrónomos y agricultores que requieren una plataforma práctica, que reduzca tiempos y facilite el control de parcelas, tareas y reportes.
-
----
+En esta sección, presentaremos las decisiones y las razones que guían la manera en que se estructura el contenido de la experiencia web, incluyendo la página de inicio (Landing Page) y las aplicación. Estas propuestas se enfocan mayormente en garantizar que los usuarios puedan adaptarse fácilmente a las funcionalidades de cada producto y encuentren sin dificultad lo que busquen.
 
 ### 4.2.1. Organization Systems
 
-En **EcoTrack** la organización de la información busca que los usuarios —agrónomos y agricultores— puedan localizar fácilmente lo que necesitan, ya sea para planificar, registrar o monitorear. Se aplicarán diferentes sistemas de organización dependiendo del tipo de contenido:
+Cuadro de cómo se estructura la información del landing page
 
-- **Jerárquica (Visual Hierarchy):**  
-  Se utilizará en el dashboard principal, donde se debe destacar lo más relevante: número de parcelas activas, tareas pendientes y alertas climáticas.  
-  La jerarquía guiará la mirada del usuario desde los indicadores más importantes hasta los detalles secundarios, como botones de acción o enlaces de apoyo.
+<img src="./assets/images/screenshots/landing-org%20.png" width="70%">
 
-- **Matriz (Grid):**  
-  Se aplicará en la vista de Parcelas, donde cada parcela se mostrará como una tarjeta individual con datos resumidos (nombre, cultivo asignado, responsable y estado de monitoreo).  
-  Esta organización permite que los usuarios naveguen de forma visual y ordenada entre múltiples parcelas, identificando rápidamente la que necesitan sin tener que recorrer menús extensos.
-
-- **Secuencial (Step-by-step):**  
-  Se usará en procesos guiados, como registrar una nueva parcela, asignar un agricultor o configurar umbrales de cultivo.  
-  El flujo paso a paso evita errores y ayuda a los usuarios con menor experiencia digital a completar sus tareas sin dificultad.
-
-- **Por tópicos:**  
-  El contenido se organizará en módulos temáticos como Organización, Parcelas, Tareas y Reportes.  
-  Esto facilita que los usuarios accedan directamente al tipo de información que buscan sin perderse en secciones irrelevantes.
-
-- **Según audiencia (roles):**  
-  **EcoTrack** diferencia las vistas según el rol. Un agrónomo tiene acceso a herramientas de gestión y configuración (usuarios, reportes, umbrales), mientras que un agricultor ve opciones más operativas (tareas asignadas, registros de cultivos y condiciones ambientales).
-
----
-
+Cuadro de cómo se estructura la información de la aplicación web
 ### 4.2.2. Labeling Systems
 
 El sistema de etiquetado en **EcoTrack** está diseñado para ser intuitivo, breve y cercano al vocabulario agrícola. Se busca que las etiquetas comuniquen con pocas palabras la función de cada sección, evitando tecnicismos innecesarios y facilitando la adopción por parte de usuarios con distintos niveles de experiencia digital.
@@ -1021,9 +1187,60 @@ Ambas experiencias están desarrolladas bajo un enfoque responsive design, lo qu
 Este sistema asegura que la experiencia de navegación sea clara y consistente, reduciendo la curva de aprendizaje y facilitando la orientación del usuario en todo momento.
 
 ## 4.3. Landing Page UI Design
+
+Esta sección se enfoca en el diseño de la interfaz de usuario (UI) de la Landing Page, que es esencial para captar la atención de los usuarios y comunicar de manera efectiva la propuesta de valor del sistema. A continuación, se presentan los wireframes y los mock-ups, dos etapas clave en el proceso de diseño que permiten visualizar y refinar la estructura y apariencia de la página.
 ### 4.3.1. Landing Page Wireframe
+Con respecto a la arquitectura de la Landing Page, para versiones web hemos decidido adoptar un diseño estándar, como lo sería tener en la parte superior la barra de opciones como “Acerca de”, “Servicios”, “Testimonios”, "Contacto", " Iniciar sesión" y "Registrarse". Mientras que la posición de las estructuras de texto e imágenes es bastante amplia separadas lo suficiente una de la otra en su mayoría, aprovechando al máximo la cantidad de espacio que ofrece la visualización desde un monitor, lo que nos permite tener un gran espacio disponible que podemos rellenar con información pero sin llegar a exagerar y hacer ver como si estuviera sobrecargado.
+
+Para su mejor visualización se adjunta el enlace del figma:
+https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
+
+- Ventana de inicio
+
+<img src="./assets/images/screenshots/wireframe-landing-1.png" width="60%">
+
+- Ventana de Acerca de
+
+<img src="./assets/images/screenshots/wireframe-landing-2.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./assets/images/screenshots/wireframe-landing-3.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./assets/images/screenshots/wireframe-landing-4.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./assets/images/screenshots/wireframe-landing-5.png" width="60%">
+
 ### 4.3.2. Landing Page Mock-up
+
+- Ventana de inicio
+
+<img src="./assets/images/screenshots/inicio-landing.png" width="60%">
+
+- Ventana de Acerca de
+
+<img src="./assets/images/screenshots/mockup-landing-1.png" width="60%">
+
+- Ventana de Servicios
+
+<img src="./assets/images/screenshots/mockup-landing-2.png" width="60%">
+
+- Ventana de Testimonios
+
+<img src="./assets/images/screenshots/mockup-landing-3.png" width="60%">
+
+- Ventana de Contacto
+
+<img src="./assets/images/screenshots/mockup-landing-4.png" width="60%">
+
 ## 4.4. Web Applications UX/UI Design
+
+En el diseño de la interfaz de usuario de nuestra aplicación web "EcoTrack", nos enfocamos en ofrecer una experiencia intuitiva, eficiente y visualmente atractiva. Asimismo, seguimos las guías de diseño para optimizar el rendimiento y garantizar que cada parte de la aplicación se adapte de manera fluida a los clientes y trabajadores.
+
 ### 4.4.1. Web Applications Wireframes
 - Vista de Inicio de Sesion
 
@@ -1214,7 +1431,182 @@ registradas en la parcela de la cual se encuentra encargado.
 <img src="assets/images/screenshots/wireflow11.jpg" width="60%">
 
 ### 4.4.2. Web Applications Mock-ups
+Para su mejor visualización se adjunta el enlace del figma: https://www.figma.com/design/lvoCw7poE1cnwIbnE23r0M/Aplicaciones-Web---Agromind?node-id=0-1&t=V7aVIZOy2DB1pbuc-1
+
+- Vista de Iniciar sesión
+
+<img src="./assets/images/screenshots/mockup1.png" width="60%">
+
+- Vista de Crear Cuenta
+  
+<img src="./assets/images/screenshots/mockup2.png" width="60%">
+
+- Vista de Planes
+
+<img src="./assets/images/screenshots/mockup3.png" width="60%">
+
+- Vista de Método de pago
+
+<img src="./assets/images/screenshots/mockup4.png" width="60%">
+
+- Vista de Inicio del Agrónomo
+
+<img src="./assets/images/screenshots/mockup5.png" width="60%">
+<img src="./assets/images/screenshots/mockup6.png" width="60%">
+<img src="./assets/images/screenshots/mockup7.png" width="60%">
+<img src="./assets/images/screenshots/mockup8.png" width="60%">
+<img src="./assets/images/screenshots/mockup9.png" width="60%">
+<img src="./assets/images/screenshots/mockup10.png" width="60%">
+<img src="./assets/images/screenshots/mockup11.png" width="60%">
+<img src="./assets/images/screenshots/mockup12.png" width="60%">
+<img src="./assets/images/screenshots/mockup13.png" width="60%">
+<img src="./assets/images/screenshots/mockup14.png" width="60%">
+<img src="./assets/images/screenshots/mockup15.png" width="60%">
+<img src="./assets/images/screenshots/mockup16.png" width="60%">
+<img src="./assets/images/screenshots/mockup17.png" width="60%">
+<img src="./assets/images/screenshots/mockup18.png" width="60%">
+
+- Vista de Perfil del Agrónomo
+
+<img src="./assets/images/screenshots/mockup19.png" width="60%">
+
+- Vista de Configuración del Agrónomo
+
+<img src="./assets/images/screenshots/mockup20.png" width="60%">
+<img src="./assets/images/screenshots/mockup21.png" width="60%">
+
+- Vista de Inicio del Agricultor
+
+<img src="./assets/images/screenshots/mockup22.png" width="60%">
+<img src="./assets/images/screenshots/mockup23.png" width="60%">
+<img src="./assets/images/screenshots/mockup24.png" width="60%">
+<img src="./assets/images/screenshots/mockup25.png" width="60%">
+<img src="./assets/images/screenshots/mockup26.png" width="60%">
+
+- Vista de Perfil del Agricultor
+
+<img src="./assets/images/screenshots/mockup27.png" width="60%">
+
+- Vista de Configuración del Agricultor
+
+<img src="./assets/images/screenshots/mockup28.png" width="60%">
+<img src="./assets/images/screenshots/mockup29.png" width="60%">
+
 ### 4.4.3. Web Applications User Flow Diagrams
+- User Flow – Agricultor Juan Carlos
+  
+        User goal: “Juan Carlos quiere organizar y dar seguimiento a sus cultivos de manera sencilla para mejorar el control de su producción y reducir pérdidas.”
+
+<img src="./assets/images/screenshots/Userflow1.png" width="80%">
+
+- Explicación de los flujos y condiciones
+
+  - Inicio de sesión / acceso
+
+        Ingresa con usuario y contraseña.
+
+        Happy path: Accede correctamente al Dashboard.
+
+        Unhappy path: Credenciales erróneas o error de conexión → mensaje de error con opción de reintentar.
+
+  - Selección de cultivo
+
+        En el Dashboard, selecciona el cultivo que quiere revisar.
+
+        Happy path: Accede a la vista del cultivo.
+
+        Unhappy path: No tiene cultivos registrados → mensaje “Agrega un cultivo para comenzar”.
+
+  - Visualización de tareas del cultivo
+
+        Ve una lista organizada de tareas pendientes: riego, fertilización, control de plagas, cosecha.
+
+        Cada tarea incluye estado (pendiente, en proceso, completada).
+
+        Happy path: Puede consultar y entender fácilmente las tareas.
+
+        Unhappy path: No tiene tareas, pide crear tarea”.
+
+  - Alertas asociadas al cultivo
+
+        Consulta alertas relevantes (ej. clima extremo, plagas en la zona).
+
+        Happy path: Visualiza alertas actualizadas que le permiten anticiparse a problemas.
+
+        Unhappy path: Falla en la carga → mensaje de error y opción de reintentar.
+
+- User Flow – Ingeniera Agrónoma (Ana Morales)
+
+
+    - User Goal: Ana quiere gestionar y consultar información confiable de los agricultores y sus cultivos para garantizar la trazabilidad y brindar asesorías técnicas precisas.
+
+<img src="./assets/images/screenshots/userflow2.png" width="80%">
+
+
+- Explicación de los flujos y condiciones
+
+  - Inicio de sesión / acceso
+
+        Ana ingresa a la aplicación con sus credenciales.
+
+        Happy path: Accede correctamente a su Dashboard.
+
+        Unhappy path: Error en credenciales o conexión → mensaje de error con opción de reintentar.
+
+  - Dashboard de agrónoma
+
+        Visualiza las organizaciones creadas y la lista de agricultores a su cargo o que asesora.
+
+        Desde aquí puede crear una nueva organización o seleccionar una existente para acceder a la información.
+
+        Happy path: Accede al detalle de la organización seleccionada.
+
+        Unhappy path: Error de carga de organizaciones → mensaje de reintento.
+
+  - Creación de organización
+
+        Ana puede registrar una organización y asociar agricultores.
+
+        Happy path: Organización creada correctamente y agricultores vinculados.
+
+        Unhappy path: Datos incompletos (ej. falta nombre) → mensaje de validación para corregir.
+
+  - Creación de parcelas
+
+        Dentro de la organización, Ana puede crear una parcela con nombre, área, ubicación y cultivo.
+
+        Happy path: Parcela registrada y disponible en la lista de parcelas.
+
+        Unhappy path: Datos incompletos o error de red → advertencia “No se pudo registrar la parcela”.
+
+  - Visualización de parcelas y tareas
+
+        Ana accede a la lista de parcelas creadas y selecciona una para visualizar sus tareas (riego, fertilización, control de plagas, etc.).
+
+        Happy path: Visualiza las tareas organizadas por estado (pendiente, en proceso, completada).
+
+        Unhappy path: Error de conexión o falta de datos → mensaje “No se pudieron cargar las tareas”.
+
+  - Gestión de tareas
+
+        Ana puede crear nuevas tareas dentro de la parcela o consultar las ya registradas.
+
+        Happy path: La tarea se guarda correctamente y se actualiza la lista.
+
+        Unhappy path: Datos faltantes (ej. sin fecha asignada) o error de carga → mensaje de advertencia.
+
+  - Bitácora de actividades
+
+        Dentro de la parcela, Ana accede al botón Bitácora para:
+
+        Ver actividades realizadas previamente.
+
+        Registrar nuevas actividades (ej. aplicación de fertilizante, fumigación).
+
+        Happy path: La actividad se registra y queda guardada en el historial.
+
+        Unhappy path: Falta de información (ej. sin fecha) o fallo de conexión → mensaje de error con opción de reintentar.
+
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 
@@ -1335,7 +1727,45 @@ El diagrama de base de datos de EcoTrack refleja la estructura relacional del si
 ![Database Diagram](assets/images/software-architecture/ecotrack-databe.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
+
+El equipo ha definido un conjunto de herramientas para garantizar una configuración de entorno de desarrollo coherente; de esta maenra, se facilita una colaboración eficiente y el cumplimiento de los objetivos del proyecto. Estas herramientas abarcan diversas fases del ciclo de vida del producto.
+
 ## 5.1. Software Configuration Management
+
+### Project Management
+
+Trello: Utilizaremos Trello para gestionar el product backlog y planificar los sprints. Esta herramienta nos permitirá visualizar las tareas en tableros, asignar responsabilidades y hacer un seguimiento del progreso de manera clara y colaborativa.
+
+Ruta de referencia: https://trello.com/
+
+Whatsapp es la plataforma que usamos para la comunicación en tiempo real entre los miembros del equipo. A través de grupos organizados por temas y funciones, realizamos reuniones, coordinaciones diarias y soporte instantáneo durante todo el proceso de desarrollo.
+
+### Product UX/UI Design
+
+Figma se utiliza como la herramienta principal para el diseño de interfaces gráficas (UI) y la experiencia de usuario (UX). Permite la colaboración simultánea entre varios miembros del equipo en la creación de prototipos interactivos, estructuras visuales y pruebas de diseño.
+
+Ruta de referencia: https://www.figma.com
+
+UXPressia complementa el trabajo de UX al posibilitar la creación y documentación de User Personas, Customer Journey Maps y Empathy Maps. Esto ayuda al equipo a comprender mejor a los usuarios finales y a alinear las decisiones de diseño con sus necesidades.
+
+Ruta de referencia: https://uxpressia.com
+
+### Software Development
+
+Rider es el entorno de desarrollo integrado (IDE) que emplean los desarrolladores del equipo para escribir y depurar código en tecnologías web. Su integración con sistemas de control de versiones, linters y herramientas modernas de desarrollo lo convierte en un entorno robusto.
+
+Ruta de referencia: https://www.jetbrains.com/es-es/rider/
+
+GitHub se utiliza como repositorio remoto centralizado para almacenar y sincronizar el código del proyecto. También se emplea para la revisión del código (pull requests), registro de incidencias, documentación del proyecto y automatización de tareas de despliegue.
+
+Ruta de referencia: https://github.com
+
+### Software Testing
+
+Gherkin es un sistema de etiquetado utilizado para describir los criterios de aceptación de la estructura de una user story.
+
+Ruta de referencia: https://cucumber.io/docs/gherkin
+
 ### 5.1.1. Software Development Environment Configuration
 
 En esta sección se describen las herramientas de software seleccionadas para dar soporte a las distintas fases del ciclo de vida del producto digital. Se incluyen sus nombres, objetivos específicos dentro del proyecto y los enlaces de acceso o descarga, diferenciando entre soluciones SaaS y aplicaciones instalables.
