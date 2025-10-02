@@ -1842,11 +1842,11 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
-|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
-| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
-| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
+| **Producto**               | **Repositorio GitHub**                                                                                                                               |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organización Agromind**  | [https://github.com/AgroMind-Aplicaciones-Web-7414](https://github.com/AgroMind-Aplicaciones-Web-7414)                                               |
+| **Landing Page**           | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report)               |
+| **Report**                 | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage)     |
 
 #### Modelo GitFlow
 Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
