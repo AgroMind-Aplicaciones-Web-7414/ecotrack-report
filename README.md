@@ -1842,12 +1842,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**               | **Repositorio GitHub**                                                                                                                               |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Organización Agromind**  | [https://github.com/AgroMind-Aplicaciones-Web-7414](https://github.com/AgroMind-Aplicaciones-Web-7414)                                               |
-| **Landing Page**           | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report)               |
-| **Report**                 | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage)     |
-
+| **Producto**              | **Repositorio GitHub**                                                                                                                           |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organización Agromind** | [https://github.com/AgroMind-Aplicaciones-Web-7414](https://github.com/AgroMind-Aplicaciones-Web-7414)                                           |
+| **Landing Page**          | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report)           |
+| **Report**                | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage) |
+| **Frontend**              | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-frontend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-frontend)       |
+| **Backend**               | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)         |
 #### Modelo GitFlow
 Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
 
@@ -1855,7 +1856,7 @@ Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas 
 * develop: integra nuevas funcionalidades antes de pasar al entorno de producción.
 
   | **Tipo de rama** | **Uso principal**                                | **Convención de nombres**      | **Ejemplo**               |
-    | ---------------- | ------------------------------------------------ | ------------------------------ | ------------------------- |
+  |------------------|--------------------------------------------------|--------------------------------|---------------------------|
   | **feature**      | Desarrollo de funcionalidades nuevas.            | `feature/<nombre-descriptivo>` | `feature/sprint1-salim`   |
   | **release**      | Preparación de una versión previa al despliegue. | `release/vX.Y.Z`               | `release/v1.0.0`          |
   | **hotfix**       | Corrección rápida de errores en producción.      | `hotfix/<problema>`            | `hotfix/fix-crash-navbar` |
