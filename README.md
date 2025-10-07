@@ -129,7 +129,18 @@
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-
+      - [5.2.2. Sprint 2](#522-sprint-2)
+          - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
+          - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+          - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+          - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+          - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+          - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+          - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+          - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 ---
 
 ## Student Outcome
@@ -1842,12 +1853,13 @@ El equipo empleará GitHub como repositorio de alojamiento y Git como sistema de
 
 #### Repositorios del Proyecto
 
-| **Producto**            | **Repositorio GitHub**                                                                                                                                   |
-|-------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Organización Flowey** | [https://github.com/FloweyTech](https://github.com/FloweyTech)                                     |
-| **Landing Page**        | [https://github.com/FloweyTech/agrotrack-landing-page](https://github.com/FloweyTech/agrotrack-landing-page) |
-| **Report**              | [https://github.com/FloweyTech/agrotrack-report](https://github.com/FloweyTech/agrotrack-report)             |
-
+| **Producto**              | **Repositorio GitHub**                                                                                                                           |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Organización Agromind** | [https://github.com/AgroMind-Aplicaciones-Web-7414](https://github.com/AgroMind-Aplicaciones-Web-7414)                                           |
+| **Landing Page**          | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-report)           |
+| **Report**                | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-landingpage) |
+| **Frontend**              | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-frontend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-frontend)       |
+| **Backend**               | [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)         |
 #### Modelo GitFlow
 Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas principales:
 
@@ -1855,7 +1867,7 @@ Se seguirá el enfoque planteado por Vincent Driessen, el cual define dos ramas 
 * develop: integra nuevas funcionalidades antes de pasar al entorno de producción.
 
   | **Tipo de rama** | **Uso principal**                                | **Convención de nombres**      | **Ejemplo**               |
-    | ---------------- | ------------------------------------------------ | ------------------------------ | ------------------------- |
+  |------------------|--------------------------------------------------|--------------------------------|---------------------------|
   | **feature**      | Desarrollo de funcionalidades nuevas.            | `feature/<nombre-descriptivo>` | `feature/sprint1-salim`   |
   | **release**      | Preparación de una versión previa al despliegue. | `release/vX.Y.Z`               | `release/v1.0.0`          |
   | **hotfix**       | Corrección rápida de errores en producción.      | `hotfix/<problema>`            | `hotfix/fix-crash-navbar` |
@@ -2183,7 +2195,23 @@ Dentro del insight during sprint presentamos los colaboradores del desarollo de 
 
 Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, Anjali Amaro y Cesar Navarro, siendo Romina la que cuenta con la mayor cantidad de commits, continuado por Anjali y finalmente Cesar.
 
+### 5.2.1. Sprint 2
 
+#### 5.2.1.1. Sprint Planning 1
+
+#### 5.2.2.2. Aspect Leaders and Collaborators.
+
+#### 5.2.2.3. Sprint Backlog 2.
+
+#### 5.2.2.4. Development Evidence for Sprint Review.
+
+#### 5.2.2.5. Execution Evidence for Sprint Review.
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7.  Deployment Evidence for Sprint Review.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 # Conclusiones
 
