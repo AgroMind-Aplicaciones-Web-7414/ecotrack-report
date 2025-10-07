@@ -2199,6 +2199,26 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 
 #### 5.2.1.1. Sprint Planning 1
 
+| **Campo** | **Contenido** |
+|------------|----------------|
+| **Sprint 2** | Sprint 2 |
+| **Date** | 01/10/25 |
+| **Time** | 15:00 PM |
+| **Location** | Reunión virtual (discord) |
+| **Prepared By** | Tuesta Marín, Romina |
+| **Attendees (to planning meeting)** | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto |
+| **Sprint 2 – 1 Review Summary** | Se completó la estructura base y el despliegue de la landing page del producto. Además, se aprobó la documentación técnica (wireframes, diagramas y guía de estilos) que servirá como referencia visual para el desarrollo de la interfaz del sistema. |
+| **Sprint 2 – 1 Retrospective Summary** | Se identificó la necesidad de definir un flujo de commits más ordenado en GitHub y una mejor asignación de tareas por módulos. Se acordó establecer una convención de nombres para componentes y commits, además de reuniones de seguimiento cada 3 días. |
+
+---
+
+| **Campo** | **Contenido** |
+|------------|----------------|
+| **Sprint 2 Goal** | El objetivo de este sprint es implementar la primera versión funcional del front end de la aplicación *EcoTrack* utilizando el framework **Vue.js** con **Vite**. Se desarrollarán las vistas principales (Inicio de sesión, Dashboard y Perfil de usuario) basadas en los wireframes aprobados. El equipo configurará el enrutamiento mediante **Vue Router**, establecerá la estructura de componentes reutilizables y aplicará estilos coherentes con la identidad visual definida. Asimismo, se implementará la gestión básica del estado de la aplicación y se integrarán datos simulados (mock data) para validar la interacción dinámica de la interfaz, sentando las bases para futuras integraciones con el back end. |
+| **Sprint 2 Velocity** | 28 points |
+
+
+
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 #### 5.2.2.3. Sprint Backlog 2.
