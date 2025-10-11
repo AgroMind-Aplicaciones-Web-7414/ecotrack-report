@@ -2202,6 +2202,33 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
 #### 5.2.2.3. Sprint Backlog 2.
+En este sprint se desarrollará y desplegará la primera version del Front-end completo de EcoTrack. El equipo se enfocó en crear todas las vistas criticas del sistema utilizando una API simulada. Esto estableció las bases visuales y funcionales que permitieron la validación temprana de la experiencia de usuario.
+
+Herramienta de control: Trello
+
+![Trello](assets/images/screenshots/trello-sprint2.png)
+
+URL del Board: [(Link trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+
+
+
+| User Story ID | User Story Title     | Task ID | Task Title                         | Description                                                                                                               | Estimation<br/>(Hours) | Asigned To | Status      |
+|:--------------|:---------------------|:--------|:-----------------------------------|:--------------------------------------------------------------------------------------------------------------------------|:----------------------:|:-----------|:------------|
+| US01          | Crear organización   | T03     | Desarrollo de Formulario Org       | Diseñar y maquetar el formulario de "Crear Organización" con validaciones FE.                                             |           6            | Maria      | Done        |
+|               |                      | T04     | Implementar Flujo de Creación      | Desarrollar la lógica de creación y la visualización de la vista de inicio del Agrónomo.                                  |           6            | Maria      | Done        |
+| US02          | Invitar miembros     | T06     | Desarrollo de Flujo de Invitación  | Diseñar e implementar la modal de "Invitar Miembro" y el flujo de envío de invitación simulada.                           |           9            | Maria      | Done        |
+| US04          | Bitácora de parcela  | T08     | Desarrollo de Bitácora y Registro  | Diseñar e implementar la vista de la línea de tiempo y el formulario "Registrar Actividad".                               |           10           | Romina     | Done        |
+| US06          | Historial de cultivo | T09     | Desarrollo de Historial/Filtros    | Diseñar e implementar la vista de "Historial de Cultivo" y los componentes de filtrado.                                   |           9            | Anjali     | In-Progress |
+| US10          | Creación de parcela  | T05     | Desarrollo de Formulario Parcela   | Diseñar e implementar el formulario "Crear Parcela" con campos de datos y ubicación simulada.                             |           9            | Maria      | Done        |
+| US13          | Registro de Cultivo  | T01     | Diseño de Formulario de Registro   | Diseñar e implementar el Front-end del formulario de registro (nombre, ubicación simulada, superficie, fecha de siembra). |           8            | Aaron      | Done        |
+|               |                      | T02     | Implementar Lógica de Guardado     | Desarrollar la lógica de Front-end para guardar la información del cultivo con mensaje de confirmación (usando fake API). |           7            | Aaron      | Done        |
+| US16          | Creación de tareas   | T10     | Desarrollo de Formulario Tarea     | Diseñar e implementar la modal "Crear Tarea" (responsable, fecha, prioridad, checklist).                                  |           9            | Romina     | Done        |
+| US18          | Iniciar tarea        | T11     | Implementar Botón Iniciar          | Diseñar la interfaz de la tarea en detalle y la lógica del botón "Iniciar Tarea" (cambio de estado).                      |           5            | Aaron      | Done        |
+| US19          | Completar tarea      | T12     | Implementar Checklist y Cierre     | Desarrollar la interacción de la checklist y el flujo de cierre (botón "Completar Tarea").                                |           5            | Aaron      | Done        |
+| US21          | Reporte general      | T01     | Diseño e Implemntación de Reportes | Diseñar la interfaz de visualizacion de reportes y el flujo de solicitud de un nuevo reporte                              |           12           | Anjali     | Done        |
+| US25          | Editar perfil        | T02     | Desarrollo de Edición              | Diseñar e implementar la pantalla de configuración y la lógica de actualización con fake API.                             |           9            | Cesar      | In-Progress |
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
