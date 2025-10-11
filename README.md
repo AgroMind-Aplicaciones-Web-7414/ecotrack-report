@@ -1739,7 +1739,7 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
-![Database Diagram](assets/images/DB-diagram.PNG)
+![Database Diagram](assets/images/software-architecture/ecotrack-databe.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2362,11 +2362,79 @@ En esta sección se presentan los avances del desarrollo de la página web y las
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+- Login 
+![img_11.png](img_11.png)
+
+- Register
+![img_12.png](img_12.png)
+
+- Organization 
+![img_6.png](img_6.png)
+
+- Plots
+![img_10.png](img_10.png)
+
+- Reports
+![img_8.png](img_8.png)
+
+- Tasks 
+![img_7.png](img_7.png)
+
+- Weather
+![img_9.png](img_9.png)
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
+
+Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi de esta manera poder simular un backend falso y asi poder consumir los datos desde nuestro frontend.
+
+Link del JSON Server:  [mockapi](agrotrack-mockapi.azurewebsites.net)
+
+| Endpoint          | Descripción                                                           |
+|-------------------|-----------------------------------------------------------------------|
+| `/users`          | Gestión de usuarios (registro, autenticación, perfil)                 |
+| `/organizations`  | Gestión de organizaciones agrícolas                                   |
+| `/plots`          | Gestión de parcelas (creación, edición, eliminación)                  |
+| `/tasks`          | Gestión de tareas agrícolas (asignación, seguimien to, recordatorios) |
+| `/reports`        | Generación y visualización de reportes agrícolas                      |
+
+
+
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+Los pasos para la connexion del netlify con el github.
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+
+- Register
+  ![img_12.png](img_12.png)
+
+- Organization
+  ![img_6.png](img_6.png)
+
+- Plots
+  ![img_10.png](img_10.png)
+
+- Reports
+  ![img_8.png](img_8.png)
+
+- Tasks
+  ![img_7.png](img_7.png)
+
+- Weather
+  ![img_9.png](img_9.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![img_13.png](img_13.png)
+![img_14.png](img_14.png)
 
 # Conclusiones
 
@@ -2420,4 +2488,7 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 # Anexos
 
 - Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=FnurJA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQ0OC4xfX0%3D
-- Video de exposición: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m)
+- Video de exposición TB1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m)
+- video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD)
+- Landing page: [https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
+- Web app desplegada: [https://ecotrack-web-app.netlify.app/](https://ecotrack-web-app.netlify.app/) 
