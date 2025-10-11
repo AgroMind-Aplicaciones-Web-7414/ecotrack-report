@@ -2323,4 +2323,7 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 # Anexos
 
 - Entrevistas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EWIynez_N45IjdJ6JFNpOusBxo9mDCzON9DF0V6rEsRh9A?e=FnurJA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MjQ0OC4xfX0%3D
-- Video de exposición: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m)
+- Video de exposición TB1: [https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m](https://upcedupe-my.sharepoint.com/:f:/g/personal/u20221g044_upc_edu_pe/EnBMCQetX49InsIa-k2zH80B88s8QMV8U2lRuWD617qjPg?e=TOVs2m)
+- video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD)
+- Landing page: [https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
+- Web app desplegada: [https://ecotrack-web-app.netlify.app/](https://ecotrack-web-app.netlify.app/) 
