@@ -2216,7 +2216,8 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 
 | **Campo** | **Contenido** |
 |------------|----------------|
-| **Sprint 2 Goal** | El objetivo de este sprint es implementar la primera versión funcional del front end de la aplicación *EcoTrack* utilizando el framework **Vue.js** con **Vite**. Se desarrollarán las vistas principales (Inicio de sesión, Dashboard y Perfil de usuario) basadas en los wireframes aprobados. El equipo configurará el enrutamiento mediante **Vue Router**, establecerá la estructura de componentes reutilizables y aplicará estilos coherentes con la identidad visual definida. Asimismo, se implementará la gestión básica del estado de la aplicación y se integrarán datos simulados (mock data) para validar la interacción dinámica de la interfaz, sentando las bases para futuras integraciones con el back end. |
+| **Sprint 2 Goal** |Nuestro enfoque se centra en entregar la primera versión funcional del front end de EcoTrack con Vue.js y Vite, implementando las vistas principales, el enrutamiento y una estructura de componentes reutilizables. Buscamos ofrecer una **interfaz coherente y dinámica**, validada mediante datos simulados. Esto se confirmará cuando los usuarios puedan navegar entre las vistas sin errores y el equipo de desarrollo pueda ampliar las funcionalidades sin alterar la estructura base.
+ |
 | **Sprint 2 Velocity** | 28 points |
 
 
