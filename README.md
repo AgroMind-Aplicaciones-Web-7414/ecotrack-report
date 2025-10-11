@@ -48,8 +48,8 @@
  ![TB1](./assets/images/colab.png)
 
 ### TP1 
-![TP1](./assets/images/)
-![TP1](./assets/images/)
+![img_16.png](img_16.png)
+![img_15.png](img_15.png)
 
 
 ---
@@ -1739,7 +1739,7 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
-![Database Diagram](assets/images/software-architecture/ecotrack-databe.png)
+![img_17.png](img_17.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
