@@ -2207,11 +2207,79 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+- Login 
+![img_11.png](img_11.png)
+
+- Register
+![img_12.png](img_12.png)
+
+- Organization 
+![img_6.png](img_6.png)
+
+- Plots
+![img_10.png](img_10.png)
+
+- Reports
+![img_8.png](img_8.png)
+
+- Tasks 
+![img_7.png](img_7.png)
+
+- Weather
+![img_9.png](img_9.png)
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+Para este segundo sprint, solo nos enfocamos en el desarrollo del frontend de la aplicación, nos apoyamos de una herramienta que nos permitiera simular un backend falso.
+
+Por ese motivo, hemos desplegaod un JSON Server en la plataforma de Azure y asi de esta manera poder simular un backend falso y asi poder consumir los datos desde nuestro frontend.
+
+Link del JSON Server:  [mockapi](agrotrack-mockapi.azurewebsites.net)
+
+| Endpoint          | Descripción                                                           |
+|-------------------|-----------------------------------------------------------------------|
+| `/users`          | Gestión de usuarios (registro, autenticación, perfil)                 |
+| `/organizations`  | Gestión de organizaciones agrícolas                                   |
+| `/plots`          | Gestión de parcelas (creación, edición, eliminación)                  |
+| `/tasks`          | Gestión de tareas agrícolas (asignación, seguimien to, recordatorios) |
+| `/reports`        | Generación y visualización de reportes agrícolas                      |
+
+
+
 #### 5.2.2.7.  Deployment Evidence for Sprint Review.
+Para la entrega de este segundo sprint, se implementó la web application de manera parcial.
+
+Los pasos para la connexion del netlify con el github.
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+
+- Register
+  ![img_12.png](img_12.png)
+
+- Organization
+  ![img_6.png](img_6.png)
+
+- Plots
+  ![img_10.png](img_10.png)
+
+- Reports
+  ![img_8.png](img_8.png)
+
+- Tasks
+  ![img_7.png](img_7.png)
+
+- Weather
+  ![img_9.png](img_9.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![img_13.png](img_13.png)
+![img_14.png](img_14.png)
 
 # Conclusiones
 
