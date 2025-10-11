@@ -2197,9 +2197,17 @@ Entre los tres colaboradores que podemos observar se encuentran Romina Tuesta, A
 
 ### 5.2.1. Sprint 2
 
-#### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 2
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name)   | Github Username        | wireframes y MockUps frontend | Vista Inicio de Sesión | Vista de Dashboard | Vista de perfil de usuario | Establecer estructura | Despliegue de servicio |
+|-----------|----------------------|-------------------------------|------------------------|--------------------|----------------------------|-----------------------|------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)                           | (C)                    | (L)                | (C)                        | (L)                   | (L)                    |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)                           | (C)                    | (L)                | (C)                        | (L)                   | (C)                    |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (L)                           | (C)                    | (C)                | (C)                        | (C)                   | (C)                    |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (L)                           | (L)                    | (C)                | (L)                        | (C)                   | (C)                    |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)                           | (C)                    | (C)                | (C)                        | (C)                   | (C)                    |    (C)      |
 
 #### 5.2.2.3. Sprint Backlog 2.
 
