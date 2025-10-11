@@ -35,8 +35,8 @@
 |---------|------------|--------------|-----------------------------------------------|
 | 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
 | 1.1     | 31/08/2005 | Anjali Amaro | Realizacion del Capitulo I.                   |
-| 1.0     | 11/09/2025 | Maria Fernanda Mostajo | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
-|         |            |              |                                               |
+| 1.1.2     | 11/09/2025 | Maria Fernanda Mostajo | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
+| 2.0     | 09/10/25   | Romina Tuesta | Correcciones del capitulo I, conclusiones           |
 |         |            |              |                                               |
 |         |            |              |                                               |
 
