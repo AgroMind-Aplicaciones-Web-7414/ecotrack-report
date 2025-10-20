@@ -48,8 +48,8 @@
  ![TB1](./assets/images/colab.png)
 
 ### TP1 
-![img_16.png](img_16.png)
-![img_15.png](img_15.png)
+![img_16.png](assets/images/sprint2/img_16.png)
+![img_15.png](assets/images/sprint2/img_15.png)
 
 
 ---
@@ -2475,7 +2475,7 @@ Los pasos para la connexion del netlify con el github.
 
 ### 5.3.2 Registro de entrevistas
 
-### Evaluaciones según heuristicas
+### 5.3.3. Evaluaciones según heuristicas
 
 
 ## 5.4. Video About the Product 
