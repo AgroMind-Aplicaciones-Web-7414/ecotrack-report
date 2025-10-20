@@ -31,14 +31,14 @@
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha      | Autor        | Descripción de modificación                   |
-|---------|------------|--------------|-----------------------------------------------|
-| 1.0     | 25/08/2025 | Anjali Amaro | Creación de la estructura inicial del reporte |
-| 1.1     | 31/08/2005 | Anjali Amaro | Realizacion del Capitulo I.                   |
-| 1.1.2     | 11/09/2025 | Maria Fernanda Mostajo | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
-| 2.0     | 09/10/25   | Romina Tuesta | Correcciones del capitulo I, conclusiones           |
-|         |            |              |                                               |
-|         |            |              |                                               |
+| Versión    | Fecha      | Autor                   | Descripción de modificación                                                                          |
+|------------|------------|-------------------------|------------------------------------------------------------------------------------------------------|
+| 1.0        | 25/08/2025 | Anjali Amaro            | Creación de la estructura inicial del reporte                                                        |
+| 1.1        | 31/08/2005 | Anjali Amaro            | Realizacion del Capitulo I.                                                                          |
+| 1.1.2      | 11/09/2025 | Maria Fernanda Mostajo  | Desarrollo del needfinfing, general style guidelines, web style guidelines, information architecture |
+| 2.0        | 09/10/25   | Romina Tuesta           | Correcciones del capitulo I, conclusiones                                                            |
+|            |            |                         |                                                                                                      |
+|            |            |                         |                                                                                                      |
 
 # Project Report Collaboration Insights
 
@@ -48,8 +48,8 @@
  ![TB1](./assets/images/colab.png)
 
 ### TP1 
-![img_16.png](img_16.png)
-![img_15.png](img_15.png)
+![img_16.png](assets/images/sprint2/img_16.png)
+![img_15.png](assets/images/sprint2/img_15.png)
 
 
 ---
@@ -140,6 +140,20 @@
           - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
           - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
           - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+          - [5.2.3.1. Sprint Planning 3.](#5231-sprint-planning-3)
+          - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+          - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+          - [5.2.3.4. Development Evidence for Sprint Review.](#5234-development-evidence-for-sprint-review)
+          - [5.2.3.5. Execution Evidence for Sprint Review.](#5235-execution-evidence-for-sprint-review)
+          - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+          - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
+          - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About the Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2363,25 +2377,25 @@ En esta sección se presentan los avances del desarrollo de la página web y las
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
 - Login 
-![img_11.png](img_11.png)
+![img_11.png](assets/images/sprint2/img_11.png)
 
 - Register
-![img_12.png](img_12.png)
+![img_12.png](assets/images/sprint2/img_12.png)
 
 - Organization 
-![img_6.png](img_6.png)
+![img_6.png](assets/images/sprint2/img_6.png)
 
 - Plots
-![img_10.png](img_10.png)
+![img_10.png](assets/images/sprint2/img_10.png)
 
 - Reports
-![img_8.png](img_8.png)
+![img_8.png](assets/images/sprint2/img_8.png)
 
 - Tasks 
-![img_7.png](img_7.png)
+![img_7.png](assets/images/sprint2/img_7.png)
 
 - Weather
-![img_9.png](img_9.png)
+![img_9.png](assets/images/sprint2/img_9.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -2406,35 +2420,66 @@ Para la entrega de este segundo sprint, se implementó la web application de man
 
 Los pasos para la connexion del netlify con el github.
 
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
-![img_5.png](img_5.png)
+![img.png](assets/images/sprint2/img.png)
+![img_1.png](assets/images/sprint2/img_1.png)
+![img_2.png](assets/images/sprint2/img_2.png)
+![img_3.png](assets/images/sprint2/img_3.png)
+![img_4.png](assets/images/sprint2/img_4.png)
+![img_5.png](assets/images/sprint2/img_5.png)
 
 - Register
-  ![img_12.png](img_12.png)
+  ![img_12.png](assets/images/sprint2/img_12.png)
 
 - Organization
-  ![img_6.png](img_6.png)
+  ![img_6.png](assets/images/sprint2/img_6.png)
 
 - Plots
-  ![img_10.png](img_10.png)
+  ![img_10.png](assets/images/sprint2/img_10.png)
 
 - Reports
-  ![img_8.png](img_8.png)
+  ![img_8.png](assets/images/sprint2/img_8.png)
 
 - Tasks
-  ![img_7.png](img_7.png)
+  ![img_7.png](assets/images/sprint2/img_7.png)
 
 - Weather
-  ![img_9.png](img_9.png)
+  ![img_9.png](assets/images/sprint2/img_9.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-![img_13.png](img_13.png)
-![img_14.png](img_14.png)
+![img_13.png](assets/images/sprint2/img_13.png)
+![img_14.png](assets/images/sprint2/img_14.png)
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.3.7. Deployment Evidence for Sprint Review.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de entrevistas
+
+### 5.3.2 Registro de entrevistas
+
+### 5.3.3. Evaluaciones según heuristicas
+
+
+## 5.4. Video About the Product 
+
 
 # Conclusiones
 
