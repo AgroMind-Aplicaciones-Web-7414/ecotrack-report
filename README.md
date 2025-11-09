@@ -2458,6 +2458,31 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.3. Sprint Backlog 3.
 
+A continuación podremos observar la organización de tareas dadas para el presente spint dedicado al inicio de la implementación Backend del proyecto, primero se utilizó la herramienta trello para detallas cada tarea, tiempo, complejidad y desarrollador que tomó la tarea.
+
+Herramienta de control: Trello
+
+![Trello](assets/images/screenshots/trello-sprint2.png)
+
+URL del Board: [(Link trello)]([https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack])
+
+| User Story | Title | Work-Item / Task | | | | | |
+|-------------|--------|------------------|---|---|---|---|---|
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US01 | Gestión de cuenta | T01 | Gestionar cuenta | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4 | Maria Fernanda | To-do |
+| US01 | Gestión de cuenta | T02 | Edición de perfil | Implementar funcionalidad para editar la información del perfil del usuario. | 6 | Maria Fernanda | To-do |
+| US01 | Gestión de cuenta | T03 | Configuraciones | Implementar sección de configuraciones del usuario. | 4 | Maria Fernanda | To-do |
+| US02 | Vista del agrónomo | T04 | Crear organización | Desarrollar vista que permita al agrónomo crear una organización. | 5 | Romina | To-do |
+| US02 | Vista del agrónomo | T05 | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo. | 4 | Romina | To-do |
+| US02 | Vista del agrónomo | T06 | Editar parcela | Implementar funcionalidad para editar la información de las parcelas. | 3 | Romina | To-do |
+| US02 | Vista del agricultor | T07 | Registrar cultivo | Desarrollar funcionalidad para registrar nuevos cultivos. | 5 | Romina | To-do |
+| US03 | Vista del agrónomo | T08 | Asignar tareas y checklist | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades. | 5 | Aaron | To-do |
+| US03 | Vista del agrónomo | T09 | Gestión de bitácoras | Implementar módulo para registrar y gestionar bitácoras. | 5 | Cesar | To-do |
+| US03 | Vista del agricultor | T10 | Visualizar tareas | Desarrollar vista para que el agricultor visualice sus tareas asignadas. | 4 | Cesar | To-do |
+| US03 | Vista del agricultor | T11 | Visualizar bitácoras | Implementar vista que permita al agricultor visualizar las bitácoras. | 4 | Aaron | To-do |
+| US04 | Gestión de reportes | T12 | Generar ficha técnica | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo. | 5 | Anjali | To-do |
+
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
