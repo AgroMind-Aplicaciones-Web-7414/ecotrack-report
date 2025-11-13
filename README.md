@@ -1127,7 +1127,7 @@ Las etiquetas se dividen según los dos perfiles principales de la plataforma: *
 - **Organización:** gestión de miembros (invitar, asignar o remover agricultores).
 - **Parcelas:** listado de todas las parcelas registradas con acceso al detalle de cada una.
 - **Cultivos:** catálogo de cultivos existentes y opción de registrar nuevos.
-- **Tareas:** planificación, asignación y seguimiento de labores agrícolas.
+- **Tareas:** planificación, asignación y seguimiento de laborgges agrícolas.
 - **Alertas:** configuración de umbrales climáticos y recepción de notificaciones.
 - **Reportes:** generación de reportes detallados por parcela o generales de la organización.
 
@@ -2472,6 +2472,43 @@ Los pasos para la connexion del netlify con el github.
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
+
+### Objetivo de las entrevista
+
+El objetivo de las entrevistas es validar las hipótesis planteadas en la fase de descubrimiento, obteniendo retroalimentación directa de los usuarios potenciales sobre sus necesidades, desafíos y expectativas en relación con la gestión agrícola digital. Se busca comprender mejor el contexto de uso, identificar posibles mejoras en la propuesta de valor y evaluar la aceptación del producto EcoTrack.
+
+### Landing page
+
+Se diseñó una landing page que presenta de manera clara y atractiva la propuesta de valor de EcoTrack, destacando sus beneficios, características principales y planes de suscripción. La landing page incluye secciones informativas, testimonios de usuarios y un formulario de contacto para captar el interés de los visitantes.
+
+#### Preguntas de validación
+
+* ¿Qué tan claro te resultó entender qué es EcoTrack y qué beneficios ofrece?
+* ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo?
+* ¿Encontraste fácilmente la información que buscabas (funciones, beneficios, contacto)?
+* ¿Los botones o llamados a la acción te motivaron a registrarte o pedir más información?
+* ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios?
+
+
+### Aplicación web
+Se preparó una demostración funcional de la aplicación web EcoTrack, enfocándose en las características clave que abordan las necesidades identificadas durante la fase de descubrimiento. La demo incluye flujos de trabajo típicos, como la creación de parcelas, el registro de cultivos y la gestión de tareas agrícolas.
+
+#### Preguntas de validación
+
+*Agricultor*
+
+1. Inicio de sesión y acceso
+2. Seeleccion de cultivo
+3. Visializacion de tareas
+4. Alertas asociadas al cultivo
+
+*Agrónomo*
+
+1. Inicio de sesión y acceso
+2. Dashboard de organización
+3. Creacion de parcelas
+4. Visualizacion de tareas
+5. Reportes generados
 
 ### 5.3.2 Registro de entrevistas
 
