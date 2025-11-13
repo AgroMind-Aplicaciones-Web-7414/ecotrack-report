@@ -2498,17 +2498,26 @@ Se preparó una demostración funcional de la aplicación web EcoTrack, enfocán
 *Agricultor*
 
 1. Inicio de sesión y acceso
+    - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
 2. Seeleccion de cultivo
+    - ¿Pudiste identificar y seleccionar fácilmente tu cultivo principal?
 3. Visializacion de tareas
+    - ¿Entendiste claramente las tareas pendientes y su estado actual?
 4. Alertas asociadas al cultivo
+    - ¿Las alertas mostradas te resultaron útiles y comprensibles para tomar decisiones?
 
 *Agrónomo*
 
 1. Inicio de sesión y acceso
+   - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
 2. Dashboard de organización
+   - ¿Pudiste navegar fácilmente por el dashboard y encontrar la información relevante?
 3. Creacion de parcelas
+   - ¿El proceso de creación de parcelas fue intuitivo y claro?
 4. Visualizacion de tareas
+   - ¿Te resultó fácil supervisar o actualizar las tareas de los agricultores?
 5. Reportes generados
+   - ¿Los reportes presentaron información útil y relevante para la gestión agrícola?
 
 ### 5.3.2 Registro de entrevistas
 
