@@ -2454,7 +2454,33 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.1. Sprint Planning 3
 
+| **Campo**                              | **Contenido**                                                                                                                                                                                                                                             |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 3**                           | Sprint 3                                                                                                                                                                                                                                                  |
+| **Date**                               | 27/10/25                                                                                                                                                                                                                                                  |
+| **Time**                               | 15:00 PM                                                                                                                                                                                                                                                  |
+| **Location**                           | Reunión virtual (discord)                                                                                                                                                                                                                                 |
+| **Prepared By**                        | Tuesta Marín, Romina                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto                                                                                                                   |
+| **Sprint 3 – 2 Review Summary**        | Se completó la estructura base y el despliegue del frontend del producto. Además, se coordinó la estructura para el desarrollo del backend.                                                                                                               |
+| **Sprint 3 – 2 Retrospective Summary** | Se identificó la necesidad de definir un flujo de commits más ordenado en GitHub y una mejor asignación de tareas por módulos. Se acordó establecer una convención de nombres para componentes y commits, además de reuniones de seguimiento cada 3 días. |
+
+---
+
+| **Campo**             | **Contenido**                                                                                                                                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 3 Goal**     | Nuestro enfoque se centra en entregar la versión completa del front end de EcoTrack con Vue.js y Vite. Así como, entregar la primera versión del backend y realizar las correciones dadas en la anterior entrega. 
+|
+| **Sprint 3 Velocity** | 32 points                                                                                                                                                                                                         |
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name)   | Github Username        | Completar las vistas del frontend | Gestionar cuenta | Vista de Agrónomo y agricultor | Asignar tareas y gestión de bitácoras | Visualizar tareas y bitácoras | Gestión de reportes y generar ficha técnica |
+|-----------|----------------------|-----------------------------------|-----------------------------------|--------------------------------|---------------------------------------|-------------------------------|---------------------------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)                               | (C)                               | (C)                            | (C)                                   | (C)                           | (L)                                         |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)                               | (C)                               | (L)                            | (C)                                   | (C)                           | (C)                                         |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (L)                               | (C)                               | (C)                            | (L)                                   | (C)                           | (C)                                         |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (C)                               | (L)                               | (C)                            | (C)                                   | (C)                           | (C)                                         |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)                               | (C)                               | (C)                            | (C)                                   | (L)                           | (C)                                         |    (C)      |
 
 #### 5.2.3.3. Sprint Backlog 3.
 
