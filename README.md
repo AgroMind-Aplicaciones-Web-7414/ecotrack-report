@@ -2459,6 +2459,19 @@ Los pasos para la connexion del netlify con el github.
 #### 5.2.3.3. Sprint Backlog 3.
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
+En esta sección se presentan los avances del desarrollo del Back-End de la solución Ecotrack, completando la logica interna del sistema. Se consolido la arquitectura utilizando Clean Architecture y Domain Driver Design, configurando la infraestructura base, el acceso a datos, la documentacion con Swagger y la estructura de servicios e interfaces. Ademas, se implementaron los modulos principales del dominio, incluyendo la gestions de tareas y cehcklists, la gestions de bitacoras, al igual que la gestion de parcelas y usuarios, habilitando endpoints funcionales y estables para su integracion con el Front-End. Estos avances fortalecen la matenibilidad del proyecto y dejan el Back-End en un estado completo para las siguientes etapas del desarrollo
+
+| Repositorio      | Rama                      | ID de Commit | Mensaje de Commit                                                                                            | Descripción del Commit | Fecha de Commit |
+|------------------|---------------------------|--------------|--------------------------------------------------------------------------------------------------------------|------------------------|-----------------|
+| ecotrack-backend | feature/user-management   | 48912f6      | feat(profile): add profile, configuration, iam                                                               | -                      | 13/11/2025      |
+| ecotrack-backend | feature/user-management   | aee4ce8      | feat(database): update connection strings to use environment variables                                       | -                      | 13/11/2025      |
+| ecotrack-backend | feature/task-management   | f7eb91b      | feat(monitoringandcontrol): add tasks and checklists management                                              | -                      | 13/11/2025      |
+| ecotrack-backend | feature/task-management   | 5a3a7f7      | feat: add logbooks and improve code                                                                          | -                      | 13/11/2025      |
+| ecotrack-backend | feature/initial-structure | 6a9d0e6      | feat(shared): add IEvent interface and configure dependency injection for shared context and Cortex mediator | -                      | 12/11/2025      |
+| ecotrack-backend | feature/initial-structure | bfb42fd      | build: add database connection settings and update package references                                        | -                      | 22/10/2025      |
+| ecotrack-backend | feature/initial-structure | 72e6b2a      | feat(shared): implement AppDbContext and repository pattern with snake_case naming convention                | -                      | 22/10/2025      |
+
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
