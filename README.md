@@ -3011,4 +3011,4 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - Web Service Desplegado: [https://ecotrack-web-service.up.azure.app/]()
 - Repositorio del proyecto: [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)
 - Video De Exposicion TB2: [Ir al enlace]()
-- About the team: [Ir al enlace]()
+- About the team: [Ir al enlace](https://youtu.be/-Cjn2ykmzjg)
