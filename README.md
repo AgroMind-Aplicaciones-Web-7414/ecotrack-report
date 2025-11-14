@@ -2454,9 +2454,60 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.1. Sprint Planning 3
 
+| **Campo**                              | **Contenido**                                                                                                                                                                                                                                             |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 3**                           | Sprint 3                                                                                                                                                                                                                                                  |
+| **Date**                               | 27/10/25                                                                                                                                                                                                                                                  |
+| **Time**                               | 15:00 PM                                                                                                                                                                                                                                                  |
+| **Location**                           | Reunión virtual (discord)                                                                                                                                                                                                                                 |
+| **Prepared By**                        | Tuesta Marín, Romina                                                                                                                                                                                                                                      |
+| **Attendees (to planning meeting)**    | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto                                                                                                                   |
+| **Sprint 3 – 2 Review Summary**        | Se completó la estructura base y el despliegue del frontend del producto. Además, se coordinó la estructura para el desarrollo del backend.                                                                                                               |
+| **Sprint 3 – 2 Retrospective Summary** | Se identificó la necesidad de definir un flujo de commits más ordenado en GitHub y una mejor asignación de tareas por módulos. Se acordó establecer una convención de nombres para componentes y commits, además de reuniones de seguimiento cada 3 días. |
+
+---
+
+| **Campo**             | **Contenido**                                                                                                                                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 3 Goal**     | Nuestro enfoque se centra en entregar la versión completa del front end de EcoTrack con Vue.js y Vite. Así como, entregar la primera versión del backend y realizar las correciones dadas en la anterior entrega. 
+|
+| **Sprint 3 Velocity** | 32 points                                                                                                                                                                                                         |
 #### 5.2.3.2. Aspect Leaders and Collaborators.
 
+| Team Member (Last Name, First Name)   | Github Username        | Completar las vistas del frontend | Gestionar cuenta | Vista de Agrónomo y agricultor | Asignar tareas y gestión de bitácoras | Visualizar tareas y bitácoras | Gestión de reportes y generar ficha técnica |
+|-----------|----------------------|-----------------------------------|-----------------------------------|--------------------------------|---------------------------------------|-------------------------------|---------------------------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)                               | (C)                               | (C)                            | (C)                                   | (C)                           | (L)                                         |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)                               | (C)                               | (L)                            | (C)                                   | (C)                           | (C)                                         |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (L)                               | (C)                               | (C)                            | (L)                                   | (C)                           | (C)                                         |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (C)                               | (L)                               | (C)                            | (C)                                   | (C)                           | (C)                                         |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)                               | (C)                               | (C)                            | (C)                                   | (L)                           | (C)                                         |    (C)      |
+
 #### 5.2.3.3. Sprint Backlog 3.
+
+A continuación podremos observar la organización de tareas dadas para el presente spint dedicado al inicio de la implementación Backend del proyecto, primero se utilizó la herramienta trello para detallas cada tarea, tiempo, complejidad y desarrollador que tomó la tarea.
+
+Herramienta de control: Trello
+
+![Trello](assets/images/screenshots/trello-sprint2.png)
+
+URL del Board: [(Link trello)]([https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack])
+
+| User Story | Title | Work-Item / Task | | | | | |
+|-------------|--------|------------------|---|---|---|---|---|
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US01 | Gestión de cuenta | T01 | Gestionar cuenta | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4 | Maria Fernanda | To-do |
+| US01 | Gestión de cuenta | T02 | Edición de perfil | Implementar funcionalidad para editar la información del perfil del usuario. | 6 | Maria Fernanda | To-do |
+| US01 | Gestión de cuenta | T03 | Configuraciones | Implementar sección de configuraciones del usuario. | 4 | Maria Fernanda | To-do |
+| US02 | Vista del agrónomo | T04 | Crear organización | Desarrollar vista que permita al agrónomo crear una organización. | 5 | Romina | To-do |
+| US02 | Vista del agrónomo | T05 | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo. | 4 | Romina | To-do |
+| US02 | Vista del agrónomo | T06 | Editar parcela | Implementar funcionalidad para editar la información de las parcelas. | 3 | Romina | To-do |
+| US02 | Vista del agricultor | T07 | Registrar cultivo | Desarrollar funcionalidad para registrar nuevos cultivos. | 5 | Romina | To-do |
+| US03 | Vista del agrónomo | T08 | Asignar tareas y checklist | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades. | 5 | Aaron | To-do |
+| US03 | Vista del agrónomo | T09 | Gestión de bitácoras | Implementar módulo para registrar y gestionar bitácoras. | 5 | Cesar | To-do |
+| US03 | Vista del agricultor | T10 | Visualizar tareas | Desarrollar vista para que el agricultor visualice sus tareas asignadas. | 4 | Cesar | To-do |
+| US03 | Vista del agricultor | T11 | Visualizar bitácoras | Implementar vista que permita al agricultor visualizar las bitácoras. | 4 | Aaron | To-do |
+| US04 | Gestión de reportes | T12 | Generar ficha técnica | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo. | 5 | Anjali | To-do |
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 En esta sección se presentan los avances del desarrollo del Back-End de la solución Ecotrack, completando la logica interna del sistema. Se consolido la arquitectura utilizando Clean Architecture y Domain Driver Design, configurando la infraestructura base, el acceso a datos, la documentacion con Swagger y la estructura de servicios e interfaces. Ademas, se implementaron los modulos principales del dominio, incluyendo la gestions de tareas y cehcklists, la gestions de bitacoras, al igual que la gestion de parcelas y usuarios, habilitando endpoints funcionales y estables para su integracion con el Front-End. Estos avances fortalecen la matenibilidad del proyecto y dejan el Back-End en un estado completo para las siguientes etapas del desarrollo
@@ -2852,7 +2903,13 @@ Integrar notificaciones vía WhatsApp API.
 
 ## 5.4. Video About the Product 
 
+A continuación, presentaremos el video about the product de Agromind.
 
+El video "About-the-Product" está dirigido principalmente a los visitantes del Landing Page de Agromind, quienes desean conocer más sobre el modelo de negocio y las características principales de la solución. Además, este video tiene como objetivo proporcionar información útil a los usuarios de las aplicaciones que ya están utilizando la plataforma, mostrando cómo la herramienta apoya en su gestión de los cultivos y generar métricas claras.
+
+
+
+Link del video en Youtube: https://youtu.be/67t29B73HqU
 # Conclusiones
 
 ### TB1: 
