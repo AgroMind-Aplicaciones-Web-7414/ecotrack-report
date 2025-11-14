@@ -2531,7 +2531,13 @@ URL del Board: [(Link trello)]([https://trello.com/invite/b/68cad1eb2ff733dd8c0d
 
 ## 5.4. Video About the Product 
 
+A continuación, presentaremos el video about the product de Agromind.
 
+El video "About-the-Product" está dirigido principalmente a los visitantes del Landing Page de Agromind, quienes desean conocer más sobre el modelo de negocio y las características principales de la solución. Además, este video tiene como objetivo proporcionar información útil a los usuarios de las aplicaciones que ya están utilizando la plataforma, mostrando cómo la herramienta apoya en su gestión de los cultivos y generar métricas claras.
+
+
+
+Link del video en Youtube: https://youtu.be/67t29B73HqU
 # Conclusiones
 
 ### TB1: 
