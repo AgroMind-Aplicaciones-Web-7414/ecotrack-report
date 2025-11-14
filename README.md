@@ -51,7 +51,7 @@
 ![img_16.png](assets/images/sprint2/img_16.png)
 ![img_15.png](assets/images/sprint2/img_15.png)
 
-### TB1 
+### TB2
 
  ![TB2](./assets/images/network_tb2.png)
  ![TB2](./assets/images/colab_tb2.png)
