@@ -2475,6 +2475,37 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
+# Tabla de Endpoints
+
+| **Endpoint** | **Operaciones** | **Parámetros** | **URL**                          | **Response**                                |
+|--------------|-----------------|----------------|----------------------------------|---------------------------------------------|
+| Auth         | POST            | No tiene       | /auth/login                      | Inicia sesión y retorna token               | 
+| Auth         | POST            | No tiene       | /auth/logout                     | Cierra sesión del usuario actual            |
+| Checklists   | POST            | No tiene       | /api/checklists                  | Crea un nuevo checklist                     |
+| Checklists   | GET             | taskId         | /api/checklists                  | Obtiene checklists por Task Id              |
+| Config       | GET             | No tiene       | /config/public                   | Obtiene configuración pública para el front |
+| Logbooks     | POST            | No tiene       | /api/logbooks                    | Crea un nuevo logbook                       |
+| Logbooks     | GET             | No tiene       | /api/logbooks                    | Obtiene todos los logbooks                  |
+| Logbooks     | GET             | {logbookId}    | /api/logbooks/{logbookId}        | Obtiene un logbook por id                   |
+| Users        | GET             | No tiene       | /users                           | Lista todos los usuarios                    |
+| Users        | POST            | No tiene       | /users                           | Crea un nuevo usuario                       |
+| Users        | GET             | {id}           | /users/{id}                      | Obtiene un usuario por id                   |
+| Users        | PATCH           | {id}           | /users/{id}                      | Actualiza un usuario                        |
+| Users        | DELETE          | {id}           | /users/{id}                      | Elimina un usuario                          |
+| Users        | GET             | No tiene       | /users/me                        | Obtiene el usuario actual (requiere sesión) |
+| Reports      | POST            | No tiene       | /api/reports/tasks               | Solicita un nuevo reporte de tareas         |
+| Reports      | POST            | {reportId}     | /api/reports/{reportId}/generate | Genera el contenido de un reporte           |
+| Reports      | GET             | {reportId}     | /api/reports/{reportId}          | Obtiene un reporte por id                   |
+| Reports      | GET             | {profileId}    | /api/reports/profile/{profileId} | Obtiene todos los reportes de un perfil     |
+| Settings     | GET             | No tiene       | /settings                        | Obtiene ajustes del usuario actual          |
+| Settings     | PATCH           | No tiene       | /settings                        | Actualiza los ajustes del usuario actual    |
+| Settings     | POST            | No tiene       | /settings/password               | Cambia la contraseña del usuario            |
+| Tasks        | POST            | No tiene       | /api/tasks                       | Crea una nueva tarea                        |
+| Tasks        | GET             | status         | /api/tasks                       | Obtiene tareas por estado                   |
+| Tasks        | PATCH           | {taskId}       | /api/tasks/{taskId}/status       | Actualiza el estado de una tarea            |
+| Tasks        | GET             | {taskId}       | /api/tasks/{taskId}              | Obtiene una tarea por id                    |
+
+
 #### 5.2.3.7. Deployment Evidence for Sprint Review.
 
 Para la entrega de este tercer sprint, se implementó el backend en swagger y se desplego con Render
