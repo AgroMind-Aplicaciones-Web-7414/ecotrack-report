@@ -2462,11 +2462,57 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.3.7. Deployment Evidence for Sprint Review.
 
+Para la entrega de este tercer sprint, se implementó el backend en swagger y se desplego con Render
+
+Pasos para el despliegue del backend en Rendee:
+
+1. Entrar a la pagina principal 
+
+![img_5.png](img_5.png)
+
+2. Iniciar sesión con github
+
+![img_6.png](img_6.png)
+
+3. Crear un nuevo proyecto
+
+![img.png](img.png)
+
+
+4. Seleccionar el repositorio correspondiente
+
+![img_1.png](img_1.png)
+
+5. ![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+![img_9.png](img_9.png)
+![img_10.png](img_10.png)
 
 
 ## 5.3. Validation Interviews
