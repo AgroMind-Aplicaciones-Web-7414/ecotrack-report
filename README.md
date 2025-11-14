@@ -1127,7 +1127,7 @@ Las etiquetas se dividen según los dos perfiles principales de la plataforma: *
 - **Organización:** gestión de miembros (invitar, asignar o remover agricultores).
 - **Parcelas:** listado de todas las parcelas registradas con acceso al detalle de cada una.
 - **Cultivos:** catálogo de cultivos existentes y opción de registrar nuevos.
-- **Tareas:** planificación, asignación y seguimiento de labores agrícolas.
+- **Tareas:** planificación, asignación y seguimiento de laborgges agrícolas.
 - **Alertas:** configuración de umbrales climáticos y recepción de notificaciones.
 - **Reportes:** generación de reportes detallados por parcela o generales de la organización.
 
@@ -2462,21 +2462,349 @@ Los pasos para la connexion del netlify con el github.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
+![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 #### 5.2.3.7. Deployment Evidence for Sprint Review.
 
+Para la entrega de este tercer sprint, se implementó el backend en swagger y se desplego con Render
+
+Pasos para el despliegue del backend en Rendee:
+
+1. Entrar a la pagina principal 
+
+![img_5.png](img_5.png)
+
+2. Iniciar sesión con github
+
+![img_6.png](img_6.png)
+
+3. Crear un nuevo proyecto
+
+![img.png](img.png)
+
+
+4. Seleccionar el repositorio correspondiente
+
+![img_1.png](img_1.png)
+
+5. ![img_2.png](img_2.png)
+
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+![img_9.png](img_9.png)
+![img_10.png](img_10.png)
 
 
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de entrevistas
 
+### Objetivo de las entrevista
+
+El objetivo de las entrevistas es validar las hipótesis planteadas en la fase de descubrimiento, obteniendo retroalimentación directa de los usuarios potenciales sobre sus necesidades, desafíos y expectativas en relación con la gestión agrícola digital. Se busca comprender mejor el contexto de uso, identificar posibles mejoras en la propuesta de valor y evaluar la aceptación del producto EcoTrack.
+
+### Landing page
+
+Se diseñó una landing page que presenta de manera clara y atractiva la propuesta de valor de EcoTrack, destacando sus beneficios, características principales y planes de suscripción. La landing page incluye secciones informativas, testimonios de usuarios y un formulario de contacto para captar el interés de los visitantes.
+
+#### Preguntas de validación
+
+* ¿Qué tan claro te resultó entender qué es EcoTrack y qué beneficios ofrece?
+* ¿El diseño, colores e imágenes te transmitieron confianza y profesionalismo?
+* ¿Encontraste fácilmente la información que buscabas (funciones, beneficios, contacto)?
+* ¿Los botones o llamados a la acción te motivaron a registrarte o pedir más información?
+* ¿Qué mejorarías para que la página sea más atractiva o clara para nuevos usuarios?
+
+
+### Aplicación web
+Se preparó una demostración funcional de la aplicación web EcoTrack, enfocándose en las características clave que abordan las necesidades identificadas durante la fase de descubrimiento. La demo incluye flujos de trabajo típicos, como la creación de parcelas, el registro de cultivos y la gestión de tareas agrícolas.
+
+#### Preguntas de validación
+
+*Agricultor*
+
+1. Inicio de sesión y acceso
+    - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
+2. Seeleccion de cultivo
+    - ¿Pudiste identificar y seleccionar fácilmente tu cultivo principal?
+3. Visializacion de tareas
+    - ¿Entendiste claramente las tareas pendientes y su estado actual?
+4. Alertas asociadas al cultivo
+    - ¿Las alertas mostradas te resultaron útiles y comprensibles para tomar decisiones?
+
+*Agrónomo*
+
+
+1. Inicio de sesión y acceso
+    - ¿El proceso de inicio de sesión te pareció sencillo y rápido?
+2. Dashboard de organización
+    - ¿Pudiste navegar fácilmente por el dashboard y encontrar la información relevante?
+3. Creacion de parcelas
+    - ¿El proceso de creación de parcelas fue intuitivo y claro?
+4. Visualizacion de tareas
+    - ¿Te resultó fácil supervisar o actualizar las tareas de los agricultores?
+5. Reportes generados
+    - ¿Los reportes presentaron información útil y relevante para la gestión agrícola?
 ### 5.3.2 Registro de entrevistas
+
+### Segmento: Agrónomos
+
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|:-----------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Luis Mendoza                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|                Edad                 | 30 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|              Distrito               | Villa El Salvador                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|              Ocupación              | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|         Fecha de entrevista         | 10 de noviembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|               Timing                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Captura de pantalla de la grabación | ![Entrevista-1](assets/images/entrevistas-validacion/img.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|               Resumen               | El agrónomo Luis Mendoza comentó que la landing page le permitió comprender de manera clara y rápida qué es EcoTrack y cuál es su propósito. No obstante, recalcó en varias oportunidades que la página carece de imágenes reales relacionadas directamente con el trabajo agrícola, lo cual considera un elemento importante para generar mayor confianza y conexión con los usuarios del sector. Sobre el proceso de inicio de sesión, mencionó que le resultó sencillo y accesible, señalando que esto sería especialmente beneficioso para agricultores que no están acostumbrados a utilizar herramientas digitales. Durante su recorrido por la aplicación web, indicó que la navegación fue fluida e intuitiva, y destacó como oportunidad de mejora la incorporación de gráficos y estadísticas que permitan visualizar mejor la información y apoyar la toma de decisiones en el manejo de cultivos y tareas.  |
+
+
+
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|:-----------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Diego Armando Huamán Rojas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|                Edad                 | 27 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|              Distrito               | Ayacucho                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|              Ocupación              | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|         Fecha de entrevista         | 10 de noviembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|               Timing                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Captura de pantalla de la grabación | ![Entrevista-2]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|               Resumen               | El agrónomo Diego Huamán señaló que la landing page le permitió entender claramente qué es EcoTrack y cuáles son sus beneficios principales. Mencionó que la explicación inicial fue suficiente para captar la propuesta de valor, aunque consideró que se podría reforzar con ejemplos reales de uso en el campo. También destacó que el diseño le transmitió profesionalismo y una buena primera impresión, pero sugirió incluir imágenes auténticas de cooperativas o parcelas para lograr una conexión más directa con usuarios agrícolas. Sobre los llamados a la acción, indicó que eran visibles y fáciles de identificar, aunque comentó que preferiría un botón pensado específicamente para solicitar una demostración. En cuanto a la aplicación web, Diego indicó que el proceso de inicio de sesión fue directo y sin dificultades, aunque sugirió integrar opciones como Google o correos institucionales para facilitar el acceso. El dashboard le pareció útil para obtener una vista general del estado de parcelas y tareas, pero consideró importante incorporar alertas críticas más visibles. Al crear parcelas, destacó que el flujo fue intuitivo y que los campos solicitados eran claros, aunque le gustaría contar con herramientas geográficas como mapas o la opción de cargar límites. Sobre la visualización de tareas, resaltó que la organización era adecuada, pero que filtros más rápidos por fecha o responsable mejorarían la experiencia. Finalmente, comentó que los reportes eran bastante completos. |
+
+
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Renzo Sebastián Paredes Castillo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|                Edad                 | 29 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|              Distrito               | Cusco                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+|              Ocupación              | Ingeniero Agrónomo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|         Fecha de entrevista         | 10 de noviembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|               Timing                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Captura de pantalla de la grabación | ![Entrevista-3]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|               Resumen               | El agrónomo Renzo Paredes indicó que la landing page comunicaba de manera clara el valor de EcoTrack desde el primer vistazo, especialmente las partes relacionadas con trazabilidad y reportes, las cuales considera muy importantes en su labor. El diseño le pareció limpio, profesional y fácil de recorrer, aunque sugirió incorporar más ejemplos visuales reales del uso de la plataforma en contextos agrícolas para fortalecer la comprensión. También comentó que encontró rápidamente la información relevante y que quizá sería útil agregar un detalle más explícito sobre precios o planes. Dentro de la aplicación web, Renzo mencionó que el inicio de sesión funcionó bien y sin dificultades, aunque una opción de "recordar sesión" sería muy conveniente. Sobre el dashboard, destacó que ofrece una buena vista general, pero le gustaría ver más elementos visuales como gráficos rápidos o indicadores clave para facilitar la lectura del estado de la organización. En la creación de parcelas, el flujo le pareció rápido y práctico, aunque consideró necesaria una ayuda visual como un mapa para ubicar las parcelas de forma más precisa. En la visualización de tareas encontró útil la organización y el seguimiento de actividades, sugiriendo la incorporación de un calendario para optimizar la planificación. Con respecto a los reportes, opinó que están bien estructurados, pero que sería valioso poder personalizar métricas según cultivo o temporada. Concluyó que sí usaría EcoTrack, ya que podría reducir su carga administrativa y mejorar la supervisión del personal.  |
+
+
+
+### Segmento: Agricultores
+
+
+|              Atributo               | Detalle                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|:-----------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|               Nombre                | Luis Alberto Campos Salvatierra                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|                Edad                 | 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|              Distrito               | Chiclayo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|              Ocupación              | Agricultor                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|         Fecha de entrevista         | 10 de noviembre del 2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|               Timing                |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|        Enlace a la grabación        | [*Ver en Microsoft Stream*]()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Captura de pantalla de la grabación | ![Entrevista-4](assets/images/entrevistas-validacion/img2.png)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|               Resumen               | El agricultor Luis Campos mencionó que comprendió sin dificultad qué hace EcoTrack al revisar la landing page, ya que explica de manera sencilla cómo ayuda a organizar cultivos y tareas diarias. Indicó que la página le pareció confiable y ordenada, aunque preferiría ver ejemplos más concretos de cómo usar la plataforma en situaciones reales del campo. También señaló que estaría dispuesto a registrarse, pero comentó que inicialmente necesitaría apoyo porque no está acostumbrado a usar plataformas digitales. En la aplicación web, Luis señaló que el inicio de sesión fue sencillo, pero que él preferiría ingresar con su número de celular, ya que es su método más habitual. Sobre la selección de cultivos, indicó que pudo encontrar el suyo con facilidad, aunque fotos o iconos ayudarían a diferenciar cultivos con nombres similares. La visualización de tareas le resultó clara y útil, destacando especialmente que se indique qué actividades corresponden al día, aunque sugirió mejorar la identificación de tareas urgentes con colores. En cuanto a las alertas del cultivo, mencionó que fue la parte que más valor le generó, ya que lo ayudaría a evitar problemas, y agregó que sería ideal recibirlas también por WhatsApp. Concluyó que sí usaría EcoTrack si le facilita organizar su trabajo y si su agrónomo también adopta la plataforma. |
+
 
 ### 5.3.3. Evaluaciones según heuristicas
 
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**CLIENTE:** Usuarios agrícolas (Agricultores y Agrónomos)  
+**AUDITOR:** Equipo del proyecto EcoTrack
+
+---
+
+### APP A EVALUAR
+**EcoTrack – Plataforma Web para Gestión Agrícola**
+
+---
+
+### TAREAS EVALUADAS
+Las tareas incluidas en la evaluación fueron:
+
+1. Registro e inicio de sesión
+2. Visualización del dashboard
+3. Selección de cultivos
+4. Creación de parcelas
+5. Visualización y gestión de tareas
+6. Revisión de alertas del cultivo
+7. Generación y consulta de reportes
+8. Uso de la landing page para conocer el producto
+
+### TABLA DE ESCALA DE SEVERIDAD
+
+| Nivel | Descripción                                                                                                                                         |
+|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1** | Problema superficial: puede ser superado fácilmente o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible.       |
+| **2** | Problema menor: ocurre más frecuentemente o es algo más difícil para el usuario. Recomendado arreglarlo en un siguiente release con baja prioridad. |
+| **3** | Problema mayor: ocurre frecuentemente o el usuario no puede resolverlo. Se debe corregir con prioridad alta.                                        |
+| **4** | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento.                                                             |
+
+
+---
+
+### TABLA RESUMEN DE PROBLEMAS
+
+| #  | Problema identificado                                          | Severidad | Heurística / Principio violado                   |
+|----|----------------------------------------------------------------|-----------|--------------------------------------------------|
+| 1  | Falta opción de inicio de sesión alternativo (Google, celular) | 2         | Usability – Flexibilidad y eficiencia            |
+| 2  | Landing page sin imágenes reales del campo                     | 2         | Inclusive Design – Experiencias comparables      |
+| 3  | Selección de cultivos sin apoyo visual (iconos/fotos)          | 3         | Usability – Reconocimiento mejor que recuerdo    |
+| 4  | Alertas poco visibles; falta diferenciación por criticidad     | 3         | Usability – Visibilidad del estado del sistema   |
+| 5  | Tareas urgentes no tienen color o jerarquía destacada          | 3         | Usability – Señalización y prioridades           |
+| 6  | Dashboard con pocos gráficos o indicadores visuales            | 2         | Information Architecture – Is it understandable? |
+| 7  | Crear parcelas sin mapa o soporte geográfico visual            | 3         | Usability – Correspondencia con el mundo real    |
+| 8  | Falta opción “Recordar sesión”                                 | 1         | Usability – Minimizar carga del usuario          |
+| 9  | Falta calendario para ver tareas                               | 2         | Usability – Control del usuario                  |
+| 10 | Alertas importantes no enviadas por WhatsApp                   | 2         | Inclusive Design – Ajuste al contexto real       |
+
+---
+### DESCRIPCIÓN DETALLADA DE PROBLEMAS
+---
+## **Problema #1 – Falta opción de inicio de sesión alternativo**
+**Severidad:** 2  
+**Heurística violada:** Usability – Flexibilidad y eficiencia del uso
+
+**Problema:**  
+Los usuarios prefieren iniciar sesión con Google, correo institucional o número de celular, lo cual no está disponible y genera fricción.
+
+**Recomendación:**  
+Agregar login con Google, instituciones y celular.
+
+---
+
+## **Problema #2 – Falta de imágenes reales en la landing page**
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Experiencias comparables
+
+**Problema:**  
+Las imágenes no representan el contexto real agrícola, lo que reduce conexión emocional.
+
+**Recomendación:**  
+Incluir fotografías reales del campo, cooperativas o agrónomos.
+
+---
+
+## **Problema #3 – Selección de cultivos sin apoyo visual**
+**Severidad:** 3  
+**Heurística violada:** Usability – Reconocimiento mejor que recuerdo
+
+**Problema:**  
+Los cultivos con nombres similares generan confusión sin iconos o fotos de referencia.
+
+**Recomendación:**  
+Añadir iconografía o imágenes pequeñas para cada cultivo.
+
+---
+
+## **Problema #4 – Alertas poco visibles**
+**Severidad:** 3  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+**Problema:**  
+Las alertas no destacan ni indican su severidad.
+
+**Recomendación:**  
+Usar colores por nivel, banners y señales visuales fuertes para alertas críticas.
+
+---
+
+## **Problema #5 – Tareas urgentes sin jerarquía visual**
+**Severidad:** 3  
+**Heurística violada:** Usability – Señalización y prioridades
+
+**Problema:**  
+Las tareas urgentes se ven idénticas a las normales.
+
+**Recomendación:**  
+Colores, etiquetas o iconos para urgencia.
+
+---
+
+## **Problema #6 – Dashboard con poca visualización gráfica**
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Is it understandable?
+
+**Problema:**  
+La vista inicial carece de indicadores gráficos que permitan interpretar rápidamente el estado de la organización.
+
+**Recomendación:**  
+Añadir KPIs, gráficos de barras, indicadores de cultivo y alertas activas.
+
+---
+
+## **Problema #7 – Crear parcelas sin soporte geográfico**
+**Severidad:** 3  
+**Heurística violada:** Usability – Correspondencia con el mundo real
+
+**Problema:**  
+Los usuarios necesitan ubicar parcelas en un mapa, no solo datos textuales.
+
+**Recomendación:**  
+Integrar mapas interactivos para delimitar la parcela.
+
+---
+
+## **Problema #8 – Falta opción “Recordar sesión”**
+**Severidad:** 1  
+**Heurística violada:** Usability – Minimizar carga del usuario
+
+**Problema:**  
+El usuario debe loguearse siempre, poco ideal en campo.
+
+**Recomendación:**  
+Implementar “Mantener sesión iniciada”.
+
+
+---
+
+## **Problema #9 – Falta calendario para visualizar tareas**
+**Severidad:** 2  
+**Heurística violada:** Usability – Control y eficiencia del usuario
+
+**Problema:**  
+No existe vista de calendario para planificar semanal o mensualmente.
+
+**Recomendación:**  
+Añadir calendario con vista semanal, mensual y por responsable.
+
+---
+
+## **Problema #10 – Alertas no enviadas por WhatsApp**
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Adaptación al contexto
+
+**Problema:**  
+Los usuarios agrícolas dependen más de WhatsApp que del correo.
+
+**Recomendación:**  
+Integrar notificaciones vía WhatsApp API.
+
+---
 
 ## 5.4. Video About the Product 
 
