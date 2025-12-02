@@ -154,7 +154,15 @@
           - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
           - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
           - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
-    - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.2.4. Sprint 4](#524-sprint-4)
+          - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-4)
+          - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+          - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-3)
+          - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+          - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+          - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+          - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+          - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)    - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
       - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
@@ -2613,6 +2621,53 @@ Pasos para el despliegue del backend en Rendee:
 
 ![img_9.png](img_9.png)
 ![img_10.png](img_10.png)
+
+### 5.2.3. Sprint 4
+
+#### 5.2.3.1. Sprint Planning 4
+
+| **Campo**                              | **Contenido**                                                                                                                                                                                                                                            |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4**                           | Sprint 4                                                                                                                                                                                                                                                 |
+| **Date**                               | 11/11/25                                                                                                                                                                                                                                                 |
+| **Time**                               | 15:00 PM                                                                                                                                                                                                                                                 |
+| **Location**                           | Reunión virtual (discord)                                                                                                                                                                                                                                |
+| **Prepared By**                        | Tuesta Marín, Romina                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**    | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto                                                                                                                  |
+| **Sprint 4 – 3 Review Summary**        | Durante este sprint se avanzó en la integración del backend con el frontend, se ajustaron componentes visuales y se finalizó la lógica principal de búsqueda de envíos. También se realizaron correcciones derivadas de pruebas internas.                |
+| **Sprint 4 – 3 Retrospective Summary** | Se destacó mejoras en la organización del código y mayor coordinación entre los responsables del backend y frontend. Se detectó como oportunidad de mejora una mayor definición técnica antes de iniciar cada tarea para evitar retrabajos. |
+
+---
+
+| **Campo**             | **Contenido**                                                                                                                                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4 Goal**     | Nuestro enfoque se centra en entregar la versión completa del frontend integrado con el backend. Asimismo, realizar las correcciones con respecto a la anterior entrega
+|
+| **Sprint 4 Velocity** | 21 points                                                                                                                                                                                                         |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+| Team Member (Last Name, First Name)   | Github Username        | Autenticación | Gestionar cuenta | Checklists | Reportes | Gestión de tareas | Gestión de reportes y generar ficha técnica |
+|-----------|----------------------|---------------|------------------|------------|----------|-------------------|---------------------------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)           | (C)              | (C)        | (L)      | (C)               | (L)                                         |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)           | (C)              | (L)        | (C)      | (C)               | (C)                                         |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (C)           | (C)              | (C)        | (C)      | (C)               | (L)                                         |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (L)           | (L)              | (C)        | (C)      | (C)               | (C)                                         |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)           | (C)              | (C)        | (C)      | (L)               | (C)                                         |    (C)      |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+
+#### 5.2.4.7. Deployment Evidence for Sprint Review.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
 
 
 ## 5.3. Validation Interviews
