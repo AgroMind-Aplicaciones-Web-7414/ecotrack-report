@@ -2505,21 +2505,21 @@ Herramienta de control: Trello
 
 URL del Board: [(Link trello)]([https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack])
 
-| User Story | Title | Work-Item / Task | | | | | |
-|-------------|--------|------------------|---|---|---|---|---|
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| US01 | Gestión de cuenta | T01 | Gestionar cuenta | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4 | Maria Fernanda | To-do |
-| US01 | Gestión de cuenta | T02 | Edición de perfil | Implementar funcionalidad para editar la información del perfil del usuario. | 6 | Maria Fernanda | To-do |
-| US01 | Gestión de cuenta | T03 | Configuraciones | Implementar sección de configuraciones del usuario. | 4 | Maria Fernanda | To-do |
-| US02 | Vista del agrónomo | T04 | Crear organización | Desarrollar vista que permita al agrónomo crear una organización. | 5 | Romina | To-do |
-| US02 | Vista del agrónomo | T05 | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo. | 4 | Romina | To-do |
-| US02 | Vista del agrónomo | T06 | Editar parcela | Implementar funcionalidad para editar la información de las parcelas. | 3 | Romina | To-do |
-| US02 | Vista del agricultor | T07 | Registrar cultivo | Desarrollar funcionalidad para registrar nuevos cultivos. | 5 | Romina | To-do |
-| US03 | Vista del agrónomo | T08 | Asignar tareas y checklist | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades. | 5 | Aaron | To-do |
-| US03 | Vista del agrónomo | T09 | Gestión de bitácoras | Implementar módulo para registrar y gestionar bitácoras. | 5 | Cesar | To-do |
-| US03 | Vista del agricultor | T10 | Visualizar tareas | Desarrollar vista para que el agricultor visualice sus tareas asignadas. | 4 | Cesar | To-do |
-| US03 | Vista del agricultor | T11 | Visualizar bitácoras | Implementar vista que permita al agricultor visualizar las bitácoras. | 4 | Aaron | To-do |
-| US04 | Gestión de reportes | T12 | Generar ficha técnica | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo. | 5 | Anjali | To-do |
+| User Story | Title                | Work-Item / Task |                               |                                                                                                             |                    |                |                                                |
+|------------|----------------------|------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------------------------------------------|
+| Id         | Title                | Id               | Title                         | Description                                                                                                 | Estimation (Hours) | Assigned To    | Status (To-do / In-Process / To-Review / Done) |
+| US01       | Gestión de cuenta    | T01              | Gestionar cuenta              | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4                  | Maria Fernanda | To-do                                          |
+| US01       | Gestión de cuenta    | T02              | Edición de perfil             | Implementar funcionalidad para editar la información del perfil del usuario.                                | 6                  | Maria Fernanda | To-do                                          |
+| US01       | Gestión de cuenta    | T03              | Configuraciones               | Implementar sección de configuraciones del usuario.                                                         | 4                  | Maria Fernanda | To-do                                          |
+| US02       | Vista del agrónomo   | T04              | Crear organización            | Desarrollar vista que permita al agrónomo crear una organización.                                           | 5                  | Romina         | To-do                                          |
+| US02       | Vista del agrónomo   | T05              | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.                              | 4                  | Romina         | To-do                                          |
+| US02       | Vista del agrónomo   | T06              | Editar parcela                | Implementar funcionalidad para editar la información de las parcelas.                                       | 3                  | Romina         | To-do                                          |
+| US02       | Vista del agricultor | T07              | Registrar cultivo             | Desarrollar funcionalidad para registrar nuevos cultivos.                                                   | 5                  | Romina         | To-do                                          |
+| US03       | Vista del agrónomo   | T08              | Asignar tareas y checklist    | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.                      | 5                  | Aaron          | To-do                                          |
+| US03       | Vista del agrónomo   | T09              | Gestión de bitácoras          | Implementar módulo para registrar y gestionar bitácoras.                                                    | 5                  | Cesar          | To-do                                          |
+| US03       | Vista del agricultor | T10              | Visualizar tareas             | Desarrollar vista para que el agricultor visualice sus tareas asignadas.                                    | 4                  | Cesar          | To-do                                          |
+| US03       | Vista del agricultor | T11              | Visualizar bitácoras          | Implementar vista que permita al agricultor visualizar las bitácoras.                                       | 4                  | Aaron          | To-do                                          |
+| US04       | Gestión de reportes  | T12              | Generar ficha técnica         | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.                               | 5                  | Anjali         | To-do                                          |
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
@@ -2630,6 +2630,33 @@ Pasos para el despliegue del backend en Rendee:
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
 #### 5.2.4.3. Sprint Backlog 4
+
+A continuacion se podra observar la organizacion de tareas correspondientes al presente sprint, dedicado a la implementacion y conexion del backend con el frontend. Para ello, se utilizo la herramienta Trello, detallando cada tarea, el tiempo estimado, la complejidad y el desarrollador encargado de la misma.
+
+Herramienta de control: Trello
+
+![trello-sprint4.png](assets/images/trello-sprint4.png)
+
+URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+| User Story | Title                | Work-Item / Task |                               |                                                                                                                  |                    |                |                                                |
+|------------|----------------------|------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------------------------------------------|
+| Id         | Title                | Id               | Title                         | Description                                                                                                      | Estimation (Hours) | Assigned To    | Status (To-do / In-Process / To-Review / Done) |
+| US01       | Gestión de cuenta    | T01              | Gestionar cuenta              | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).      | 4                  | Maria Fernanda | Done                                           |
+| US01       | Gestión de cuenta    | T02              | Edición de perfil             | Implementar funcionalidad para editar la información del perfil del usuario.                                     | 6                  | Maria Fernanda | Done                                           |
+| US01       | Gestión de cuenta    | T03              | Configuraciones               | Implementar sección de configuraciones del usuario.                                                              | 4                  | Maria Fernanda | Done                                           |
+| US02       | Vista del agrónomo   | T04              | Crear organización            | Desarrollar vista que permita al agrónomo crear una organización.                                                | 5                  | Romina         | Done                                           |
+| US02       | Vista del agrónomo   | T05              | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.                                   | 4                  | Romina         | Done                                           |
+| US02       | Vista del agrónomo   | T06              | Editar parcela                | Implementar funcionalidad para editar la información de las parcelas.                                            | 3                  | Romina         | Done                                           |
+| US02       | Vista del agricultor | T07              | Registrar cultivo             | Desarrollar funcionalidad para registrar nuevos cultivos.                                                        | 5                  | Romina         | Done                                           |
+| US03       | Vista del agrónomo   | T08              | Asignar tareas y checklist    | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.                           | 5                  | Aaron          | Done                                           |
+| US03       | Vista del agrónomo   | T09              | Gestión de bitácoras          | Implementar módulo para registrar y gestionar bitácoras.                                                         | 5                  | Cesar          | Done                                           |
+| US03       | Vista del agricultor | T10              | Visualizar tareas             | Desarrollar vista para que el agricultor visualice sus tareas asignadas.                                         | 4                  | Cesar          | Done                                           |
+| US03       | Vista del agricultor | T11              | Visualizar bitácoras          | Implementar vista que permita al agricultor visualizar las bitácoras.                                            | 4                  | Aaron          | Done                                           |
+| US03       | Vista del agricultor | T12              | Crear una nueva tarea         | Implementar funcionalidad para crear tareas, asignando al agricultor responsable y la checklist correspondiente. | 5                  | Aaron          | Done                                           |
+| US04       | Gestión de reportes  | T13              | Generar ficha técnica         | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.                                    | 5                  | Anjali         | Done                                           |
+
+
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
