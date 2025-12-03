@@ -57,7 +57,7 @@
 
 ### TF
 
-    ![TF](./assets/images/network_tf.png)
+
     
  
 ---
