@@ -4,7 +4,7 @@
 
 <img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
+<strong>Ingeniería de Software - 2025-20</strong><br>
 <strong>1ASI0730 - Aplicaciones Web</strong><br>
 <strong>NRC: 7414<br>
 <strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
@@ -26,7 +26,7 @@
 |  Navarro Correa César Augusto   | U202310129  |
 |  Tuesta Marin Romina Alejandra  | U202211706  |
 
-<strong> Setiembre 2025</strong><br>
+<strong> Diciembre 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
@@ -55,6 +55,12 @@
 
  ![TB2](./assets/images/network_tb2.png)
  ![TB2](./assets/images/colab_tb2.png)
+
+
+### TF
+
+    ![TF](./assets/images/network_tf.png)
+    
  
 ---
 
@@ -1766,7 +1772,7 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
-![img_17.png](img_17.png)
+![img_30.png](img_30.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2539,7 +2545,7 @@ En esta sección se presentan los avances del desarrollo del Back-End de la solu
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
 
-![img_2.png](img_2.png)
+![img_2.png](assets/img_2.png)
 
 ![img_3.png](img_3.png)
 
@@ -2617,6 +2623,7 @@ Pasos para el despliegue del backend en Rendee:
 ![img_8.png](img_8.png)
 
 
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ![img_9.png](img_9.png)
@@ -2635,11 +2642,43 @@ Pasos para el despliegue del backend en Rendee:
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+![img_22.png](img_22.png)
+![img_24.png](img_24.png)
+![img_27.png](img_27.png)
+![img_28.png](img_28.png)
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+| **Endpoint**                                    | **Operaciones** | **Parámetros**                              | **URL**                                       | **Response**                                              |
+|-------------------------------------------------|-----------------|---------------------------------------------|-----------------------------------------------|-----------------------------------------------------------|
+| **Auth – Register**                             | POST            | Body: `{ email, password, fullName }`       | `/auth/register`                              | 201 Created – Usuario registrado, retorna usuario + token |
+| **Auth – Login**                                | POST            | Body: `{ email, password }`                 | `/auth/login`                                 | 200 OK – Retorna token JWT + datos del usuario            |
+| **Auth – Logout**                               | POST            | Header: `Authorization: Bearer token`       | `/auth/logout`                                | 200 OK – Sesión cerrada correctamente                     |
+| **Crops – Crear cultivo**                       | POST            | Body: `{ name, type, organizationId, ... }` | `/api/v1/crops`                               | 201 Created – Cultivo registrado                          |
+| **Crops – Listar cultivos**                     | GET             | Ninguno                                     | `/api/v1/crops`                               | 200 OK – Lista de cultivos                                |
+| **Crops – Obtener cultivo por ID**              | GET             | Path: `{id}`                                | `/api/v1/crops/{id}`                          | 200 OK – Detalles del cultivo                             |
+| **Crops – Cultivos por organización**           | GET             | Path: `{organizationId}`                    | `/api/v1/crops/organization/{organizationId}` | 200 OK – Lista de cultivos filtrados                      |
+| **Organizations – Crear organización**          | POST            | Body: `{ name, address, ownerId }`          | `/api/v1/organizations`                       | 201 Created – Organización registrada                     |
+| **Organizations – Listar organizaciones**       | GET             | Ninguno                                     | `/api/v1/organizations`                       | 200 OK – Lista de organizaciones                          |
+| **Organizations – Obtener organización por ID** | GET             | Path: `{id}`                                | `/api/v1/organizations/{id}`                  | 200 OK – Datos de la organización                         |
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+![img_15.png](img_15.png)
+![img_16.png](img_16.png)
+![img_17.png](img_17.png)
+![img_18.png](img_18.png)
+![img_19.png](img_19.png)
+![img_20.png](img_20.png)
+![img_21.png](img_21.png)
+![img_23.png](img_23.png)
+![img_25.png](img_25.png)
+![img_26.png](img_26.png)
+![img_29.png](img_29.png)
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+![img_14.png](img_14.png)
+![img_13.png](img_13.png)
 
 ## 5.3. Validation Interviews
 
@@ -3035,7 +3074,6 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD)
 - Landing page: [https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
 - Web app desplegada: [https://ecotrack-web-app.netlify.app/](https://ecotrack-web-app.netlify.app/) 
-- Web Service Desplegado: [https://ecotrack-web-service.up.azure.app/]()
+- Web Service Desplegado: [https://ecotrack-web-service.up.railway.app/swagger/index.html](https://ecotrack-web-service.up.railway.app/swagger/index.html)
 - Repositorio del proyecto: [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)
-- Video De Exposicion TB2: [Ir al enlace]()
 - About the team: [Ir al enlace](https://youtu.be/-Cjn2ykmzjg)
