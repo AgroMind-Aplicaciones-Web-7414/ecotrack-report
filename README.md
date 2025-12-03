@@ -4,7 +4,7 @@
 
 <img alt="upc-logo" src="/assets/images/UPC_logo_transparente.png" width="200"/><br>
 
-<strong>Ingeniería de Software - 2025-2</strong><br>
+<strong>Ingeniería de Software - 2025-20</strong><br>
 <strong>1ASI0730 - Aplicaciones Web</strong><br>
 <strong>NRC: 7414<br>
 <strong>Profesor: Alex Humberto Sánchez Ponce</strong><br>
@@ -26,7 +26,7 @@
 |  Navarro Correa César Augusto   | U202310129  |
 |  Tuesta Marin Romina Alejandra  | U202211706  |
 
-<strong> Setiembre 2025</strong><br>
+<strong> Diciembre 2025</strong><br>
 </div>
 
 # Registro de Versiones del Informe
@@ -53,9 +53,12 @@
 
 ### TB2
 
-![img_13.png](img_13.png) 
-![img_14.png](img_14.png)
-![img_15.png](img_15.png)
+![img_31.png](img_31.png)
+
+### TF
+
+
+    
  
 ---
 
@@ -154,6 +157,15 @@
           - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
           - [5.2.3.7. Software Deployment Evidence for Sprint Review.](#5237-software-deployment-evidence-for-sprint-review)
           - [5.2.3.8. Team Collaboration Insights during Sprint.](#5238-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 4](#524-sprint-4)
+          - [5.2.4.1. Sprint Planning 4.](#5241-sprint-planning-3)
+          - [5.2.4.2. Aspect Leaders and Collaborators.](#5242-aspect-leaders-and-collaborators)
+          - [5.2.4.3. Sprint Backlog 4.](#5243-sprint-backlog-3)
+          - [5.2.4.4. Development Evidence for Sprint Review.](#5244-development-evidence-for-sprint-review)
+          - [5.2.4.5. Execution Evidence for Sprint Review.](#5245-execution-evidence-for-sprint-review)
+          - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
+          - [5.2.4.7. Software Deployment Evidence for Sprint Review.](#5247-software-deployment-evidence-for-sprint-review)
+          - [5.2.4.8. Team Collaboration Insights during Sprint.](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -179,8 +191,9 @@ del ABET – EAC - Student Outcome 5.
 
 | Criterio específico  | Acciones realizadas  | Conclusiones |
 |----------------------|----------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | TB1:<br> *Anjali:* Guié al equipo en varias ocasiones durante la fase inicial para asegurar que todos tuviéramos una visión clara y compartida del proyecto, facilitando la toma de decisiones en conjunto.<br><br>*Aaron:* Fomenté un liderazgo colaborativo, promoviendo la participación activa de todos los miembros en las reuniones para la toma de decisiones.<br><br>*Maria:* Asumí un papel activo en la coordinación de las tareas y el seguimiento del progreso del equipo, trabajando de manera equitativa en las responsabilidades.<br><br>*César:* Aporté ideas que fueron integradas al equipo, ayudando a estructurar las tareas y metas del proyecto, y participé activamente en la toma de decisiones colectivas.<br><br>*Romina:* Participé activamente en el seguimiento de los objetivos y la asignación de tareas, asegurando que el equipo mantuviera un liderazgo compartido y una dirección clara hacia el éxito del proyecto. <p></p> <br>TP1:<br> *Anjali:* se destacó por su actitud proactiva en la organización del trabajo colaborativo y su apoyo en la toma de decisiones colectivas. <br>*Aaron:* mostró compromiso en la planificación y coordinación de tareas, fomentando la cohesión grupal. <br>*Maria:* integró ideas y guió el desarrollo de funcionalidades clave, promoviendo una comunicación asertiva y un liderazgo colaborativo. <br>*César:* evidenció habilidades de cooperación y apoyo técnico, fortaleciendo el rendimiento grupal mediante su participación activa en la resolución de problemas. Finalmente, <br>*Romina:* demostró iniciativa y apertura al diálogo, contribuyendo a equilibrar responsabilidades y reforzar el liderazgo compartido. En conjunto, el equipo mantuvo una dinámica colaborativa, responsable y orientada al cumplimiento eficiente de los objetivos del sprint. <p></p><br> TB2:<br> *Anjali:* Realizo los avances significativos del backend como la generación de reportes y fichas técnicas, además de aportar ideas y tomar el liderazgo en las tareas de otros integrantes.<br><br>*Aaron:* Contribuyo en la asignación de tareas y checklists en el backend, y cooperando puntualmente en sus actividades. <br><br>*Maria:* Se aseguró de la gestión de la cuenta y la edición del perfil demostrando sus habilidades aprendidas en el curso. <br><br>*César:* Se evidencio sus capacidades realizando la integración del módulo para registrar y gestionar bitácoras y cooperando en tareas similares de otro integrante.<br><br>*Romina:* | TB1: <br>Consideramos que este criterio ha sido alcanzado con éxito, ya que el equipo logró dividir responsabilidades de manera equitativa, asegurando que cada miembro ejerciera un rol de liderazgo en distintos momentos y aspectos del proyecto. Esta dinámica permitió que las decisiones no recayeran en una sola persona, sino que se distribuyeran según las fortalezas y competencias de cada integrante. <br> El liderazgo compartido fue clave para mantener el enfoque, resolver problemas de forma conjunta y avanzar con claridad hacia los objetivos definidos. Además, se promovió un ambiente de confianza y respeto, en el que cada opinión era escuchada y valorada. La comunicación constante por medios digitales y la retroalimentación continua facilitaron una toma de decisiones fluida, fortaleciendo la autonomía de cada miembro sin perder la cohesión del equipo. <p></p><p></p> <br>TP1:<br> En conclusión, el equipo evidenció una destacada capacidad para trabajar en conjunto y ejercer liderazgo compartido a lo largo del sprint. <br> Cada integrante asumió responsabilidades con autonomía y disposición para colaborar, contribuyendo al cumplimiento de los objetivos comunes. La comunicación efectiva, la coordinación en la toma de decisiones y el apoyo mutuo fueron factores clave que fortalecieron la cohesión del grupo. Este desempeño refleja un liderazgo colectivo equilibrado, en el que todos los miembros participaron activamente en la planificación, ejecución y revisión de tareas, consolidando un entorno de trabajo colaborativo orientado a resultados de calidad. <p></p> <br> TB2: <br> Ha sido de suma importancia el papel del liderazgo en el equipo, pues se establecieron los objetivos y tareas respecto a las habilidades de cada integrante. Esto involucra que el despliegue de una versión solida del frontend y la primera versión del backend, fue un compromiso compartido que garantizo que la toma de decisiones y la dirección técnica se ejerzan de manera colectiva, manteniendo la coherencia y la responsabilidad mutua en el desarrollo. | 
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | TB1: <br>*Anjali:* Fomenté un ambiente inclusivo donde todos los miembros se sintieran cómodos aportando ideas, además, me encargué de coordinar las tareas y definir metas claras para el equipo.<br><br>*Aaron:* Apoyé a mis compañeros en la organización y planificación del trabajo a través de herramientas como Trello, que facilitó la gestión del progreso y asignación de tareas.<br><br>*Maria:* Colaboré activamente en la planificación de las tareas y aseguré que se cumplieran los plazos establecidos, contribuyendo a la organización eficiente del equipo.<br><br>*César:* Contribuí al ambiente inclusivo y respetuoso del equipo, apoyando la planificación de tareas y asegurando que cada miembro estuviera alineado con los objetivos comunes.<br><br>*Romina:* Aporté ideas y propuestas que ayudaron a definir las metas del equipo y me aseguré de que todas las tareas estuvieran bien distribuidas, contribuyendo al cumplimiento de los objetivos establecidos. <p></p><br>TP1:<br> *Anjali:* promovió la organización del trabajo en equipo, contribuyendo a la definición de metas claras y alcanzables. <br>*Aaron:* destacó por su compromiso en la planificación de tareas y su apoyo constante en la coordinación de actividades, garantizando una ejecución ordenada. <br>*Maria:* aportó una visión estratégica al establecer prioridades y orientar al grupo hacia el cumplimiento de los objetivos planteados. <br>*César:* fomentó la cooperación y la integración del equipo, mostrando disposición para apoyar a sus compañeros y mantener la cohesión durante el proceso. <br>*Romina:* evidenció responsabilidad y constancia en la realización de las tareas asignadas, asegurando el cumplimiento de los plazos establecidos. En conjunto, el equipo demostró capacidad para planificar, colaborar y alcanzar los objetivos del sprint de manera eficiente y armónica. <p></p><br> TB2:<br> *Anjali:* Fue muy constante en la organización de las actividades y reuniones entre los integrantes, además de promover un ambiente colaborativo con cada uno.<br><br>*Aaron:* Realizo sus actividades respectivas del backend manera transparente y coordinación sus tareas mutuas entre los integrantes. <br><br>*Maria:* Su partipación colaborativa fue de suma importancia al crear un entorno inclusivo y seguro y participación activa en la organización de tareas, y objetivos en esta entrega.<br><br>*César:* Se caracterizo por su cumplimiento de objetivos diario respecto a sus actividades y cooperación en la entrega de las tareas de la entrega. <br><br>*Romina:* Se encargo de liderar el desarrollo de las funcionalidades iniciales críticas y fundamentales, como la creación de la organización y la gestión de parcelas y cultivos, además se destaco de su apoyo y cooperación de las tareas y metas de esta entrega.| TB1: <br>Consideramos que hemos logrado establecer un entorno de trabajo verdaderamente colaborativo e inclusivo, donde todas las voces fueron tomadas en cuenta y cada miembro pudo aportar activamente desde sus habilidades. Se definieron metas claras y realistas desde el inicio de la fase de trabajo, y se llevó a cabo una planificación detallada de las tareas a través de herramientas digitales como Trello, Notion y GitHub. <br> La distribución de responsabilidades se hizo de forma estratégica, permitiendo un flujo de trabajo constante y organizado. Esto no solo favoreció el cumplimiento de los plazos, sino también la trazabilidad de los avances y la identificación oportuna de posibles obstáculos. Gracias a esta estructura, el equipo logró cumplir con los objetivos propuestos en cada etapa, fortaleciendo así la eficiencia y cohesión del grupo. <p></p> <br> TP1: <br> En conclusión, el equipo demostró una sólida capacidad para trabajar de manera colaborativa e inclusiva, estableciendo metas claras, planificando adecuadamente sus tareas y cumpliendo con los objetivos propuestos del sprint. <br> La comunicación constante, la distribución equilibrada de responsabilidades y el respeto por las opiniones de todos los integrantes permitieron mantener un ambiente de trabajo positivo y productivo. Este desempeño refleja un alto nivel de compromiso, organización y liderazgo compartido, evidenciando que el grupo cuenta con las habilidades necesarias para continuar avanzando de forma efectiva en los siguientes ciclos de desarrollo. <p></p> <br> TB2: <br> Realizamos esta entrega cumpliendo los objetivos alcanzados gracias a la capacidad de identificar abiertament la necesidad de organizar la asignación de tareas para cada integrante para la entrega la primera versión del backend, respaldado por la integración de endpoints de la gestión y visualización de tareas, asegurando un camino claro hacia la meta final del producto.|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | TB1:<br> *Anjali:* Guié al equipo en varias ocasiones durante la fase inicial para asegurar que todos tuviéramos una visión clara y compartida del proyecto, facilitando la toma de decisiones en conjunto.<br><br>*Aaron:* Fomenté un liderazgo colaborativo, promoviendo la participación activa de todos los miembros en las reuniones para la toma de decisiones.<br><br>*Maria:* Asumí un papel activo en la coordinación de las tareas y el seguimiento del progreso del equipo, trabajando de manera equitativa en las responsabilidades.<br><br>*César:* Aporté ideas que fueron integradas al equipo, ayudando a estructurar las tareas y metas del proyecto, y participé activamente en la toma de decisiones colectivas.<br><br>*Romina:* Participé activamente en el seguimiento de los objetivos y la asignación de tareas, asegurando que el equipo mantuviera un liderazgo compartido y una dirección clara hacia el éxito del proyecto. <p></p> <br>TP1:<br> *Anjali:* se destacó por su actitud proactiva en la organización del trabajo colaborativo y su apoyo en la toma de decisiones colectivas. <br>*Aaron:* mostró compromiso en la planificación y coordinación de tareas, fomentando la cohesión grupal. <br>*Maria:* integró ideas y guió el desarrollo de funcionalidades clave, promoviendo una comunicación asertiva y un liderazgo colaborativo. <br>*César:* evidenció habilidades de cooperación y apoyo técnico, fortaleciendo el rendimiento grupal mediante su participación activa en la resolución de problemas. Finalmente, <br>*Romina:* demostró iniciativa y apertura al diálogo, contribuyendo a equilibrar responsabilidades y reforzar el liderazgo compartido. En conjunto, el equipo mantuvo una dinámica colaborativa, responsable y orientada al cumplimiento eficiente de los objetivos del sprint. <p></p><br> TB2:<br> *Anjali:* Realizo los avances significativos del backend como la generación de reportes y fichas técnicas, además de aportar ideas y tomar el liderazgo en las tareas de otros integrantes.<br><br>*Aaron:* Contribuyo en la asignación de tareas y checklists en el backend, y cooperando puntualmente en sus actividades. <br><br>*Maria:* Se aseguró de la gestión de la cuenta y la edición del perfil demostrando sus habilidades aprendidas en el curso. <br><br>*César:* Se evidencio sus capacidades realizando la integración del módulo para registrar y gestionar bitácoras y cooperando en tareas similares de otro integrante.<br><br>*Romina:* Se realizó un trabajo en grupo efectivo para poder completar las necesidades establecidas para el desarrollo e implementación del backend de la aplicación, así atmbién como pequeños incovenientes que se pudieron comunicar y resolver. <br><br>TF1:<br> | TB1: <br>Consideramos que este criterio ha sido alcanzado con éxito, ya que el equipo logró dividir responsabilidades de manera equitativa, asegurando que cada miembro ejerciera un rol de liderazgo en distintos momentos y aspectos del proyecto. Esta dinámica permitió que las decisiones no recayeran en una sola persona, sino que se distribuyeran según las fortalezas y competencias de cada integrante. <br> El liderazgo compartido fue clave para mantener el enfoque, resolver problemas de forma conjunta y avanzar con claridad hacia los objetivos definidos. Además, se promovió un ambiente de confianza y respeto, en el que cada opinión era escuchada y valorada. La comunicación constante por medios digitales y la retroalimentación continua facilitaron una toma de decisiones fluida, fortaleciendo la autonomía de cada miembro sin perder la cohesión del equipo. <p></p><p></p> <br>TP1:<br> En conclusión, el equipo evidenció una destacada capacidad para trabajar en conjunto y ejercer liderazgo compartido a lo largo del sprint. <br> Cada integrante asumió responsabilidades con autonomía y disposición para colaborar, contribuyendo al cumplimiento de los objetivos comunes. La comunicación efectiva, la coordinación en la toma de decisiones y el apoyo mutuo fueron factores clave que fortalecieron la cohesión del grupo. Este desempeño refleja un liderazgo colectivo equilibrado, en el que todos los miembros participaron activamente en la planificación, ejecución y revisión de tareas, consolidando un entorno de trabajo colaborativo orientado a resultados de calidad. <p></p> <br> TB2: <br> Ha sido de suma importancia el papel del liderazgo en el equipo, pues se establecieron los objetivos y tareas respecto a las habilidades de cada integrante. Esto involucra que el despliegue de una versión solida del frontend y la primera versión del backend, fue un compromiso compartido que garantizo que la toma de decisiones y la dirección técnica se ejerzan de manera colectiva, manteniendo la coherencia y la responsabilidad mutua en el desarrollo. <br> <br>TF1:<br> El desarrollo del proyecto consolidó un trabajo colaborativo en el que la coordinación y la responsabilidad compartida fueron esenciales para alcanzar los objetivos propuestos. La organización del equipo permitió asignar tareas según las fortalezas de cada integrante, garantizando que tanto el frontend como el backend evolucionaran de forma coherente y sostenida. Esta dinámica facilitó una toma de decisiones conjunta, donde la dirección técnica dejó de ser un rol individual para convertirse en un ejercicio colectivo. | 
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | TB1: <br>*Anjali:* Fomenté un ambiente inclusivo donde todos los miembros se sintieran cómodos aportando ideas, además, me encargué de coordinar las tareas y definir metas claras para el equipo.<br><br>*Aaron:* Apoyé a mis compañeros en la organización y planificación del trabajo a través de herramientas como Trello, que facilitó la gestión del progreso y asignación de tareas.<br><br>*Maria:* Colaboré activamente en la planificación de las tareas y aseguré que se cumplieran los plazos establecidos, contribuyendo a la organización eficiente del equipo.<br><br>*César:* Contribuí al ambiente inclusivo y respetuoso del equipo, apoyando la planificación de tareas y asegurando que cada miembro estuviera alineado con los objetivos comunes.<br><br>*Romina:* Aporté ideas y propuestas que ayudaron a definir las metas del equipo y me aseguré de que todas las tareas estuvieran bien distribuidas, contribuyendo al cumplimiento de los objetivos establecidos. <p></p><br>TP1:<br> *Anjali:* promovió la organización del trabajo en equipo, contribuyendo a la definición de metas claras y alcanzables. <br>*Aaron:* destacó por su compromiso en la planificación de tareas y su apoyo constante en la coordinación de actividades, garantizando una ejecución ordenada. <br>*Maria:* aportó una visión estratégica al establecer prioridades y orientar al grupo hacia el cumplimiento de los objetivos planteados. <br>*César:* fomentó la cooperación y la integración del equipo, mostrando disposición para apoyar a sus compañeros y mantener la cohesión durante el proceso. <br>*Romina:* evidenció responsabilidad y constancia en la realización de las tareas asignadas, asegurando el cumplimiento de los plazos establecidos. En conjunto, el equipo demostró capacidad para planificar, colaborar y alcanzar los objetivos del sprint de manera eficiente y armónica. <p></p><br> TB2:<br> *Anjali:* Fue muy constante en la organización de las actividades y reuniones entre los integrantes, además de promover un ambiente colaborativo con cada uno.<br><br>*Aaron:* Realizo sus actividades respectivas del backend manera transparente y coordinación sus tareas mutuas entre los integrantes. <br><br>*Maria:* Su partipación colaborativa fue de suma importancia al crear un entorno inclusivo y seguro y participación activa en la organización de tareas, y objetivos en esta entrega.<br><br>*César:* Se caracterizo por su cumplimiento de objetivos diario respecto a sus actividades y cooperación en la entrega de las tareas de la entrega. <br><br>*Romina:* Se encargo de liderar el desarrollo de las funcionalidades iniciales críticas y fundamentales, como la creación de la organización y la gestión de parcelas y cultivos, además se destaco de su apoyo y cooperación de las tareas y metas de esta entrega.| TB1: <br>Consideramos que hemos logrado establecer un entorno de trabajo verdaderamente colaborativo e inclusivo, donde todas las voces fueron tomadas en cuenta y cada miembro pudo aportar activamente desde sus habilidades. Se definieron metas claras y realistas desde el inicio de la fase de trabajo, y se llevó a cabo una planificación detallada de las tareas a través de herramientas digitales como Trello, Notion y GitHub. <br> La distribución de responsabilidades se hizo de forma estratégica, permitiendo un flujo de trabajo constante y organizado. Esto no solo favoreció el cumplimiento de los plazos, sino también la trazabilidad de los avances y la identificación oportuna de posibles obstáculos. Gracias a esta estructura, el equipo logró cumplir con los objetivos propuestos en cada etapa, fortaleciendo así la eficiencia y cohesión del grupo. <p></p> <br> TP1: <br> En conclusión, el equipo demostró una sólida capacidad para trabajar de manera colaborativa e inclusiva, estableciendo metas claras, planificando adecuadamente sus tareas y cumpliendo con los objetivos propuestos del sprint. <br> La comunicación constante, la distribución equilibrada de responsabilidades y el respeto por las opiniones de todos los integrantes permitieron mantener un ambiente de trabajo positivo y productivo. Este desempeño refleja un alto nivel de compromiso, organización y liderazgo compartido, evidenciando que el grupo cuenta con las habilidades necesarias para continuar avanzando de forma efectiva en los siguientes ciclos de desarrollo. <p></p> <br> TB2: <br> Realizamos esta entrega cumpliendo los objetivos alcanzados gracias a la capacidad de identificar abiertament la necesidad de organizar la asignación de tareas para cada integrante para la entrega la primera versión del backend, respaldado por la integración de endpoints de la gestión y visualización de tareas, asegurando un camino claro hacia la meta final del producto. <br> <br> <br> TF1: <br> Realizamos esta entrega culminando los objetivos planteados gracias a la capacidad del equipo para organizar de manera clara y estratégica la distribución de tareas, permitiendo avanzar con consistencia en cada fase del desarrollo. Esta coordinación facilitó la consolidación de versiones estables tanto del frontend como del backend, integrando funcionalidades clave y asegurando que cada módulo aportara valor real al producto final.|
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -1758,7 +1771,7 @@ Este diagrama corresponde al Reports Bounded Context, encargado de la generació
 
 El diagrama de base de datos de EcoTrack refleja la estructura relacional del sistema, organizada en distintos esquemas que corresponden a los bounded contexts definidos previamente. Cada tabla contiene atributos clave y establece relaciones mediante claves foráneas para asegurar la integridad referencial.
 
-![img_17.png](img_17.png)
+![img_30.png](img_30.png)
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2497,21 +2510,21 @@ Herramienta de control: Trello
 
 URL del Board: [(Link trello)]([https://trello.com/invite/b/68cad1eb2ff733dd8c0d9baf/ATTI10f270255ada0330bbdb76c2e96571f3E5DACF71/sprint-1-ecotrack])
 
-| User Story | Title | Work-Item / Task | | | | | |
-|-------------|--------|------------------|---|---|---|---|---|
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| US01 | Gestión de cuenta | T01 | Gestionar cuenta | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4 | Maria Fernanda | To-do |
-| US01 | Gestión de cuenta | T02 | Edición de perfil | Implementar funcionalidad para editar la información del perfil del usuario. | 6 | Maria Fernanda | To-do |
-| US01 | Gestión de cuenta | T03 | Configuraciones | Implementar sección de configuraciones del usuario. | 4 | Maria Fernanda | To-do |
-| US02 | Vista del agrónomo | T04 | Crear organización | Desarrollar vista que permita al agrónomo crear una organización. | 5 | Romina | To-do |
-| US02 | Vista del agrónomo | T05 | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo. | 4 | Romina | To-do |
-| US02 | Vista del agrónomo | T06 | Editar parcela | Implementar funcionalidad para editar la información de las parcelas. | 3 | Romina | To-do |
-| US02 | Vista del agricultor | T07 | Registrar cultivo | Desarrollar funcionalidad para registrar nuevos cultivos. | 5 | Romina | To-do |
-| US03 | Vista del agrónomo | T08 | Asignar tareas y checklist | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades. | 5 | Aaron | To-do |
-| US03 | Vista del agrónomo | T09 | Gestión de bitácoras | Implementar módulo para registrar y gestionar bitácoras. | 5 | Cesar | To-do |
-| US03 | Vista del agricultor | T10 | Visualizar tareas | Desarrollar vista para que el agricultor visualice sus tareas asignadas. | 4 | Cesar | To-do |
-| US03 | Vista del agricultor | T11 | Visualizar bitácoras | Implementar vista que permita al agricultor visualizar las bitácoras. | 4 | Aaron | To-do |
-| US04 | Gestión de reportes | T12 | Generar ficha técnica | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo. | 5 | Anjali | To-do |
+| User Story | Title                | Work-Item / Task |                               |                                                                                                             |                    |                |                                                |
+|------------|----------------------|------------------|-------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------------------------------------------|
+| Id         | Title                | Id               | Title                         | Description                                                                                                 | Estimation (Hours) | Assigned To    | Status (To-do / In-Process / To-Review / Done) |
+| US01       | Gestión de cuenta    | T01              | Gestionar cuenta              | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.). | 4                  | Maria Fernanda | To-do                                          |
+| US01       | Gestión de cuenta    | T02              | Edición de perfil             | Implementar funcionalidad para editar la información del perfil del usuario.                                | 6                  | Maria Fernanda | To-do                                          |
+| US01       | Gestión de cuenta    | T03              | Configuraciones               | Implementar sección de configuraciones del usuario.                                                         | 4                  | Maria Fernanda | To-do                                          |
+| US02       | Vista del agrónomo   | T04              | Crear organización            | Desarrollar vista que permita al agrónomo crear una organización.                                           | 5                  | Romina         | To-do                                          |
+| US02       | Vista del agrónomo   | T05              | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.                              | 4                  | Romina         | To-do                                          |
+| US02       | Vista del agrónomo   | T06              | Editar parcela                | Implementar funcionalidad para editar la información de las parcelas.                                       | 3                  | Romina         | To-do                                          |
+| US02       | Vista del agricultor | T07              | Registrar cultivo             | Desarrollar funcionalidad para registrar nuevos cultivos.                                                   | 5                  | Romina         | To-do                                          |
+| US03       | Vista del agrónomo   | T08              | Asignar tareas y checklist    | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.                      | 5                  | Aaron          | To-do                                          |
+| US03       | Vista del agrónomo   | T09              | Gestión de bitácoras          | Implementar módulo para registrar y gestionar bitácoras.                                                    | 5                  | Cesar          | To-do                                          |
+| US03       | Vista del agricultor | T10              | Visualizar tareas             | Desarrollar vista para que el agricultor visualice sus tareas asignadas.                                    | 4                  | Cesar          | To-do                                          |
+| US03       | Vista del agricultor | T11              | Visualizar bitácoras          | Implementar vista que permita al agricultor visualizar las bitácoras.                                       | 4                  | Aaron          | To-do                                          |
+| US04       | Gestión de reportes  | T12              | Generar ficha técnica         | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.                               | 5                  | Anjali         | To-do                                          |
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
@@ -2609,11 +2622,189 @@ Pasos para el despliegue del backend en Rendee:
 ![img_8.png](img_8.png)
 
 
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
 ![img_9.png](img_9.png)
 ![img_10.png](img_10.png)
 
+
+### 5.2.3. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+| **Campo**                              | **Contenido**                                                                                                                                                                                                                                            |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4**                           | Sprint 4                                                                                                                                                                                                                                                 |
+| **Date**                               | 11/11/25                                                                                                                                                                                                                                                 |
+| **Time**                               | 15:00 PM                                                                                                                                                                                                                                                 |
+| **Location**                           | Reunión virtual (discord)                                                                                                                                                                                                                                |
+| **Prepared By**                        | Tuesta Marín, Romina                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**    | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto                                                                                                                  |
+| **Sprint 4 – 3 Review Summary**        | Durante este sprint se avanzó en la integración del backend con el frontend, se ajustaron componentes visuales y se finalizó la lógica principal de búsqueda de envíos. También se realizaron correcciones derivadas de pruebas internas.                |
+| **Sprint 4 – 3 Retrospective Summary** | Se destacó mejoras en la organización del código y mayor coordinación entre los responsables del backend y frontend. Se detectó como oportunidad de mejora una mayor definición técnica antes de iniciar cada tarea para evitar retrabajos. |
+
+---
+
+| **Campo**             | **Contenido**                                                                                                                                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4 Goal**     | Nuestro enfoque se centra en entregar la versión completa del frontend integrado con el backend. Asimismo, realizar las correcciones con respecto a la anterior entrega
+|
+| **Sprint 4 Velocity** | 21 points                                                                                                                                                                                                         |
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name)   | Github Username        | Autenticación | Gestionar cuenta | Checklists | Reportes | Gestión de tareas | Gestión de reportes y generar ficha técnica |
+|-----------|----------------------|---------------|------------------|------------|----------|-------------------|---------------------------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)           | (C)              | (C)        | (L)      | (C)               | (L)                                         |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)           | (C)              | (L)        | (C)      | (C)               | (C)                                         |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (C)           | (C)              | (C)        | (C)      | (C)               | (L)                                         |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (L)           | (L)              | (C)        | (C)      | (C)               | (C)                                         |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)           | (C)              | (C)        | (C)      | (L)               | (C)                                         |    (C)      |
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+A continuacion se podra observar la organizacion de tareas correspondientes al presente sprint, dedicado a la implementacion y conexion del backend con el frontend. Para ello, se utilizo la herramienta Trello, detallando cada tarea, el tiempo estimado, la complejidad y el desarrollador encargado de la misma.
+
+Herramienta de control: Trello
+
+![trello-sprint4.png](assets/images/trello-sprint4.png)
+
+URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrack)
+
+| User Story | Title                | Work-Item / Task |                               |                                                                                                                  |                    |                |                                                |
+|------------|----------------------|------------------|-------------------------------|------------------------------------------------------------------------------------------------------------------|--------------------|----------------|------------------------------------------------|
+| Id         | Title                | Id               | Title                         | Description                                                                                                      | Estimation (Hours) | Assigned To    | Status (To-do / In-Process / To-Review / Done) |
+| US01       | Gestión de cuenta    | T01              | Gestionar cuenta              | Implementar funcionalidad para gestionar la cuenta del usuario (inicio de sesión, ajustes generales, etc.).      | 4                  | Maria Fernanda | Done                                           |
+| US01       | Gestión de cuenta    | T02              | Edición de perfil             | Implementar funcionalidad para editar la información del perfil del usuario.                                     | 6                  | Maria Fernanda | Done                                           |
+| US01       | Gestión de cuenta    | T03              | Configuraciones               | Implementar sección de configuraciones del usuario.                                                              | 4                  | Maria Fernanda | Done                                           |
+| US02       | Vista del agrónomo   | T04              | Crear organización            | Desarrollar vista que permita al agrónomo crear una organización.                                                | 5                  | Romina         | Done                                           |
+| US02       | Vista del agrónomo   | T05              | Gestionar parcelas y cultivos | Implementar la gestión de parcelas y cultivos dentro de la vista del agrónomo.                                   | 4                  | Romina         | Done                                           |
+| US02       | Vista del agrónomo   | T06              | Editar parcela                | Implementar funcionalidad para editar la información de las parcelas.                                            | 3                  | Romina         | Done                                           |
+| US02       | Vista del agricultor | T07              | Registrar cultivo             | Desarrollar funcionalidad para registrar nuevos cultivos.                                                        | 5                  | Romina         | Done                                           |
+| US03       | Vista del agrónomo   | T08              | Asignar tareas y checklist    | Implementar la vista de agrónomo para asignar tareas y crear checklist de actividades.                           | 5                  | Aaron          | Done                                           |
+| US03       | Vista del agrónomo   | T09              | Gestión de bitácoras          | Implementar módulo para registrar y gestionar bitácoras.                                                         | 5                  | Cesar          | Done                                           |
+| US03       | Vista del agricultor | T10              | Visualizar tareas             | Desarrollar vista para que el agricultor visualice sus tareas asignadas.                                         | 4                  | Cesar          | Done                                           |
+| US03       | Vista del agricultor | T11              | Visualizar bitácoras          | Implementar vista que permita al agricultor visualizar las bitácoras.                                            | 4                  | Aaron          | Done                                           |
+| US03       | Vista del agricultor | T12              | Crear una nueva tarea         | Implementar funcionalidad para crear tareas, asignando al agricultor responsable y la checklist correspondiente. | 5                  | Aaron          | Done                                           |
+| US04       | Gestión de reportes  | T13              | Generar ficha técnica         | Implementar funcionalidad para generar reportes y fichas técnicas de cultivo.                                    | 5                  | Anjali         | Done                                           |
+
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <thead>
+    <tr>
+      <th>Repositorio</th>
+      <th>Rama</th>
+      <th>ID de Commit</th>
+      <th>Mensaje de Commit</th>
+      <th>Descripción del Commit</th>
+      <th>Fecha de Commit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ecotrack-backend</td>
+      <td>main</td>
+      <td>da4509f</td>
+      <td>fix(database): correct variable name for database connection port in Program.cs</td>
+      <td>-</td>
+      <td>26/11/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-backend</td>
+      <td>feature/auth</td>
+      <td>da5e00b</td>
+      <td>feature: update auth</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-backend</td>
+      <td>main</td>
+      <td>984ebb9</td>
+      <td>feat(organization): implement crop and organization query services with corresponding queries and controller actions</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-landingpage</td>
+      <td>main</td>
+      <td>0318118</td>
+      <td>feat: add product and team video sections with descriptions and styles</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-backend</td>
+      <td>main</td>
+      <td>4ec8c21</td>
+      <td>feat(auth): implement user registration functionality with email validation and password hashing</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-frontend</td>
+      <td>feature/auth</td>
+      <td>891f13f</td>
+      <td>feature: update auth</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-frontend</td>
+      <td>feature/tasks-management</td>
+      <td>374945a</td>
+      <td>feat: update Monitoring and Control bounded context and add new task component</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+![img_22.png](img_22.png)
+![img_24.png](img_24.png)
+![img_27.png](img_27.png)
+![img_28.png](img_28.png)
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+| **Endpoint**                                    | **Operaciones** | **Parámetros**                              | **URL**                                       | **Response**                                              |
+|-------------------------------------------------|-----------------|---------------------------------------------|-----------------------------------------------|-----------------------------------------------------------|
+| **Auth – Register**                             | POST            | Body: `{ email, password, fullName }`       | `/auth/register`                              | 201 Created – Usuario registrado, retorna usuario + token |
+| **Auth – Login**                                | POST            | Body: `{ email, password }`                 | `/auth/login`                                 | 200 OK – Retorna token JWT + datos del usuario            |
+| **Auth – Logout**                               | POST            | Header: `Authorization: Bearer token`       | `/auth/logout`                                | 200 OK – Sesión cerrada correctamente                     |
+| **Crops – Crear cultivo**                       | POST            | Body: `{ name, type, organizationId, ... }` | `/api/v1/crops`                               | 201 Created – Cultivo registrado                          |
+| **Crops – Listar cultivos**                     | GET             | Ninguno                                     | `/api/v1/crops`                               | 200 OK – Lista de cultivos                                |
+| **Crops – Obtener cultivo por ID**              | GET             | Path: `{id}`                                | `/api/v1/crops/{id}`                          | 200 OK – Detalles del cultivo                             |
+| **Crops – Cultivos por organización**           | GET             | Path: `{organizationId}`                    | `/api/v1/crops/organization/{organizationId}` | 200 OK – Lista de cultivos filtrados                      |
+| **Organizations – Crear organización**          | POST            | Body: `{ name, address, ownerId }`          | `/api/v1/organizations`                       | 201 Created – Organización registrada                     |
+| **Organizations – Listar organizaciones**       | GET             | Ninguno                                     | `/api/v1/organizations`                       | 200 OK – Lista de organizaciones                          |
+| **Organizations – Obtener organización por ID** | GET             | Path: `{id}`                                | `/api/v1/organizations/{id}`                  | 200 OK – Datos de la organización                         |
+
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+![img_15.png](img_15.png)
+![img_16.png](img_16.png)
+![img_17.png](img_17.png)
+![img_18.png](img_18.png)
+![img_19.png](img_19.png)
+![img_20.png](img_20.png)
+![img_21.png](img_21.png)
+![img_23.png](img_23.png)
+![img_25.png](img_25.png)
+![img_26.png](img_26.png)
+![img_29.png](img_29.png)
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+![img_14.png](img_14.png)
+![img_13.png](img_13.png)
 
 ## 5.3. Validation Interviews
 
@@ -2944,7 +3135,11 @@ El video "About-the-Product" está dirigido principalmente a los visitantes del 
 
 
 
-Link del video en Youtube: https://youtu.be/67t29B73HqU
+Link del video en Youtube: https://youtu.be/q8EpvrpFKiU
+
+Link del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr
+
+
 # Conclusiones
 
 ### TB1: 
@@ -2996,6 +3191,13 @@ Esta primera entrega ha sentado las bases necesarias para desarrollar una soluci
 
 * En el equipo, se coordinó la estructura basica para el desarrollo del backend en función a los bounded context previamente establecidos, sentando las bases necesarias para integrar la lógica de negocio y la gestión de datos en el próximo ciclo.
 
+## TF1:
+* Como equipo, culminamos el desarrollo de una aplicación web orientada al registro y control de inventarios para agricultores y agrónomos, una herramienta pensada para acompañar las jornadas del campo con la precisión de la tecnología. A lo largo del proyecto, integramos un frontend construido con Vue.js, que nos permitió ofrecer una interfaz ágil y comprensible, y un backend sólido en C#, documentado mediante Swagger para asegurar claridad, escalabilidad y correcta comunicación entre módulos.
+
+* El proceso nos llevó por discusiones técnicas, ajustes finos y decisiones compartidas, donde cada integrante aportó su mirada (desde la organización del flujo de datos hasta la experiencia de usuario) formando un sistema cohesionado. Este trabajo nos permitió fortalecer competencias de desarrollo web, colaboración efectiva y resolución conjunta de problemas, cualidades vitales para proyectos reales.
+
+* La aplicación resultante no solo automatiza tareas esenciales para el control de inventarios agrícolas, sino que representa el fruto de un esfuerzo coordinado, una mezcla de líneas de código y diálogo constante. Con este proyecto, dejamos una base estable que puede crecer y adaptarse a nuevas necesidades del sector, demostrando que la tecnología puede ser un aliado natural en la gestión y sostenibilidad del trabajo agrícola.
+
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
@@ -3009,7 +3211,7 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/EfnWaw09L35ImJ-QMK4iKo0B6eQVa0-L24CLH8VgL6-YdA?e=Ren8dD)
 - Landing page: [https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/](https://agromind-aplicaciones-web-7414.github.io/ecotrack-landingpage/)
 - Web app desplegada: [https://ecotrack-web-app.netlify.app/](https://ecotrack-web-app.netlify.app/) 
-- Web Service Desplegado: [https://ecotrack-web-service.up.azure.app/]()
+- Web Service Desplegado: [https://ecotrack-web-service.up.railway.app/swagger/index.html](https://ecotrack-web-service.up.railway.app/swagger/index.html)
 - Repositorio del proyecto: [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)
 - Video De Exposicion TB2: [Ir al enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQDp62MP9f53RYw2f9nO9D-oAWPBbV-Od0CjTlOrXux6o0c?e=I3btEb)
 - About the team: [Ir al enlace](https://youtu.be/-Cjn2ykmzjg)
