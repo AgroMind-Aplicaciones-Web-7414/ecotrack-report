@@ -57,8 +57,8 @@
 
 ### TF
 
-
-    
+![img_32.png](img_32.png)
+![img_33.png](img_33.png)
  
 ---
 
@@ -2693,7 +2693,7 @@ URL del Board: [(Link del Trello)](https://trello.com/b/LNvUn7us/sprint2-ecotrac
 
 
 
-#### 5.2.4.4. Development Evidence for Sprint Review
+#### 5.2.4.4. 
 
 <table border="1" cellspacing="0" cellpadding="6">
   <thead>
@@ -3215,3 +3215,4 @@ Puntel, L. A., Bolfe, É. L., Melchiori, R., Ortega, R., & otros. (2022). *How d
 - Repositorio del proyecto: [https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend](https://github.com/AgroMind-Aplicaciones-Web-7414/ecotrack-backend)
 - Video De Exposicion TB2: [Ir al enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQDp62MP9f53RYw2f9nO9D-oAWPBbV-Od0CjTlOrXux6o0c?e=I3btEb)
 - About the team: [Ir al enlace](https://youtu.be/-Cjn2ykmzjg)
+- Video de Exposicion TF: [Ir al enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221g044_upc_edu_pe/IQCoe5lQ8cKgRao4pod0DUt0AbcrlN8nrhlJd_4_rhjekTo?e=aQlWAs)
