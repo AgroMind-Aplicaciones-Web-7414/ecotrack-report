@@ -2633,7 +2633,36 @@ Pasos para el despliegue del backend en Rendee:
 
 #### 5.2.4.1. Sprint Planning 4
 
+| **Campo**                              | **Contenido**                                                                                                                                                                                                                                            |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4**                           | Sprint 4                                                                                                                                                                                                                                                 |
+| **Date**                               | 11/11/25                                                                                                                                                                                                                                                 |
+| **Time**                               | 15:00 PM                                                                                                                                                                                                                                                 |
+| **Location**                           | Reunión virtual (discord)                                                                                                                                                                                                                                |
+| **Prepared By**                        | Tuesta Marín, Romina                                                                                                                                                                                                                                     |
+| **Attendees (to planning meeting)**    | Tuesta Marín Romina, Amaro Villar Anjali, Baquerizo Cirilo Aaron Santiago, Mostajo Orosco María Fernanda y Navarro Correa César Augusto                                                                                                                  |
+| **Sprint 4 – 3 Review Summary**        | Durante este sprint se avanzó en la integración del backend con el frontend, se ajustaron componentes visuales y se finalizó la lógica principal de búsqueda de envíos. También se realizaron correcciones derivadas de pruebas internas.                |
+| **Sprint 4 – 3 Retrospective Summary** | Se destacó mejoras en la organización del código y mayor coordinación entre los responsables del backend y frontend. Se detectó como oportunidad de mejora una mayor definición técnica antes de iniciar cada tarea para evitar retrabajos. |
+
+---
+
+| **Campo**             | **Contenido**                                                                                                                                                                                                     |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint 4 Goal**     | Nuestro enfoque se centra en entregar la versión completa del frontend integrado con el backend. Asimismo, realizar las correcciones con respecto a la anterior entrega
+|
+| **Sprint 4 Velocity** | 21 points                                                                                                                                                                                                         |
+
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name)   | Github Username        | Autenticación | Gestionar cuenta | Checklists | Reportes | Gestión de tareas | Gestión de reportes y generar ficha técnica |
+|-----------|----------------------|---------------|------------------|------------|----------|-------------------|---------------------------------------------|
+| Amaro Villar Anjali              |     njlmrvllr   | (C)           | (C)              | (C)        | (L)      | (C)               | (L)                                         |    (C)      |
+|  Romina Alejanda Tuesta Marin    |     Romimi1     | (C)           | (C)              | (L)        | (C)      | (C)               | (C)                                         |    (L)      |
+|  Baquerizo Cirilo Aaron Santiago |  AaronBaquerizo2005  | (C)           | (C)              | (C)        | (C)      | (C)               | (L)                                         |    (C)      |
+|  Mostajo Orosco Maria Fernanda   |     Mafer-m30   | (L)           | (L)              | (C)        | (C)      | (C)               | (C)                                         |    (C)      |
+| Navarro Correa César Augusto     |    csr555-ui    | (C)           | (C)              | (C)        | (C)      | (L)               | (C)                                         |    (C)      |
+
 
 #### 5.2.4.3. Sprint Backlog 4
 
@@ -3106,7 +3135,11 @@ El video "About-the-Product" está dirigido principalmente a los visitantes del 
 
 
 
-Link del video en Youtube: https://youtu.be/67t29B73HqU
+Link del video en Youtube: https://youtu.be/q8EpvrpFKiU
+
+Link del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr
+
+
 # Conclusiones
 
 ### TB1: 
