@@ -2662,6 +2662,30 @@ Pasos para el despliegue del backend en Rendee:
       <td>2/12/2025</td>
     </tr>
 	<tr>
+      <td>ecotrack-backend</td>
+      <td>main</td>
+      <td>984ebb9</td>
+      <td>feat(organization): implement crop and organization query services with corresponding queries and controller actions</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-landingpage</td>
+      <td>main</td>
+      <td>0318118</td>
+      <td>feat: add product and team video sections with descriptions and styles</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
+      <td>ecotrack-backend</td>
+      <td>main</td>
+      <td>4ec8c21</td>
+      <td>feat(auth): implement user registration functionality with email validation and password hashing</td>
+      <td>-</td>
+      <td>2/12/2025</td>
+    </tr>
+	<tr>
       <td>ecotrack-frontend</td>
       <td>feature/auth</td>
       <td>891f13f</td>
@@ -2679,7 +2703,6 @@ Pasos para el despliegue del backend en Rendee:
     </tr>
   </tbody>
 </table>
-
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
