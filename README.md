@@ -53,9 +53,7 @@
 
 ### TB2
 
- ![TB2](./assets/images/network_tb2.png)
- ![TB2](./assets/images/colab_tb2.png)
-
+![img_31.png](img_31.png)
 
 ### TF
 
