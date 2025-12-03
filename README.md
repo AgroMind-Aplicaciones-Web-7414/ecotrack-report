@@ -2996,6 +2996,13 @@ Esta primera entrega ha sentado las bases necesarias para desarrollar una soluci
 
 * En el equipo, se coordinó la estructura basica para el desarrollo del backend en función a los bounded context previamente establecidos, sentando las bases necesarias para integrar la lógica de negocio y la gestión de datos en el próximo ciclo.
 
+## TF1:
+* Como equipo, culminamos el desarrollo de una aplicación web orientada al registro y control de inventarios para agricultores y agrónomos, una herramienta pensada para acompañar las jornadas del campo con la precisión de la tecnología. A lo largo del proyecto, integramos un frontend construido con Vue.js, que nos permitió ofrecer una interfaz ágil y comprensible, y un backend sólido en C#, documentado mediante Swagger para asegurar claridad, escalabilidad y correcta comunicación entre módulos.
+
+* El proceso nos llevó por discusiones técnicas, ajustes finos y decisiones compartidas, donde cada integrante aportó su mirada (desde la organización del flujo de datos hasta la experiencia de usuario) formando un sistema cohesionado. Este trabajo nos permitió fortalecer competencias de desarrollo web, colaboración efectiva y resolución conjunta de problemas, cualidades vitales para proyectos reales.
+
+* La aplicación resultante no solo automatiza tareas esenciales para el control de inventarios agrícolas, sino que representa el fruto de un esfuerzo coordinado, una mezcla de líneas de código y diálogo constante. Con este proyecto, dejamos una base estable que puede crecer y adaptarse a nuevas necesidades del sector, demostrando que la tecnología puede ser un aliado natural en la gestión y sostenibilidad del trabajo agrícola.
+
 # Bibliografía
 
 Ministerio de Desarrollo Agrario y Riego [MIDAGRI]. (2023, julio 24). *El 75,6% de los productores son propietarios de al menos una parcela*. gob.pe. https://www.gob.pe/institucion/midagri/noticias/808115-midagri-el-75-6-de-los-productores-son-propietarios-de-al-menos-una-parcela
