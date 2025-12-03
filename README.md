@@ -2999,7 +2999,11 @@ El video "About-the-Product" está dirigido principalmente a los visitantes del 
 
 
 
-Link del video en Youtube: https://youtu.be/67t29B73HqU
+Link del video en Youtube: https://youtu.be/q8EpvrpFKiU
+
+Link del video en Microsoft Stream: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312874_upc_edu_pe/IQBCgptpG8GDSZekuUmahqJMAWcsF9ZMxOFE9HbFPnptys0?e=CGb3dr
+
+
 # Conclusiones
 
 ### TB1: 
